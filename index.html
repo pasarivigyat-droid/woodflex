@@ -5,8 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Woodflex Designs - Premium Custom Furniture</title>
-  <!-- Preload Hero Image for LCP -->
-  <link rel="preload" as="image" href="/Showcase/bed frames/our-work-hero.png">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BDJ3FK4JK"></script>
@@ -17,51 +15,11 @@
 
     gtag('config', 'G-3BDJ3FK4JK');
   </script>
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
     rel="stylesheet">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            serif: ['"Playfair Display"', 'serif'],
-            sans: ['"Inter"', 'sans-serif'],
-          },
-          colors: {
-            wood: {
-              50: '#F9F8F6',  // Warm off-white background
-              100: '#F2EFE9',
-              200: '#E6E0D4',
-              300: '#D1C6B3',
-              400: '#9CA3AF',
-              500: '#6B7280',
-              600: '#4B5563',
-              800: '#4A4036', // Dark wood
-              900: '#2D2A26', // Soft black
-            }
-          },
-          animation: {
-            'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
-            'fade-in': 'fadeIn 1s ease-out forwards',
-          },
-          keyframes: {
-            fadeInUp: {
-              '0%': { opacity: '0', transform: 'translateY(20px)' },
-              '100%': { opacity: '1', transform: 'translateY(0)' },
-            },
-            fadeIn: {
-              '0%': { opacity: '0' },
-              '100%': { opacity: '1' },
-            }
-          }
-        }
-      }
-    }
-  </script>
   <script type="importmap">
 {
   "imports": {
