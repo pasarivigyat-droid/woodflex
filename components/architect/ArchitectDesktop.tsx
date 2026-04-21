@@ -4,6 +4,7 @@ import { CATEGORIES } from '../../src/data/categories';
 import { ArrowLeft, X, ChevronRight, Grid, Maximize2, Search, Plus, ListChecks, Download, Trash2, Send } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { trackEvent } from '../../src/utils/analytics';
+import { requireLeadBeforeAction } from '../../src/utils/leadFlow';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useImagePreload } from '../../src/hooks/useImagePreload';
 import { LazyImage } from '../LazyImage';
@@ -66,8 +67,10 @@ export const ArchitectDesktop: React.FC = () => {
     };
 
     const handlePrintSummary = () => {
-        trackEvent('architect_print_summary', { count: specList.length });
-        window.print();
+        requireLeadBeforeAction(() => {
+            trackEvent('architect_print_summary', { count: specList.length });
+            window.print();
+        });
     };
 
     return (

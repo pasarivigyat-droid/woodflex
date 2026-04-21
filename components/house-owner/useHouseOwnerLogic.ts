@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect } from 'react';
 import { products, Product, RoomCategory, shuffleArray, getRemoteProducts } from '../../src/data/products';
 import { trackEvent, getLeadId } from '../../src/utils/analytics';
 import { supabase } from '../../src/lib/supabase';
+import { requireLeadBeforeAction } from '../../src/utils/leadFlow';
 
 const ROOM_CATEGORY_FLOW = {
     living: ["sofa", "lounge_chair", "center_table", "planter"] as const,
@@ -124,8 +125,10 @@ export function useHouseOwnerLogic() {
     };
 
     const handlePrint = () => {
-        trackEvent("houseowner_print_pdf", { roomType });
-        window.print();
+        requireLeadBeforeAction(() => {
+            trackEvent("houseowner_print_pdf", { roomType });
+            window.print();
+        });
     };
 
     return {

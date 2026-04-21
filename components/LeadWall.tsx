@@ -26,46 +26,21 @@ export const LeadWall: React.FC = () => {
             window.history.replaceState({}, '', location.pathname);
         }
 
-        const gatedRoutes = ['/', '/products', '/architect', '/house-owner', '/cafe-owner', '/materials', '/work'];
-        const isGated = gatedRoutes.some(route => location.pathname === route || location.pathname.startsWith(route + '/'));
-        const captured = localStorage.getItem('woodflex_lead_captured') === 'true';
-
-        // Even if "captured", if the user hasn't filled all 3 items (Name, Contact, City), we might want to re-gated.
-        if (captured && !forceReset) {
-            setIsVisible(false);
-            return;
-        }
-
-        // Logic to show on exit intent or after 30 seconds
-        const showLeadWall = () => {
-            if (!localStorage.getItem('woodflex_lead_captured')) {
+        const handleRequestLead = () => {
+            if (localStorage.getItem('woodflex_lead_captured') !== 'true') {
                 setIsVisible(true);
             }
         };
 
-        const timerId = setTimeout(showLeadWall, 25000); // 25 seconds delay
+        window.addEventListener('request-lead', handleRequestLead);
 
-        const handleMouseLeave = (e: MouseEvent) => {
-            if (e.clientY <= 0) {
-                showLeadWall();
-            }
-        };
-
-        let lastScrollY = window.scrollY;
-        const handleScroll = () => {
-            // on mobile, show if they've scrolled down a bit and then scroll up quickly, or reach bottom
-            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
-                showLeadWall();
-            }
-        };
-
-        document.addEventListener('mouseleave', handleMouseLeave);
-        window.addEventListener('scroll', handleScroll);
+        // Hide if already captured, unless forceReset
+        if (localStorage.getItem('woodflex_lead_captured') === 'true' && !forceReset) {
+            setIsVisible(false);
+        }
 
         return () => {
-            clearTimeout(timerId);
-            document.removeEventListener('mouseleave', handleMouseLeave);
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('request-lead', handleRequestLead);
         };
     }, [location.pathname]);
 
@@ -111,6 +86,7 @@ export const LeadWall: React.FC = () => {
             }
 
             setIsVisible(false);
+            window.dispatchEvent(new Event('lead-capture-success'));
         } catch (err: any) {
             console.error('Error saving lead:', err);
             alert(`Error: ${err.message || "Connection Error"}`);
