@@ -70,7 +70,9 @@ export const products: Product[] = [
     { id: "LC-21", title: "WFC Dining 21", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-21.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-21.png"), sceneCategory: 'dining' },
     { id: "LC-22", title: "WFC Dining 22", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-22.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-22.png"), sceneCategory: 'dining' },
     { id: "LC-23", title: "WFC Dining 23", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-23.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-23.png"), sceneCategory: 'dining' },
-    { id: "LC-24", title: "WFC Dining 24", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-24.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-24.png"), sceneCategory: 'dining' },
+    { id: "LC-24", title: "WFC Dining 24", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-24.png"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-24.png"), sceneCategory: 'dining' },
+    { id: "LC-25", title: "WFC Dining 25", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-25.png"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-25.png"), sceneCategory: 'dining' },
+    { id: "LC-26", title: "WFC Dining 26", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-26.png"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-26.png"), sceneCategory: 'dining' },
 
     // --- DINING TABLES (DT-01 to DT-12) ---
     {
