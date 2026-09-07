@@ -10,13 +10,16 @@ export function cdn(path: string) {
 
     // Ensure we don't have double slashes if the path starts with one
     const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+    const decoded = decodeURIComponent(cleanPath);
 
     // Use CDN only if VITE_CDN_BASE_URL is set in environment
-    // Otherwise, serve from local/Netlify public folder
+    // Cloudflare R2 bucket stores asset folders directly at the root (without Catalouge/ prefix)
     if (useCDN) {
-        return `${CDN_BASE_URL}/${encodeURI(cleanPath)}`;
+        const r2Path = decoded.replace(/^Catalouge\//i, '');
+        return `${CDN_BASE_URL}/${encodeURI(r2Path)}`;
     }
 
-    // Default: serve from public folder (works for both dev and Netlify)
-    return `/${cleanPath}`;
+    // Default: serve from local/Netlify public folder
+    return `/${encodeURI(decoded)}`;
 }
+

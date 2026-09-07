@@ -160,9 +160,9 @@ export const products: Product[] = [
     { id: "DT-30", title: "Dining Table 30", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-30.jpg"), technicalDrawing: cdn("Catalouge/Dinning%20table%20drawing/DTD-30.png"), sceneCategory: 'dining' },
     { id: "DT-31", title: "Dining Table 31", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-31.jpg"), technicalDrawing: cdn("Catalouge/Dinning%20table%20drawing/DTD-31.png"), sceneCategory: 'dining' },
     { id: "DT-32", title: "Dining Table 32", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-32.jpg"), technicalDrawing: cdn("Catalouge/Dinning%20table%20drawing/DTD-32.png"), sceneCategory: 'dining' },
-    { id: "DT-33", title: "Dining Table 33", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-33.jpg"), technicalDrawing: cdn("Catalouge/Dinning%20table%20drawing/DTD-33.png"), sceneCategory: 'dining' },
-    { id: "DT-34", title: "Dining Table 34", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-34.jpg"), technicalDrawing: cdn("Catalouge/Dinning%20table%20drawing/DTD-34.jpg"), sceneCategory: 'dining' },
-    { id: "DT-35", title: "Dining Table 35", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-35.jpg"), technicalDrawing: cdn("Catalouge/Dinning%20table%20drawing/DTD-35.png"), sceneCategory: 'dining' },
+    { id: "DT-33", title: "Dining Table 33", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-33.jpg"), sceneCategory: 'dining' },
+    { id: "DT-34", title: "Dining Table 34", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-34.jpg"), sceneCategory: 'dining' },
+    { id: "DT-35", title: "Dining Table 35", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-35.jpg"), sceneCategory: 'dining' },
 
     // --- CENTER TABLES (Previously Side Tables) ---
     { id: "ST-01", title: "Center Table 01", category: "CENTER_TABLE", type: "Table", imagePath: cdn("Catalouge/Side%20tables/ST-01.jpg"), technicalDrawing: cdn("Catalouge/Side%20table%20drawings/STD-01.png"), sceneCategory: 'living', style: 'Luxury' },
@@ -218,7 +218,7 @@ export const products: Product[] = [
     { id: "LRC-19", title: "Lounge 19", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-19.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-19.png"), sceneCategory: 'living' },
     { id: "LRC-20", title: "Lounge 20", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-20.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-20.png"), sceneCategory: 'living' },
     { id: "LRC-21", title: "Lounge 21", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-21.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-21.png"), sceneCategory: 'living' },
-    { id: "LRC-23", title: "Lounge 23", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-23.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-23.png"), sceneCategory: 'living' },
+    { id: "LRC-23", title: "Lounge 23", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-23.jpg"), sceneCategory: 'living' },
 
     // --- SOFAS (S-01 to S-09) ---
     // --- SOFAS (S-01 to S-09) ---
@@ -250,7 +250,7 @@ export const products: Product[] = [
     { id: "S-26", title: "Woodflex Designs Sofa 26", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-26.jpeg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-26.png"), sceneCategory: 'living' },
     { id: "S-27", title: "Woodflex Designs Sofa 27", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-27.jpeg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-27.png"), sceneCategory: 'living' },
     { id: "S-28", title: "Woodflex Designs Sofa 28", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-28.jpeg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-28.png"), sceneCategory: 'living' },
-    { id: "S-29", title: "Woodflex Designs Sofa 29", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-29.jpeg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-29.png"), sceneCategory: 'living' },
+    { id: "S-29", title: "Woodflex Designs Sofa 29", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-29.jpeg"), sceneCategory: 'living' },
     { id: "S-30", title: "Woodflex Designs Sofa 30", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-30.jpeg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-30.png"), sceneCategory: 'living' },
     { id: "S-31", title: "Woodflex Designs Sofa 31", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-31.jpeg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-31.png"), sceneCategory: 'living' },
     { id: "S-32", title: "Woodflex Designs Sofa 32", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-32.jpg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-32.png"), sceneCategory: 'living' },
