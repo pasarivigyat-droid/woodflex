@@ -73,6 +73,12 @@ export const products: Product[] = [
     { id: "LC-24", title: "WFC Dining 24", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-24.png"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-24.png"), sceneCategory: 'dining' },
     { id: "LC-25", title: "WFC Dining 25", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-25.png"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-25.png"), sceneCategory: 'dining' },
     { id: "LC-26", title: "WFC Dining 26", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-26.png"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-26.png"), sceneCategory: 'dining' },
+    { id: "LC-28", title: "WFC Dining 28", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-28.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-28.png"), sceneCategory: 'dining' },
+    { id: "LC-29", title: "WFC Dining 29", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-29.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-29.png"), sceneCategory: 'dining' },
+    { id: "LC-30", title: "WFC Dining 30", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-30.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-30.png"), sceneCategory: 'dining' },
+    { id: "LC-31", title: "WFC Dining 31", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-31.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-31.png"), sceneCategory: 'dining' },
+    { id: "LC-32", title: "WFC Dining 32", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-32.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-32.png"), sceneCategory: 'dining' },
+    { id: "LC-33", title: "WFC Dining 33", category: "DINING_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Chairs/WFC-33.jpg"), technicalDrawing: cdn("Catalouge/Chairs%20Drawing/WFCD-33.png"), sceneCategory: 'dining' },
 
     // --- DINING TABLES (DT-01 to DT-12) ---
     {
@@ -163,6 +169,9 @@ export const products: Product[] = [
     { id: "DT-33", title: "Dining Table 33", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-33.jpg"), sceneCategory: 'dining' },
     { id: "DT-34", title: "Dining Table 34", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-34.jpg"), sceneCategory: 'dining' },
     { id: "DT-35", title: "Dining Table 35", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20tables/DT-35.jpg"), sceneCategory: 'dining' },
+    { id: "DT-36", title: "Dining Table 36", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20table%20drawing/DTD-36.png"), technicalDrawing: cdn("Catalouge/Dinning%20table%20drawing/DTD-36.png"), sceneCategory: 'dining' },
+    { id: "DT-37", title: "Dining Table 37", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20table%20drawing/DTD-37.png"), technicalDrawing: cdn("Catalouge/Dinning%20table%20drawing/DTD-37.png"), sceneCategory: 'dining' },
+    { id: "DT-38", title: "Dining Table 38", category: "DINING_TABLE", type: "Table", imagePath: cdn("Catalouge/Dinning%20table%20drawing/DTD-38.png"), technicalDrawing: cdn("Catalouge/Dinning%20table%20drawing/DTD-38.png"), sceneCategory: 'dining' },
 
     // --- CENTER TABLES (Previously Side Tables) ---
     { id: "ST-01", title: "Center Table 01", category: "CENTER_TABLE", type: "Table", imagePath: cdn("Catalouge/Side%20tables/ST-01.jpg"), technicalDrawing: cdn("Catalouge/Side%20table%20drawings/STD-01.png"), sceneCategory: 'living', style: 'Luxury' },
@@ -195,6 +204,10 @@ export const products: Product[] = [
     { id: "ST-28", title: "Center Table 28", category: "SIDE_TABLE", type: "Table", imagePath: cdn("Catalouge/Side%20tables/ST-28.jpg"), technicalDrawing: cdn("Catalouge/Side%20table%20drawings/STD-28.png"), sceneCategory: 'living' },
     { id: "ST-29", title: "Center Table 29", category: "SIDE_TABLE", type: "Table", imagePath: cdn("Catalouge/Side%20tables/ST-29.jpg"), technicalDrawing: cdn("Catalouge/Side%20table%20drawings/STD-29.png"), sceneCategory: 'living' },
     { id: "ST-30", title: "Center Table 30", category: "SIDE_TABLE", type: "Table", imagePath: cdn("Catalouge/Side%20tables/ST-30.jpg"), technicalDrawing: cdn("Catalouge/Side%20table%20drawings/STD-30.png"), sceneCategory: 'living' },
+    { id: "ST-34", title: "Center Table 34", category: "CENTER_TABLE", type: "Table", imagePath: cdn("Catalouge/Side%20tables/ST-34.jpg"), technicalDrawing: cdn("Catalouge/Side%20table%20drawings/STD-34.png"), sceneCategory: 'living' },
+    { id: "ST-35", title: "Center Table 35", category: "CENTER_TABLE", type: "Table", imagePath: cdn("Catalouge/Side%20tables/ST-35.jpg"), technicalDrawing: cdn("Catalouge/Side%20table%20drawings/STD-35.png"), sceneCategory: 'living' },
+    { id: "ST-36", title: "Center Table 36", category: "CENTER_TABLE", type: "Table", imagePath: cdn("Catalouge/Side%20tables/ST-36.jpg"), technicalDrawing: cdn("Catalouge/Side%20table%20drawings/STD-36.png"), sceneCategory: 'living' },
+    { id: "ST-37", title: "Center Table 37", category: "CENTER_TABLE", type: "Table", imagePath: cdn("Catalouge/Side%20tables/ST-37.jpg"), technicalDrawing: cdn("Catalouge/Side%20table%20drawings/STD-37.png"), sceneCategory: 'living' },
 
     // --- LOUNGES (Previously Lounge Chairs) ---
     { id: "LRC-01", title: "Lounge 01", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-01.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-01.png"), sceneCategory: 'living', style: 'Modern' },
@@ -219,6 +232,9 @@ export const products: Product[] = [
     { id: "LRC-20", title: "Lounge 20", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-20.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-20.png"), sceneCategory: 'living' },
     { id: "LRC-21", title: "Lounge 21", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-21.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-21.png"), sceneCategory: 'living' },
     { id: "LRC-23", title: "Lounge 23", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-23.jpg"), sceneCategory: 'living' },
+    { id: "LRC-28", title: "Lounge 28", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-28.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-28.png"), sceneCategory: 'living' },
+    { id: "LRC-29", title: "Lounge 29", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-29.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-29.png"), sceneCategory: 'living' },
+    { id: "LRC-30", title: "Lounge 30", category: "LOUNGE_CHAIR", type: "Seating", imagePath: cdn("Catalouge/Livingroom%20Chairs/LC-30.jpg"), technicalDrawing: cdn("Catalouge/living%20room%20chair%20drawing/LCD-30.png"), sceneCategory: 'living' },
 
     // --- SOFAS (S-01 to S-09) ---
     // --- SOFAS (S-01 to S-09) ---
