@@ -273,6 +273,9 @@ export const products: Product[] = [
     { id: "S-33", title: "Woodflex Designs Sofa 33", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-33.jpg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-33.png"), sceneCategory: 'living' },
     { id: "S-34", title: "Woodflex Designs Sofa 34", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-34.jpg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-34.png"), sceneCategory: 'living' },
     { id: "S-35", title: "Woodflex Designs Sofa 35", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-35.jpg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-35.png"), sceneCategory: 'living' },
+    { id: "S-36", title: "Woodflex Designs Sofa 36", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-36.jpg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-36.png"), sceneCategory: 'living' },
+    { id: "S-37", title: "Woodflex Designs Sofa 37", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-37.jpeg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-37.png"), sceneCategory: 'living' },
+    { id: "S-38", title: "Woodflex Designs Sofa 38", category: "SOFA", type: "Seating", imagePath: cdn("Catalouge/Sofa/S-38.jpeg"), technicalDrawing: cdn("Catalouge/Sofa%20Drawing/SD-38.png"), sceneCategory: 'living' },
 
     // --- RETAIL SEATING (JC-01 to JC-19) ---
     { id: "JC-01", title: "Retail Chair 01", category: "RETAIL_SEATING", type: "Seating", imagePath: cdn("Catalouge/Retail%20Seating/JC-01.jpg"), technicalDrawing: cdn("Catalouge/Retail%20Seating%20Drawing/JCD-01.png"), sceneCategory: 'office', style: 'Modern' },
