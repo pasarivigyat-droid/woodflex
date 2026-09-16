@@ -8,18 +8,18 @@ export interface ShowcaseItem {
     type: FurnitureType;
     context: ProjectContext;
     image: string;
+    title?: string;
+    subtitle?: string;
 }
 
 // Helper to generate IDs
 const gid = (prefix: string, index: number) => `${prefix}-${index.toString().padStart(2, '0')}`;
 
-// CHAIRS (21 photos found)
+// CHAIRS (19 photos found)
 const chairImages = [
     'WhatsApp Image 2026-01-24 at 11.48.01 AM.jpg',
     'WhatsApp Image 2026-01-24 at 11.48.02 AM (1).jpg',
     'WhatsApp Image 2026-01-24 at 11.48.04 AM (2).jpg',
-    'WhatsApp Image 2026-01-24 at 11.48.04 AM (4).jpg',
-    'WhatsApp Image 2026-01-24 at 11.48.04 AM (7).jpg',
     'WhatsApp Image 2026-01-24 at 11.48.05 AM (10).jpg',
     'WhatsApp Image 2026-01-24 at 11.48.05 AM (11).jpg',
     'WhatsApp Image 2026-01-24 at 11.48.05 AM (14).jpg',
