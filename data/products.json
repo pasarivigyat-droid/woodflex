@@ -1,0 +1,3330 @@
+[
+  {
+    "id": "LC-01",
+    "title": "WFC Dining 01",
+    "category": "DINING_CHAIR",
+    "style": "Modern",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-01-1024.webp",
+      "srcSet": "/images/products/dining-chairs/lc-01-640.webp 640w, /images/products/dining-chairs/lc-01-1024.webp 1024w",
+      "width": 1024,
+      "height": 1024
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-01-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "LC-02",
+    "title": "WFC Dining 02",
+    "category": "DINING_CHAIR",
+    "style": "Minimalist",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-02-1056.webp",
+      "srcSet": "/images/products/dining-chairs/lc-02-640.webp 640w, /images/products/dining-chairs/lc-02-1056.webp 1056w",
+      "width": 1056,
+      "height": 992
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-02-drawing-1600.webp",
+      "width": 1600,
+      "height": 1481
+    }
+  },
+  {
+    "id": "LC-03",
+    "title": "WFC Dining 03",
+    "category": "DINING_CHAIR",
+    "style": "Industrial",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-03-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-03-640.webp 640w, /images/products/dining-chairs/lc-03-1400.webp 1400w",
+      "width": 1400,
+      "height": 1738
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-03-drawing-1600.webp",
+      "width": 1600,
+      "height": 883
+    }
+  },
+  {
+    "id": "LC-04",
+    "title": "WFC Dining 04",
+    "category": "DINING_CHAIR",
+    "style": "Luxury",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-04-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-04-640.webp 640w, /images/products/dining-chairs/lc-04-1400.webp 1400w",
+      "width": 1400,
+      "height": 1584
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-04-drawing-1600.webp",
+      "width": 1600,
+      "height": 1810
+    }
+  },
+  {
+    "id": "LC-05",
+    "title": "WFC Dining 05",
+    "category": "DINING_CHAIR",
+    "style": "Boho",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-05-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-05-640.webp 640w, /images/products/dining-chairs/lc-05-1400.webp 1400w",
+      "width": 1400,
+      "height": 1467
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-05-drawing-1600.webp",
+      "width": 1600,
+      "height": 1676
+    }
+  },
+  {
+    "id": "LC-06",
+    "title": "WFC Dining 06",
+    "category": "DINING_CHAIR",
+    "style": "Modern",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-06-992.webp",
+      "srcSet": "/images/products/dining-chairs/lc-06-640.webp 640w, /images/products/dining-chairs/lc-06-992.webp 992w",
+      "width": 992,
+      "height": 1072
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-06-drawing-1600.webp",
+      "width": 1600,
+      "height": 1729
+    }
+  },
+  {
+    "id": "LC-07",
+    "title": "WFC Dining 07",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-07-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-07-640.webp 640w, /images/products/dining-chairs/lc-07-1400.webp 1400w",
+      "width": 1400,
+      "height": 1633
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-07-drawing-928.webp",
+      "width": 928,
+      "height": 1136
+    }
+  },
+  {
+    "id": "LC-08",
+    "title": "WFC Dining 08",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-08-1040.webp",
+      "srcSet": "/images/products/dining-chairs/lc-08-640.webp 640w, /images/products/dining-chairs/lc-08-1040.webp 1040w",
+      "width": 1040,
+      "height": 1024
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-08-drawing-1600.webp",
+      "width": 1600,
+      "height": 1575
+    }
+  },
+  {
+    "id": "LC-09",
+    "title": "WFC Dining 09",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-09-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-09-640.webp 640w, /images/products/dining-chairs/lc-09-1400.webp 1400w",
+      "width": 1400,
+      "height": 1661
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-09-drawing-944.webp",
+      "width": 944,
+      "height": 1136
+    }
+  },
+  {
+    "id": "LC-10",
+    "title": "WFC Dining 10",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-10-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-10-640.webp 640w, /images/products/dining-chairs/lc-10-1400.webp 1400w",
+      "width": 1400,
+      "height": 1610
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-10-drawing-1600.webp",
+      "width": 1600,
+      "height": 1784
+    }
+  },
+  {
+    "id": "LC-11",
+    "title": "WFC Dining 11",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-11-1024.webp",
+      "srcSet": "/images/products/dining-chairs/lc-11-640.webp 640w, /images/products/dining-chairs/lc-11-1024.webp 1024w",
+      "width": 1024,
+      "height": 1024
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-11-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "LC-12",
+    "title": "WFC Dining 12",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-12-450.webp",
+      "width": 450,
+      "height": 433
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-12-drawing-1600.webp",
+      "width": 1600,
+      "height": 1527
+    }
+  },
+  {
+    "id": "LC-13",
+    "title": "WFC Dining 13",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-13-1200.webp",
+      "srcSet": "/images/products/dining-chairs/lc-13-640.webp 640w, /images/products/dining-chairs/lc-13-1200.webp 1200w",
+      "width": 1200,
+      "height": 1097
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-13-drawing-1600.webp",
+      "width": 1600,
+      "height": 1481
+    }
+  },
+  {
+    "id": "LC-14",
+    "title": "WFC Dining 14",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-14-514.webp",
+      "width": 514,
+      "height": 783
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-14-drawing-1600.webp",
+      "width": 1600,
+      "height": 2462
+    }
+  },
+  {
+    "id": "LC-15",
+    "title": "WFC Dining 15",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-15-1064.webp",
+      "srcSet": "/images/products/dining-chairs/lc-15-640.webp 640w, /images/products/dining-chairs/lc-15-1064.webp 1064w",
+      "width": 1064,
+      "height": 1237
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-15-drawing-1600.webp",
+      "width": 1600,
+      "height": 1867
+    }
+  },
+  {
+    "id": "LC-16",
+    "title": "WFC Dining 16",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-16-720.webp",
+      "srcSet": "/images/products/dining-chairs/lc-16-640.webp 640w, /images/products/dining-chairs/lc-16-720.webp 720w",
+      "width": 720,
+      "height": 1080
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-16-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "LC-17",
+    "title": "WFC Dining 17",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-17-750.webp",
+      "srcSet": "/images/products/dining-chairs/lc-17-640.webp 640w, /images/products/dining-chairs/lc-17-750.webp 750w",
+      "width": 750,
+      "height": 849
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-17-drawing-1600.webp",
+      "width": 1600,
+      "height": 1810
+    }
+  },
+  {
+    "id": "LC-18",
+    "title": "WFC Dining 18",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-18-684.webp",
+      "srcSet": "/images/products/dining-chairs/lc-18-640.webp 640w, /images/products/dining-chairs/lc-18-684.webp 684w",
+      "width": 684,
+      "height": 892
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-18-drawing-1600.webp",
+      "width": 1600,
+      "height": 2114
+    }
+  },
+  {
+    "id": "LC-19",
+    "title": "WFC Dining 19",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-19-1000.webp",
+      "srcSet": "/images/products/dining-chairs/lc-19-640.webp 640w, /images/products/dining-chairs/lc-19-1000.webp 1000w",
+      "width": 1000,
+      "height": 1500
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-19-drawing-1600.webp",
+      "width": 1600,
+      "height": 2192
+    }
+  },
+  {
+    "id": "LC-20",
+    "title": "WFC Dining 20",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-20-896.webp",
+      "srcSet": "/images/products/dining-chairs/lc-20-640.webp 640w, /images/products/dining-chairs/lc-20-896.webp 896w",
+      "width": 896,
+      "height": 1344
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-20-drawing-1600.webp",
+      "width": 1600,
+      "height": 2223
+    }
+  },
+  {
+    "id": "LC-21",
+    "title": "WFC Dining 21",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-21-736.webp",
+      "srcSet": "/images/products/dining-chairs/lc-21-640.webp 640w, /images/products/dining-chairs/lc-21-736.webp 736w",
+      "width": 736,
+      "height": 1104
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-21-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "LC-22",
+    "title": "WFC Dining 22",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-22-320.webp",
+      "width": 320,
+      "height": 480
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-22-drawing-1600.webp",
+      "width": 1600,
+      "height": 2205
+    }
+  },
+  {
+    "id": "LC-23",
+    "title": "WFC Dining 23",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-23-736.webp",
+      "srcSet": "/images/products/dining-chairs/lc-23-640.webp 640w, /images/products/dining-chairs/lc-23-736.webp 736w",
+      "width": 736,
+      "height": 1104
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-23-drawing-1600.webp",
+      "width": 1600,
+      "height": 2229
+    }
+  },
+  {
+    "id": "LC-24",
+    "title": "WFC Dining 24",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-24-826.webp",
+      "srcSet": "/images/products/dining-chairs/lc-24-640.webp 640w, /images/products/dining-chairs/lc-24-826.webp 826w",
+      "width": 826,
+      "height": 471
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-24-drawing-1600.webp",
+      "width": 1600,
+      "height": 912
+    }
+  },
+  {
+    "id": "LC-25",
+    "title": "WFC Dining 25",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-25-437.webp",
+      "width": 437,
+      "height": 454
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-25-drawing-1600.webp",
+      "width": 1600,
+      "height": 1662
+    }
+  },
+  {
+    "id": "LC-26",
+    "title": "WFC Dining 26",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-26-359.webp",
+      "width": 359,
+      "height": 477
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-26-drawing-1600.webp",
+      "width": 1600,
+      "height": 2127
+    }
+  },
+  {
+    "id": "LC-28",
+    "title": "WFC Dining 28",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-28-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-28-640.webp 640w, /images/products/dining-chairs/lc-28-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-28-drawing-896.webp",
+      "width": 896,
+      "height": 1195
+    }
+  },
+  {
+    "id": "LC-29",
+    "title": "WFC Dining 29",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-29-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-29-640.webp 640w, /images/products/dining-chairs/lc-29-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-29-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "LC-30",
+    "title": "WFC Dining 30",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-30-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-30-640.webp 640w, /images/products/dining-chairs/lc-30-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-30-drawing-1600.webp",
+      "width": 1600,
+      "height": 1948
+    }
+  },
+  {
+    "id": "LC-31",
+    "title": "WFC Dining 31",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-31-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-31-640.webp 640w, /images/products/dining-chairs/lc-31-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-31-drawing-1600.webp",
+      "width": 1600,
+      "height": 1880
+    }
+  },
+  {
+    "id": "LC-32",
+    "title": "WFC Dining 32",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-32-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-32-640.webp 640w, /images/products/dining-chairs/lc-32-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-32-drawing-1600.webp",
+      "width": 1600,
+      "height": 1960
+    }
+  },
+  {
+    "id": "LC-33",
+    "title": "WFC Dining 33",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-33-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-33-640.webp 640w, /images/products/dining-chairs/lc-33-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-33-drawing-1600.webp",
+      "width": 1600,
+      "height": 2035
+    }
+  },
+  {
+    "id": "DT-01",
+    "title": "Dining Table 01",
+    "category": "DINING_TABLE",
+    "style": "Minimalist",
+    "seatOptions": [
+      {
+        "label": "4-seater",
+        "size": "1500 × 900 mm"
+      },
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-01-1200.webp",
+      "srcSet": "/images/products/dining-tables/dt-01-640.webp 640w, /images/products/dining-tables/dt-01-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-01-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "DT-02",
+    "title": "Dining Table 02",
+    "category": "DINING_TABLE",
+    "style": "Modern",
+    "seatOptions": [
+      {
+        "label": "4-seater",
+        "size": "1500 × 900 mm"
+      },
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-02-840.webp",
+      "srcSet": "/images/products/dining-tables/dt-02-640.webp 640w, /images/products/dining-tables/dt-02-840.webp 840w",
+      "width": 840,
+      "height": 630
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-02-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "DT-03",
+    "title": "Dining Table 03",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "4-seater",
+        "size": "1500 × 900 mm"
+      },
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-03-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-03-640.webp 640w, /images/products/dining-tables/dt-03-1400.webp 1400w",
+      "width": 1400,
+      "height": 1467
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-03-drawing-1600.webp",
+      "width": 1600,
+      "height": 922
+    }
+  },
+  {
+    "id": "DT-04",
+    "title": "Dining Table 04",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-04-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-04-640.webp 640w, /images/products/dining-tables/dt-04-1400.webp 1400w",
+      "width": 1400,
+      "height": 1467
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-04-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "DT-05",
+    "title": "Dining Table 05",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "4-seater",
+        "size": "1500 × 900 mm"
+      },
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-05-736.webp",
+      "srcSet": "/images/products/dining-tables/dt-05-640.webp 640w, /images/products/dining-tables/dt-05-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-05-drawing-1600.webp",
+      "width": 1600,
+      "height": 855
+    }
+  },
+  {
+    "id": "DT-06",
+    "title": "Dining Table 06",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-06-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-06-640.webp 640w, /images/products/dining-tables/dt-06-1400.webp 1400w",
+      "width": 1400,
+      "height": 1768
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-06-drawing-1600.webp",
+      "width": 1600,
+      "height": 912
+    }
+  },
+  {
+    "id": "DT-07",
+    "title": "Dining Table 07",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "4-seater",
+        "size": "1500 × 900 mm"
+      },
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-07-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-07-640.webp 640w, /images/products/dining-tables/dt-07-1400.webp 1400w",
+      "width": 1400,
+      "height": 1513
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-07-drawing-1600.webp",
+      "width": 1600,
+      "height": 922
+    }
+  },
+  {
+    "id": "DT-08",
+    "title": "Dining Table 08",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-08-1003.webp",
+      "srcSet": "/images/products/dining-tables/dt-08-640.webp 640w, /images/products/dining-tables/dt-08-1003.webp 1003w",
+      "width": 1003,
+      "height": 845
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-08-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "DT-09",
+    "title": "Dining Table 09",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2400 × 1100 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-09-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-09-640.webp 640w, /images/products/dining-tables/dt-09-1400.webp 1400w",
+      "width": 1400,
+      "height": 1422
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-09-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "DT-10",
+    "title": "Dining Table 10",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "4-seater",
+        "size": "1500 × 900 mm"
+      },
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-10-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-10-640.webp 640w, /images/products/dining-tables/dt-10-1400.webp 1400w",
+      "width": 1400,
+      "height": 1875
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-10-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "DT-11",
+    "title": "Dining Table 11",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-11-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-11-640.webp 640w, /images/products/dining-tables/dt-11-1400.webp 1400w",
+      "width": 1400,
+      "height": 1378
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-11-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "DT-12",
+    "title": "Dining Table 12",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "4-seater",
+        "size": "1500 × 900 mm"
+      },
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-12-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-12-640.webp 640w, /images/products/dining-tables/dt-12-1400.webp 1400w",
+      "width": 1400,
+      "height": 1422
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-12-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "DT-13",
+    "title": "Dining Table 13",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-13-1200.webp",
+      "srcSet": "/images/products/dining-tables/dt-13-640.webp 640w, /images/products/dining-tables/dt-13-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-13-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "DT-14",
+    "title": "Dining Table 14",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-14-1000.webp",
+      "srcSet": "/images/products/dining-tables/dt-14-640.webp 640w, /images/products/dining-tables/dt-14-1000.webp 1000w",
+      "width": 1000,
+      "height": 1000
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-14-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "DT-15",
+    "title": "Dining Table 15",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-15-1200.webp",
+      "srcSet": "/images/products/dining-tables/dt-15-640.webp 640w, /images/products/dining-tables/dt-15-1200.webp 1200w",
+      "width": 1200,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-15-drawing-1600.webp",
+      "width": 1600,
+      "height": 1073
+    }
+  },
+  {
+    "id": "DT-16",
+    "title": "Dining Table 16",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-16-400.webp",
+      "width": 400,
+      "height": 400
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-16-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "DT-17",
+    "title": "Dining Table 17",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2400 × 1100 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-17-1200.webp",
+      "srcSet": "/images/products/dining-tables/dt-17-640.webp 640w, /images/products/dining-tables/dt-17-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-17-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "DT-18",
+    "title": "Dining Table 18",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-18-736.webp",
+      "srcSet": "/images/products/dining-tables/dt-18-640.webp 640w, /images/products/dining-tables/dt-18-736.webp 736w",
+      "width": 736,
+      "height": 1104
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-18-drawing-1600.webp",
+      "width": 1600,
+      "height": 2137
+    }
+  },
+  {
+    "id": "DT-19",
+    "title": "Dining Table 19",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "4-seater",
+        "size": "1500 × 900 mm"
+      },
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-19-736.webp",
+      "srcSet": "/images/products/dining-tables/dt-19-640.webp 640w, /images/products/dining-tables/dt-19-736.webp 736w",
+      "width": 736,
+      "height": 999
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-19-drawing-1600.webp",
+      "width": 1600,
+      "height": 1993
+    }
+  },
+  {
+    "id": "DT-20",
+    "title": "Dining Table 20",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-20-736.webp",
+      "srcSet": "/images/products/dining-tables/dt-20-640.webp 640w, /images/products/dining-tables/dt-20-736.webp 736w",
+      "width": 736,
+      "height": 1104
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-20-drawing-1600.webp",
+      "width": 1600,
+      "height": 1885
+    }
+  },
+  {
+    "id": "DT-21",
+    "title": "Dining Table 21",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-21-816.webp",
+      "srcSet": "/images/products/dining-tables/dt-21-640.webp 640w, /images/products/dining-tables/dt-21-816.webp 816w",
+      "width": 816,
+      "height": 1456
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-21-drawing-1536.webp",
+      "width": 1536,
+      "height": 2279
+    }
+  },
+  {
+    "id": "DT-22",
+    "title": "Dining Table 22",
+    "category": "DINING_TABLE",
+    "seatOptions": [
+      {
+        "label": "6-seater",
+        "size": "1800 × 900 mm"
+      },
+      {
+        "label": "8-seater",
+        "size": "2200 × 1000 mm"
+      }
+    ],
+    "image": {
+      "src": "/images/products/dining-tables/dt-22-1024.webp",
+      "srcSet": "/images/products/dining-tables/dt-22-640.webp 640w, /images/products/dining-tables/dt-22-1024.webp 1024w",
+      "width": 1024,
+      "height": 1448
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-22-drawing-1600.webp",
+      "width": 1600,
+      "height": 2070
+    }
+  },
+  {
+    "id": "DT-23",
+    "title": "Dining Table 23",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-23-736.webp",
+      "srcSet": "/images/products/dining-tables/dt-23-640.webp 640w, /images/products/dining-tables/dt-23-736.webp 736w",
+      "width": 736,
+      "height": 1104
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-23-drawing-1600.webp",
+      "width": 1600,
+      "height": 2043
+    }
+  },
+  {
+    "id": "DT-24",
+    "title": "Dining Table 24",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-24-1200.webp",
+      "srcSet": "/images/products/dining-tables/dt-24-640.webp 640w, /images/products/dining-tables/dt-24-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-24-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "DT-25",
+    "title": "Dining Table 25",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-25-640.webp",
+      "width": 640,
+      "height": 960
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-25-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "DT-26",
+    "title": "Dining Table 26",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-26-400.webp",
+      "width": 400,
+      "height": 400
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-26-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "DT-27",
+    "title": "Dining Table 27",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-27-1024.webp",
+      "srcSet": "/images/products/dining-tables/dt-27-640.webp 640w, /images/products/dining-tables/dt-27-1024.webp 1024w",
+      "width": 1024,
+      "height": 1280
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-27-drawing-1600.webp",
+      "width": 1600,
+      "height": 1852
+    }
+  },
+  {
+    "id": "DT-28",
+    "title": "Dining Table 28",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-28-1000.webp",
+      "srcSet": "/images/products/dining-tables/dt-28-640.webp 640w, /images/products/dining-tables/dt-28-1000.webp 1000w",
+      "width": 1000,
+      "height": 1000
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-28-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "DT-29",
+    "title": "Dining Table 29",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-29-903.webp",
+      "srcSet": "/images/products/dining-tables/dt-29-640.webp 640w, /images/products/dining-tables/dt-29-903.webp 903w",
+      "width": 903,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-29-drawing-1600.webp",
+      "width": 1600,
+      "height": 1935
+    }
+  },
+  {
+    "id": "DT-30",
+    "title": "Dining Table 30",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-30-600.webp",
+      "width": 600,
+      "height": 751
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-30-drawing-1600.webp",
+      "width": 1600,
+      "height": 1986
+    }
+  },
+  {
+    "id": "DT-31",
+    "title": "Dining Table 31",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-31-735.webp",
+      "srcSet": "/images/products/dining-tables/dt-31-640.webp 640w, /images/products/dining-tables/dt-31-735.webp 735w",
+      "width": 735,
+      "height": 981
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-31-drawing-1600.webp",
+      "width": 1600,
+      "height": 2143
+    }
+  },
+  {
+    "id": "DT-32",
+    "title": "Dining Table 32",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-32-1056.webp",
+      "srcSet": "/images/products/dining-tables/dt-32-640.webp 640w, /images/products/dining-tables/dt-32-1056.webp 1056w",
+      "width": 1056,
+      "height": 1280
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-32-drawing-1600.webp",
+      "width": 1600,
+      "height": 1925
+    }
+  },
+  {
+    "id": "DT-33",
+    "title": "Dining Table 33",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-33-1024.webp",
+      "srcSet": "/images/products/dining-tables/dt-33-640.webp 640w, /images/products/dining-tables/dt-33-1024.webp 1024w",
+      "width": 1024,
+      "height": 1280
+    }
+  },
+  {
+    "id": "DT-34",
+    "title": "Dining Table 34",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-34-640.webp",
+      "width": 640,
+      "height": 640
+    }
+  },
+  {
+    "id": "DT-35",
+    "title": "Dining Table 35",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-35-1200.webp",
+      "srcSet": "/images/products/dining-tables/dt-35-640.webp 640w, /images/products/dining-tables/dt-35-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  {
+    "id": "DT-36",
+    "title": "Dining Table 36",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-36-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-36-640.webp 640w, /images/products/dining-tables/dt-36-1400.webp 1400w",
+      "width": 1400,
+      "height": 1122
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-36-drawing-1600.webp",
+      "width": 1600,
+      "height": 1282
+    }
+  },
+  {
+    "id": "DT-37",
+    "title": "Dining Table 37",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-37-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-37-640.webp 640w, /images/products/dining-tables/dt-37-1400.webp 1400w",
+      "width": 1400,
+      "height": 1816
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-37-drawing-1600.webp",
+      "width": 1600,
+      "height": 2075
+    }
+  },
+  {
+    "id": "DT-38",
+    "title": "Dining Table 38",
+    "category": "DINING_TABLE",
+    "image": {
+      "src": "/images/products/dining-tables/dt-38-1400.webp",
+      "srcSet": "/images/products/dining-tables/dt-38-640.webp 640w, /images/products/dining-tables/dt-38-1400.webp 1400w",
+      "width": 1400,
+      "height": 912
+    },
+    "drawing": {
+      "src": "/images/products/dining-tables/dt-38-drawing-1600.webp",
+      "width": 1600,
+      "height": 1042
+    }
+  },
+  {
+    "id": "ST-01",
+    "title": "Center Table 01",
+    "category": "CENTER_TABLE",
+    "style": "Luxury",
+    "image": {
+      "src": "/images/products/center-tables/st-01-1080.webp",
+      "srcSet": "/images/products/center-tables/st-01-640.webp 640w, /images/products/center-tables/st-01-1080.webp 1080w",
+      "width": 1080,
+      "height": 1080
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-01-drawing-848.webp",
+      "width": 848,
+      "height": 1264
+    }
+  },
+  {
+    "id": "ST-02",
+    "title": "Center Table 02",
+    "category": "CENTER_TABLE",
+    "style": "Industrial",
+    "image": {
+      "src": "/images/products/center-tables/st-02-720.webp",
+      "srcSet": "/images/products/center-tables/st-02-640.webp 640w, /images/products/center-tables/st-02-720.webp 720w",
+      "width": 720,
+      "height": 900
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-02-drawing-1600.webp",
+      "width": 1600,
+      "height": 1986
+    }
+  },
+  {
+    "id": "ST-03",
+    "title": "Center Table 03",
+    "category": "CENTER_TABLE",
+    "style": "Minimalist",
+    "image": {
+      "src": "/images/products/center-tables/st-03-500.webp",
+      "width": 500,
+      "height": 500
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-03-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "ST-04",
+    "title": "Center Table 04",
+    "category": "CENTER_TABLE",
+    "image": {
+      "src": "/images/products/center-tables/st-04-1000.webp",
+      "srcSet": "/images/products/center-tables/st-04-640.webp 640w, /images/products/center-tables/st-04-1000.webp 1000w",
+      "width": 1000,
+      "height": 1000
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-04-drawing-1024.webp",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  {
+    "id": "ST-05",
+    "title": "Center Table 05",
+    "category": "CENTER_TABLE",
+    "image": {
+      "src": "/images/products/center-tables/st-05-658.webp",
+      "srcSet": "/images/products/center-tables/st-05-640.webp 640w, /images/products/center-tables/st-05-658.webp 658w",
+      "width": 658,
+      "height": 734
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-05-drawing-976.webp",
+      "width": 976,
+      "height": 1088
+    }
+  },
+  {
+    "id": "ST-06",
+    "title": "Center Table 06",
+    "category": "CENTER_TABLE",
+    "style": "Boho",
+    "image": {
+      "src": "/images/products/center-tables/st-06-750.webp",
+      "srcSet": "/images/products/center-tables/st-06-640.webp 640w, /images/products/center-tables/st-06-750.webp 750w",
+      "width": 750,
+      "height": 1125
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-06-drawing-848.webp",
+      "width": 848,
+      "height": 1264
+    }
+  },
+  {
+    "id": "ST-07",
+    "title": "Center Table 07",
+    "category": "CENTER_TABLE",
+    "style": "Modern",
+    "image": {
+      "src": "/images/products/center-tables/st-07-1100.webp",
+      "srcSet": "/images/products/center-tables/st-07-640.webp 640w, /images/products/center-tables/st-07-1100.webp 1100w",
+      "width": 1100,
+      "height": 1100
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-07-drawing-1024.webp",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  {
+    "id": "ST-08",
+    "title": "Center Table 08",
+    "category": "CENTER_TABLE",
+    "style": "Industrial",
+    "image": {
+      "src": "/images/products/center-tables/st-08-1080.webp",
+      "srcSet": "/images/products/center-tables/st-08-640.webp 640w, /images/products/center-tables/st-08-1080.webp 1080w",
+      "width": 1080,
+      "height": 1080
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-08-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "ST-09",
+    "title": "Center Table 09",
+    "category": "CENTER_TABLE",
+    "style": "Luxury",
+    "image": {
+      "src": "/images/products/center-tables/st-09-683.webp",
+      "srcSet": "/images/products/center-tables/st-09-640.webp 640w, /images/products/center-tables/st-09-683.webp 683w",
+      "width": 683,
+      "height": 1024
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-09-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "ST-10",
+    "title": "Center Table 10",
+    "category": "CENTER_TABLE",
+    "style": "Minimalist",
+    "image": {
+      "src": "/images/products/center-tables/st-10-960.webp",
+      "srcSet": "/images/products/center-tables/st-10-640.webp 640w, /images/products/center-tables/st-10-960.webp 960w",
+      "width": 960,
+      "height": 960
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-10-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "ST-11",
+    "title": "Center Table 11",
+    "category": "CENTER_TABLE",
+    "image": {
+      "src": "/images/products/center-tables/st-11-866.webp",
+      "srcSet": "/images/products/center-tables/st-11-640.webp 640w, /images/products/center-tables/st-11-866.webp 866w",
+      "width": 866,
+      "height": 900
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-11-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "ST-12",
+    "title": "Center Table 12",
+    "category": "CENTER_TABLE",
+    "image": {
+      "src": "/images/products/center-tables/st-12-800.webp",
+      "srcSet": "/images/products/center-tables/st-12-640.webp 640w, /images/products/center-tables/st-12-800.webp 800w",
+      "width": 800,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-12-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "ST-13",
+    "title": "Center Table 13",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-13-800.webp",
+      "srcSet": "/images/products/side-tables/st-13-640.webp 640w, /images/products/side-tables/st-13-800.webp 800w",
+      "width": 800,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-13-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "ST-14",
+    "title": "Center Table 14",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-14-1200.webp",
+      "srcSet": "/images/products/side-tables/st-14-640.webp 640w, /images/products/side-tables/st-14-1200.webp 1200w",
+      "width": 1200,
+      "height": 1433
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-14-drawing-1600.webp",
+      "width": 1600,
+      "height": 1925
+    }
+  },
+  {
+    "id": "ST-15",
+    "title": "Center Table 15",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-15-800.webp",
+      "srcSet": "/images/products/side-tables/st-15-640.webp 640w, /images/products/side-tables/st-15-800.webp 800w",
+      "width": 800,
+      "height": 600
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-15-drawing-1600.webp",
+      "width": 1600,
+      "height": 1195
+    }
+  },
+  {
+    "id": "ST-16",
+    "title": "Center Table 16",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-16-800.webp",
+      "srcSet": "/images/products/side-tables/st-16-640.webp 640w, /images/products/side-tables/st-16-800.webp 800w",
+      "width": 800,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-16-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "ST-17",
+    "title": "Center Table 17",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-17-1181.webp",
+      "srcSet": "/images/products/side-tables/st-17-640.webp 640w, /images/products/side-tables/st-17-1181.webp 1181w",
+      "width": 1181,
+      "height": 787
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-17-drawing-1600.webp",
+      "width": 1600,
+      "height": 1073
+    }
+  },
+  {
+    "id": "ST-18",
+    "title": "Center Table 18",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-18-1200.webp",
+      "srcSet": "/images/products/side-tables/st-18-640.webp 640w, /images/products/side-tables/st-18-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-18-drawing-1024.webp",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  {
+    "id": "ST-19",
+    "title": "Center Table 19",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-19-1199.webp",
+      "srcSet": "/images/products/side-tables/st-19-640.webp 640w, /images/products/side-tables/st-19-1199.webp 1199w",
+      "width": 1199,
+      "height": 1376
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-19-drawing-1600.webp",
+      "width": 1600,
+      "height": 1986
+    }
+  },
+  {
+    "id": "ST-20",
+    "title": "Center Table 20",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-20-1000.webp",
+      "srcSet": "/images/products/side-tables/st-20-640.webp 640w, /images/products/side-tables/st-20-1000.webp 1000w",
+      "width": 1000,
+      "height": 1000
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-20-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "ST-21",
+    "title": "Center Table 21",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-21-474.webp",
+      "width": 474,
+      "height": 474
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-21-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "ST-22",
+    "title": "Center Table 22",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-22-220.webp",
+      "width": 220,
+      "height": 220
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-22-drawing-848.webp",
+      "width": 848,
+      "height": 1264
+    }
+  },
+  {
+    "id": "ST-23",
+    "title": "Center Table 23",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-23-750.webp",
+      "srcSet": "/images/products/side-tables/st-23-640.webp 640w, /images/products/side-tables/st-23-750.webp 750w",
+      "width": 750,
+      "height": 1125
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-23-drawing-1600.webp",
+      "width": 1600,
+      "height": 1406
+    }
+  },
+  {
+    "id": "ST-24",
+    "title": "Center Table 24",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-24-736.webp",
+      "srcSet": "/images/products/side-tables/st-24-640.webp 640w, /images/products/side-tables/st-24-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-24-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "ST-25",
+    "title": "Center Table 25",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-25-735.webp",
+      "srcSet": "/images/products/side-tables/st-25-640.webp 640w, /images/products/side-tables/st-25-735.webp 735w",
+      "width": 735,
+      "height": 665
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-25-drawing-1600.webp",
+      "width": 1600,
+      "height": 1248
+    }
+  },
+  {
+    "id": "ST-26",
+    "title": "Center Table 26",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-26-720.webp",
+      "srcSet": "/images/products/side-tables/st-26-640.webp 640w, /images/products/side-tables/st-26-720.webp 720w",
+      "width": 720,
+      "height": 1280
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-26-drawing-1536.webp",
+      "width": 1536,
+      "height": 1753
+    }
+  },
+  {
+    "id": "ST-27",
+    "title": "Center Table 27",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-27-960.webp",
+      "srcSet": "/images/products/side-tables/st-27-640.webp 640w, /images/products/side-tables/st-27-960.webp 960w",
+      "width": 960,
+      "height": 1280
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-27-drawing-1600.webp",
+      "width": 1600,
+      "height": 873
+    }
+  },
+  {
+    "id": "ST-28",
+    "title": "Center Table 28",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-28-700.webp",
+      "srcSet": "/images/products/side-tables/st-28-640.webp 640w, /images/products/side-tables/st-28-700.webp 700w",
+      "width": 700,
+      "height": 600
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-28-drawing-1600.webp",
+      "width": 1600,
+      "height": 1371
+    }
+  },
+  {
+    "id": "ST-29",
+    "title": "Center Table 29",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-29-1200.webp",
+      "srcSet": "/images/products/side-tables/st-29-640.webp 640w, /images/products/side-tables/st-29-1200.webp 1200w",
+      "width": 1200,
+      "height": 1258
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-29-drawing-1600.webp",
+      "width": 1600,
+      "height": 1479
+    }
+  },
+  {
+    "id": "ST-30",
+    "title": "Center Table 30",
+    "category": "SIDE_TABLE",
+    "image": {
+      "src": "/images/products/side-tables/st-30-857.webp",
+      "srcSet": "/images/products/side-tables/st-30-640.webp 640w, /images/products/side-tables/st-30-857.webp 857w",
+      "width": 857,
+      "height": 1280
+    },
+    "drawing": {
+      "src": "/images/products/side-tables/st-30-drawing-1600.webp",
+      "width": 1600,
+      "height": 1935
+    }
+  },
+  {
+    "id": "ST-34",
+    "title": "Center Table 34",
+    "category": "CENTER_TABLE",
+    "image": {
+      "src": "/images/products/center-tables/st-34-1400.webp",
+      "srcSet": "/images/products/center-tables/st-34-640.webp 640w, /images/products/center-tables/st-34-1400.webp 1400w",
+      "width": 1400,
+      "height": 1050
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-34-drawing-1600.webp",
+      "width": 1600,
+      "height": 875
+    }
+  },
+  {
+    "id": "ST-35",
+    "title": "Center Table 35",
+    "category": "CENTER_TABLE",
+    "image": {
+      "src": "/images/products/center-tables/st-35-1400.webp",
+      "srcSet": "/images/products/center-tables/st-35-640.webp 640w, /images/products/center-tables/st-35-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-35-drawing-1600.webp",
+      "width": 1600,
+      "height": 1483
+    }
+  },
+  {
+    "id": "ST-36",
+    "title": "Center Table 36",
+    "category": "CENTER_TABLE",
+    "image": {
+      "src": "/images/products/center-tables/st-36-1400.webp",
+      "srcSet": "/images/products/center-tables/st-36-640.webp 640w, /images/products/center-tables/st-36-1400.webp 1400w",
+      "width": 1400,
+      "height": 1050
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-36-drawing-1600.webp",
+      "width": 1600,
+      "height": 1136
+    }
+  },
+  {
+    "id": "ST-37",
+    "title": "Center Table 37",
+    "category": "CENTER_TABLE",
+    "image": {
+      "src": "/images/products/center-tables/st-37-1400.webp",
+      "srcSet": "/images/products/center-tables/st-37-640.webp 640w, /images/products/center-tables/st-37-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/center-tables/st-37-drawing-1600.webp",
+      "width": 1600,
+      "height": 2134
+    }
+  },
+  {
+    "id": "LRC-01",
+    "title": "Lounge 01",
+    "category": "LOUNGE_CHAIR",
+    "style": "Modern",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-01-894.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-01-640.webp 640w, /images/products/lounge-chairs/lrc-01-894.webp 894w",
+      "width": 894,
+      "height": 894
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-01-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "LRC-02",
+    "title": "Lounge 02",
+    "category": "LOUNGE_CHAIR",
+    "style": "Boho",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-02-564.webp",
+      "width": 564,
+      "height": 598
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-02-drawing-1600.webp",
+      "width": 1600,
+      "height": 995
+    }
+  },
+  {
+    "id": "LRC-03",
+    "title": "Lounge 03",
+    "category": "LOUNGE_CHAIR",
+    "style": "Industrial",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-03-760.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-03-640.webp 640w, /images/products/lounge-chairs/lrc-03-760.webp 760w",
+      "width": 760,
+      "height": 950
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-03-drawing-1600.webp",
+      "width": 1600,
+      "height": 995
+    }
+  },
+  {
+    "id": "LRC-04",
+    "title": "Lounge 04",
+    "category": "LOUNGE_CHAIR",
+    "style": "Luxury",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-04-736.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-04-640.webp 640w, /images/products/lounge-chairs/lrc-04-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-04-drawing-1600.webp",
+      "width": 1600,
+      "height": 995
+    }
+  },
+  {
+    "id": "LRC-05",
+    "title": "Lounge 05",
+    "category": "LOUNGE_CHAIR",
+    "style": "Minimalist",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-05-1400.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-05-640.webp 640w, /images/products/lounge-chairs/lrc-05-1400.webp 1400w",
+      "width": 1400,
+      "height": 1296
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-05-drawing-1072.webp",
+      "width": 1072,
+      "height": 992
+    }
+  },
+  {
+    "id": "LRC-06",
+    "title": "Lounge 06",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-06-735.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-06-640.webp 640w, /images/products/lounge-chairs/lrc-06-735.webp 735w",
+      "width": 735,
+      "height": 830
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-06-drawing-1600.webp",
+      "width": 1600,
+      "height": 995
+    }
+  },
+  {
+    "id": "LRC-07",
+    "title": "Lounge 07",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-07-800.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-07-640.webp 640w, /images/products/lounge-chairs/lrc-07-800.webp 800w",
+      "width": 800,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-07-drawing-1600.webp",
+      "width": 1600,
+      "height": 995
+    }
+  },
+  {
+    "id": "LRC-08",
+    "title": "Lounge 08",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-08-1080.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-08-640.webp 640w, /images/products/lounge-chairs/lrc-08-1080.webp 1080w",
+      "width": 1080,
+      "height": 1197
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-08-drawing-1600.webp",
+      "width": 1600,
+      "height": 1784
+    }
+  },
+  {
+    "id": "LRC-09",
+    "title": "Lounge 09",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-09-736.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-09-640.webp 640w, /images/products/lounge-chairs/lrc-09-736.webp 736w",
+      "width": 736,
+      "height": 981
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-09-drawing-1600.webp",
+      "width": 1600,
+      "height": 2143
+    }
+  },
+  {
+    "id": "LRC-10",
+    "title": "Lounge 10",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-10-400.webp",
+      "width": 400,
+      "height": 400
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-10-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "LRC-11",
+    "title": "Lounge 11",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-11-801.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-11-640.webp 640w, /images/products/lounge-chairs/lrc-11-801.webp 801w",
+      "width": 801,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-11-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "LRC-12",
+    "title": "Lounge 12",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-12-1200.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-12-640.webp 640w, /images/products/lounge-chairs/lrc-12-1200.webp 1200w",
+      "width": 1200,
+      "height": 1184
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-12-drawing-1600.webp",
+      "width": 1600,
+      "height": 1527
+    }
+  },
+  {
+    "id": "LRC-13",
+    "title": "Lounge 13",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-13-564.webp",
+      "width": 564,
+      "height": 701
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-13-drawing-1600.webp",
+      "width": 1600,
+      "height": 1986
+    }
+  },
+  {
+    "id": "LRC-14",
+    "title": "Lounge 14",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-14-1200.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-14-640.webp 640w, /images/products/lounge-chairs/lrc-14-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-14-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "LRC-15",
+    "title": "Lounge 15",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-15-736.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-15-640.webp 640w, /images/products/lounge-chairs/lrc-15-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-15-drawing-1600.webp",
+      "width": 1600,
+      "height": 1552
+    }
+  },
+  {
+    "id": "LRC-16",
+    "title": "Lounge 16",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-16-1024.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-16-640.webp 640w, /images/products/lounge-chairs/lrc-16-1024.webp 1024w",
+      "width": 1024,
+      "height": 1280
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-16-drawing-1600.webp",
+      "width": 1600,
+      "height": 1625
+    }
+  },
+  {
+    "id": "LRC-17",
+    "title": "Lounge 17",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-17-717.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-17-640.webp 640w, /images/products/lounge-chairs/lrc-17-717.webp 717w",
+      "width": 717,
+      "height": 956
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-17-drawing-1600.webp",
+      "width": 1600,
+      "height": 1668
+    }
+  },
+  {
+    "id": "LRC-18",
+    "title": "Lounge 18",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-18-736.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-18-640.webp 640w, /images/products/lounge-chairs/lrc-18-736.webp 736w",
+      "width": 736,
+      "height": 1104
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-18-drawing-1600.webp",
+      "width": 1600,
+      "height": 2128
+    }
+  },
+  {
+    "id": "LRC-19",
+    "title": "Lounge 19",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-19-735.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-19-640.webp 640w, /images/products/lounge-chairs/lrc-19-735.webp 735w",
+      "width": 735,
+      "height": 717
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-19-drawing-1600.webp",
+      "width": 1600,
+      "height": 1575
+    }
+  },
+  {
+    "id": "LRC-20",
+    "title": "Lounge 20",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-20-736.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-20-640.webp 640w, /images/products/lounge-chairs/lrc-20-736.webp 736w",
+      "width": 736,
+      "height": 920
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-20-drawing-1600.webp",
+      "width": 1600,
+      "height": 1986
+    }
+  },
+  {
+    "id": "LRC-21",
+    "title": "Lounge 21",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-21-600.webp",
+      "width": 600,
+      "height": 600
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-21-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "LRC-23",
+    "title": "Lounge 23",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-23-960.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-23-640.webp 640w, /images/products/lounge-chairs/lrc-23-960.webp 960w",
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "LRC-28",
+    "title": "Lounge 28",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-28-1400.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-28-640.webp 640w, /images/products/lounge-chairs/lrc-28-1400.webp 1400w",
+      "width": 1400,
+      "height": 2489
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-28-drawing-1600.webp",
+      "width": 1600,
+      "height": 1971
+    }
+  },
+  {
+    "id": "LRC-29",
+    "title": "Lounge 29",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-29-1400.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-29-640.webp 640w, /images/products/lounge-chairs/lrc-29-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-29-drawing-1600.webp",
+      "width": 1600,
+      "height": 1613
+    }
+  },
+  {
+    "id": "LRC-30",
+    "title": "Lounge 30",
+    "category": "LOUNGE_CHAIR",
+    "image": {
+      "src": "/images/products/lounge-chairs/lrc-30-1400.webp",
+      "srcSet": "/images/products/lounge-chairs/lrc-30-640.webp 640w, /images/products/lounge-chairs/lrc-30-1400.webp 1400w",
+      "width": 1400,
+      "height": 1867
+    },
+    "drawing": {
+      "src": "/images/products/lounge-chairs/lrc-30-drawing-1600.webp",
+      "width": 1600,
+      "height": 893
+    }
+  },
+  {
+    "id": "S-01",
+    "title": "Woodflex Designs Sofa 01",
+    "category": "SOFA",
+    "style": "Luxury",
+    "dimensions": {
+      "width": "2100 mm",
+      "depth": "900 mm",
+      "height": "850 mm"
+    },
+    "image": {
+      "src": "/images/products/sofas/s-01-1400.webp",
+      "srcSet": "/images/products/sofas/s-01-640.webp 640w, /images/products/sofas/s-01-1400.webp 1400w",
+      "width": 1400,
+      "height": 1467
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-01-drawing-1600.webp",
+      "width": 1600,
+      "height": 1676
+    }
+  },
+  {
+    "id": "S-02",
+    "title": "Woodflex Designs Sofa 02",
+    "category": "SOFA",
+    "style": "Modern",
+    "image": {
+      "src": "/images/products/sofas/s-02-750.webp",
+      "srcSet": "/images/products/sofas/s-02-640.webp 640w, /images/products/sofas/s-02-750.webp 750w",
+      "width": 750,
+      "height": 750
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-02-drawing-1600.webp",
+      "width": 1600,
+      "height": 1096
+    }
+  },
+  {
+    "id": "S-03",
+    "title": "Woodflex Designs Sofa 03",
+    "category": "SOFA",
+    "style": "Boho",
+    "image": {
+      "src": "/images/products/sofas/s-03-790.webp",
+      "srcSet": "/images/products/sofas/s-03-640.webp 640w, /images/products/sofas/s-03-790.webp 790w",
+      "width": 790,
+      "height": 719
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-03-drawing-1600.webp",
+      "width": 1600,
+      "height": 990
+    }
+  },
+  {
+    "id": "S-04",
+    "title": "Woodflex Designs Sofa 04",
+    "category": "SOFA",
+    "style": "Industrial",
+    "image": {
+      "src": "/images/products/sofas/s-04-1200.webp",
+      "srcSet": "/images/products/sofas/s-04-640.webp 640w, /images/products/sofas/s-04-1200.webp 1200w",
+      "width": 1200,
+      "height": 1518
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-04-drawing-1600.webp",
+      "width": 1600,
+      "height": 1100
+    }
+  },
+  {
+    "id": "S-05",
+    "title": "Woodflex Designs Sofa 05",
+    "category": "SOFA",
+    "style": "Minimalist",
+    "image": {
+      "src": "/images/products/sofas/s-05-446.webp",
+      "width": 446,
+      "height": 792
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-05-drawing-1600.webp",
+      "width": 1600,
+      "height": 679
+    }
+  },
+  {
+    "id": "S-06",
+    "title": "Woodflex Designs Sofa 06",
+    "category": "SOFA",
+    "style": "Modern",
+    "image": {
+      "src": "/images/products/sofas/s-06-1400.webp",
+      "srcSet": "/images/products/sofas/s-06-640.webp 640w, /images/products/sofas/s-06-1400.webp 1400w",
+      "width": 1400,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-06-drawing-1600.webp",
+      "width": 1600,
+      "height": 1349
+    }
+  },
+  {
+    "id": "S-07",
+    "title": "Woodflex Designs Sofa 07",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-07-1400.webp",
+      "srcSet": "/images/products/sofas/s-07-640.webp 640w, /images/products/sofas/s-07-1400.webp 1400w",
+      "width": 1400,
+      "height": 1561
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-07-drawing-1600.webp",
+      "width": 1600,
+      "height": 1333
+    }
+  },
+  {
+    "id": "S-08",
+    "title": "Woodflex Designs Sofa 08",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-08-1400.webp",
+      "srcSet": "/images/products/sofas/s-08-640.webp 640w, /images/products/sofas/s-08-1400.webp 1400w",
+      "width": 1400,
+      "height": 1610
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-08-drawing-1600.webp",
+      "width": 1600,
+      "height": 1810
+    }
+  },
+  {
+    "id": "S-09",
+    "title": "Woodflex Designs Sofa 09",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-09-1400.webp",
+      "srcSet": "/images/products/sofas/s-09-640.webp 640w, /images/products/sofas/s-09-1400.webp 1400w",
+      "width": 1400,
+      "height": 1561
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-09-drawing-1600.webp",
+      "width": 1600,
+      "height": 1453
+    }
+  },
+  {
+    "id": "S-10",
+    "title": "Woodflex Designs Sofa 10",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-10-1280.webp",
+      "srcSet": "/images/products/sofas/s-10-640.webp 640w, /images/products/sofas/s-10-1280.webp 1280w",
+      "width": 1280,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-10-drawing-1600.webp",
+      "width": 1600,
+      "height": 995
+    }
+  },
+  {
+    "id": "S-11",
+    "title": "Woodflex Designs Sofa 11",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-11-1152.webp",
+      "srcSet": "/images/products/sofas/s-11-640.webp 640w, /images/products/sofas/s-11-1152.webp 1152w",
+      "width": 1152,
+      "height": 896
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-11-drawing-1600.webp",
+      "width": 1600,
+      "height": 1249
+    }
+  },
+  {
+    "id": "S-12",
+    "title": "Woodflex Designs Sofa 12",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-12-1088.webp",
+      "srcSet": "/images/products/sofas/s-12-640.webp 640w, /images/products/sofas/s-12-1088.webp 1088w",
+      "width": 1088,
+      "height": 960
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-12-drawing-1600.webp",
+      "width": 1600,
+      "height": 1414
+    }
+  },
+  {
+    "id": "S-13",
+    "title": "Woodflex Designs Sofa 13",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-13-1248.webp",
+      "srcSet": "/images/products/sofas/s-13-640.webp 640w, /images/products/sofas/s-13-1248.webp 1248w",
+      "width": 1248,
+      "height": 832
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-13-drawing-1600.webp",
+      "width": 1600,
+      "height": 1040
+    }
+  },
+  {
+    "id": "S-14",
+    "title": "Woodflex Designs Sofa 14",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-14-1280.webp",
+      "srcSet": "/images/products/sofas/s-14-640.webp 640w, /images/products/sofas/s-14-1280.webp 1280w",
+      "width": 1280,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-14-drawing-1600.webp",
+      "width": 1600,
+      "height": 818
+    }
+  },
+  {
+    "id": "S-15",
+    "title": "Woodflex Designs Sofa 15",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-15-735.webp",
+      "srcSet": "/images/products/sofas/s-15-640.webp 640w, /images/products/sofas/s-15-735.webp 735w",
+      "width": 735,
+      "height": 885
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-15-drawing-1600.webp",
+      "width": 1600,
+      "height": 1925
+    }
+  },
+  {
+    "id": "S-16",
+    "title": "Woodflex Designs Sofa 16",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-16-896.webp",
+      "srcSet": "/images/products/sofas/s-16-640.webp 640w, /images/products/sofas/s-16-896.webp 896w",
+      "width": 896,
+      "height": 1344
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-16-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "S-17",
+    "title": "Woodflex Designs Sofa 17",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-17-404.webp",
+      "width": 404,
+      "height": 316
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-17-drawing-1600.webp",
+      "width": 1600,
+      "height": 1249
+    }
+  },
+  {
+    "id": "S-18",
+    "title": "Woodflex Designs Sofa 18",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-18-736.webp",
+      "srcSet": "/images/products/sofas/s-18-640.webp 640w, /images/products/sofas/s-18-736.webp 736w",
+      "width": 736,
+      "height": 1308
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-18-drawing-1536.webp",
+      "width": 1536,
+      "height": 1702
+    }
+  },
+  {
+    "id": "S-19",
+    "title": "Woodflex Designs Sofa 19",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-19-282.webp",
+      "width": 282,
+      "height": 500
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-19-drawing-1536.webp",
+      "width": 1536,
+      "height": 1831
+    }
+  },
+  {
+    "id": "S-20",
+    "title": "Woodflex Designs Sofa 20",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-20-768.webp",
+      "srcSet": "/images/products/sofas/s-20-640.webp 640w, /images/products/sofas/s-20-768.webp 768w",
+      "width": 768,
+      "height": 768
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-20-drawing-1600.webp",
+      "width": 1600,
+      "height": 1441
+    }
+  },
+  {
+    "id": "S-21",
+    "title": "Woodflex Designs Sofa 21",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-21-1024.webp",
+      "srcSet": "/images/products/sofas/s-21-640.webp 640w, /images/products/sofas/s-21-1024.webp 1024w",
+      "width": 1024,
+      "height": 1024
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-21-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "S-22",
+    "title": "Woodflex Designs Sofa 22",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-22-800.webp",
+      "srcSet": "/images/products/sofas/s-22-640.webp 640w, /images/products/sofas/s-22-800.webp 800w",
+      "width": 800,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-22-drawing-1600.webp",
+      "width": 1600,
+      "height": 1085
+    }
+  },
+  {
+    "id": "S-23",
+    "title": "Woodflex Designs Sofa 23",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-23-736.webp",
+      "srcSet": "/images/products/sofas/s-23-640.webp 640w, /images/products/sofas/s-23-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-23-drawing-1600.webp",
+      "width": 1600,
+      "height": 1380
+    }
+  },
+  {
+    "id": "S-24",
+    "title": "Woodflex Designs Sofa 24",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-24-800.webp",
+      "srcSet": "/images/products/sofas/s-24-640.webp 640w, /images/products/sofas/s-24-800.webp 800w",
+      "width": 800,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-24-drawing-1600.webp",
+      "width": 1600,
+      "height": 1024
+    }
+  },
+  {
+    "id": "S-25",
+    "title": "Woodflex Designs Sofa 25",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-25-736.webp",
+      "srcSet": "/images/products/sofas/s-25-640.webp 640w, /images/products/sofas/s-25-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-25-drawing-1600.webp",
+      "width": 1600,
+      "height": 1238
+    }
+  },
+  {
+    "id": "S-26",
+    "title": "Woodflex Designs Sofa 26",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-26-1200.webp",
+      "srcSet": "/images/products/sofas/s-26-640.webp 640w, /images/products/sofas/s-26-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-26-drawing-1600.webp",
+      "width": 1600,
+      "height": 756
+    }
+  },
+  {
+    "id": "S-27",
+    "title": "Woodflex Designs Sofa 27",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-27-564.webp",
+      "width": 564,
+      "height": 564
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-27-drawing-1024.webp",
+      "width": 1024,
+      "height": 909
+    }
+  },
+  {
+    "id": "S-28",
+    "title": "Woodflex Designs Sofa 28",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-28-749.webp",
+      "srcSet": "/images/products/sofas/s-28-640.webp 640w, /images/products/sofas/s-28-749.webp 749w",
+      "width": 749,
+      "height": 752
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-28-drawing-1600.webp",
+      "width": 1600,
+      "height": 1625
+    }
+  },
+  {
+    "id": "S-29",
+    "title": "Woodflex Designs Sofa 29",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-29-800.webp",
+      "srcSet": "/images/products/sofas/s-29-640.webp 640w, /images/products/sofas/s-29-800.webp 800w",
+      "width": 800,
+      "height": 800
+    }
+  },
+  {
+    "id": "S-30",
+    "title": "Woodflex Designs Sofa 30",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-30-400.webp",
+      "width": 400,
+      "height": 400
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-30-drawing-1600.webp",
+      "width": 1600,
+      "height": 954
+    }
+  },
+  {
+    "id": "S-31",
+    "title": "Woodflex Designs Sofa 31",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-31-800.webp",
+      "srcSet": "/images/products/sofas/s-31-640.webp 640w, /images/products/sofas/s-31-800.webp 800w",
+      "width": 800,
+      "height": 800
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-31-drawing-1600.webp",
+      "width": 1600,
+      "height": 1065
+    }
+  },
+  {
+    "id": "S-32",
+    "title": "Woodflex Designs Sofa 32",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-32-828.webp",
+      "srcSet": "/images/products/sofas/s-32-640.webp 640w, /images/products/sofas/s-32-828.webp 828w",
+      "width": 828,
+      "height": 733
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-32-drawing-1600.webp",
+      "width": 1600,
+      "height": 657
+    }
+  },
+  {
+    "id": "S-33",
+    "title": "Woodflex Designs Sofa 33",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-33-736.webp",
+      "srcSet": "/images/products/sofas/s-33-640.webp 640w, /images/products/sofas/s-33-736.webp 736w",
+      "width": 736,
+      "height": 1104
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-33-drawing-1600.webp",
+      "width": 1600,
+      "height": 1724
+    }
+  },
+  {
+    "id": "S-34",
+    "title": "Woodflex Designs Sofa 34",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-34-736.webp",
+      "srcSet": "/images/products/sofas/s-34-640.webp 640w, /images/products/sofas/s-34-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-34-drawing-1600.webp",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  {
+    "id": "S-35",
+    "title": "Woodflex Designs Sofa 35",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-35-1200.webp",
+      "srcSet": "/images/products/sofas/s-35-640.webp 640w, /images/products/sofas/s-35-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-35-drawing-1600.webp",
+      "width": 1600,
+      "height": 1352
+    }
+  },
+  {
+    "id": "S-36",
+    "title": "Woodflex Designs Sofa 36",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-36-1400.webp",
+      "srcSet": "/images/products/sofas/s-36-640.webp 640w, /images/products/sofas/s-36-1400.webp 1400w",
+      "width": 1400,
+      "height": 788
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-36-drawing-1600.webp",
+      "width": 1600,
+      "height": 697
+    }
+  },
+  {
+    "id": "S-37",
+    "title": "Woodflex Designs Sofa 37",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-37-1280.webp",
+      "srcSet": "/images/products/sofas/s-37-640.webp 640w, /images/products/sofas/s-37-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-37-drawing-1600.webp",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  {
+    "id": "S-38",
+    "title": "Woodflex Designs Sofa 38",
+    "category": "SOFA",
+    "image": {
+      "src": "/images/products/sofas/s-38-1280.webp",
+      "srcSet": "/images/products/sofas/s-38-640.webp 640w, /images/products/sofas/s-38-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    },
+    "drawing": {
+      "src": "/images/products/sofas/s-38-drawing-1600.webp",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  {
+    "id": "JC-01",
+    "title": "Retail Chair 01",
+    "category": "RETAIL_SEATING",
+    "style": "Modern",
+    "image": {
+      "src": "/images/products/retail-seating/jc-01-1200.webp",
+      "srcSet": "/images/products/retail-seating/jc-01-640.webp 640w, /images/products/retail-seating/jc-01-1200.webp 1200w",
+      "width": 1200,
+      "height": 1800
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-01-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "JC-02",
+    "title": "Retail Chair 02",
+    "category": "RETAIL_SEATING",
+    "style": "Industrial",
+    "image": {
+      "src": "/images/products/retail-seating/jc-02-736.webp",
+      "srcSet": "/images/products/retail-seating/jc-02-640.webp 640w, /images/products/retail-seating/jc-02-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-02-drawing-1024.webp",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  {
+    "id": "JC-03",
+    "title": "Retail Chair 03",
+    "category": "RETAIL_SEATING",
+    "style": "Minimalist",
+    "image": {
+      "src": "/images/products/retail-seating/jc-03-1080.webp",
+      "srcSet": "/images/products/retail-seating/jc-03-640.webp 640w, /images/products/retail-seating/jc-03-1080.webp 1080w",
+      "width": 1080,
+      "height": 1350
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-03-drawing-1600.webp",
+      "width": 1600,
+      "height": 1986
+    }
+  },
+  {
+    "id": "JC-04",
+    "title": "Retail Chair 04",
+    "category": "RETAIL_SEATING",
+    "style": "Luxury",
+    "image": {
+      "src": "/images/products/retail-seating/jc-04-675.webp",
+      "srcSet": "/images/products/retail-seating/jc-04-640.webp 640w, /images/products/retail-seating/jc-04-675.webp 675w",
+      "width": 675,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-04-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "JC-05",
+    "title": "Retail Chair 05",
+    "category": "RETAIL_SEATING",
+    "style": "Boho",
+    "image": {
+      "src": "/images/products/retail-seating/jc-05-1024.webp",
+      "srcSet": "/images/products/retail-seating/jc-05-640.webp 640w, /images/products/retail-seating/jc-05-1024.webp 1024w",
+      "width": 1024,
+      "height": 1024
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-05-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "JC-06",
+    "title": "Retail Chair 06",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-06-600.webp",
+      "width": 600,
+      "height": 450
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-06-drawing-1600.webp",
+      "width": 1600,
+      "height": 1195
+    }
+  },
+  {
+    "id": "JC-07",
+    "title": "Retail Chair 07",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-07-735.webp",
+      "srcSet": "/images/products/retail-seating/jc-07-640.webp 640w, /images/products/retail-seating/jc-07-735.webp 735w",
+      "width": 735,
+      "height": 1307
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-07-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "JC-08",
+    "title": "Retail Chair 08",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-08-1199.webp",
+      "srcSet": "/images/products/retail-seating/jc-08-640.webp 640w, /images/products/retail-seating/jc-08-1199.webp 1199w",
+      "width": 1199,
+      "height": 1322
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-08-drawing-1600.webp",
+      "width": 1600,
+      "height": 1784
+    }
+  },
+  {
+    "id": "JC-09",
+    "title": "Retail Chair 09",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-09-1200.webp",
+      "srcSet": "/images/products/retail-seating/jc-09-640.webp 640w, /images/products/retail-seating/jc-09-1200.webp 1200w",
+      "width": 1200,
+      "height": 1697
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-09-drawing-1600.webp",
+      "width": 1600,
+      "height": 2281
+    }
+  },
+  {
+    "id": "JC-10",
+    "title": "Retail Chair 10",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-10-1200.webp",
+      "srcSet": "/images/products/retail-seating/jc-10-640.webp 640w, /images/products/retail-seating/jc-10-1200.webp 1200w",
+      "width": 1200,
+      "height": 1200
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-10-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "JC-11",
+    "title": "Retail Chair 11",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-11-1000.webp",
+      "srcSet": "/images/products/retail-seating/jc-11-640.webp 640w, /images/products/retail-seating/jc-11-1000.webp 1000w",
+      "width": 1000,
+      "height": 1000
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-11-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "JC-12",
+    "title": "Retail Chair 12",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-12-540.webp",
+      "width": 540,
+      "height": 737
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-12-drawing-1600.webp",
+      "width": 1600,
+      "height": 2182
+    }
+  },
+  {
+    "id": "JC-13",
+    "title": "Retail Chair 13",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-13-736.webp",
+      "srcSet": "/images/products/retail-seating/jc-13-640.webp 640w, /images/products/retail-seating/jc-13-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-13-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "JC-14",
+    "title": "Retail Chair 14",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-14-736.webp",
+      "srcSet": "/images/products/retail-seating/jc-14-640.webp 640w, /images/products/retail-seating/jc-14-736.webp 736w",
+      "width": 736,
+      "height": 736
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-14-drawing-1600.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  },
+  {
+    "id": "JC-15",
+    "title": "Retail Chair 15",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-15-564.webp",
+      "width": 564,
+      "height": 752
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-15-drawing-1600.webp",
+      "width": 1600,
+      "height": 2143
+    }
+  },
+  {
+    "id": "JC-16",
+    "title": "Retail Chair 16",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-16-451.webp",
+      "width": 451,
+      "height": 547
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-16-drawing-1600.webp",
+      "width": 1600,
+      "height": 1925
+    }
+  },
+  {
+    "id": "JC-17",
+    "title": "Retail Chair 17",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-17-658.webp",
+      "srcSet": "/images/products/retail-seating/jc-17-640.webp 640w, /images/products/retail-seating/jc-17-658.webp 658w",
+      "width": 658,
+      "height": 987
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-17-drawing-1600.webp",
+      "width": 1600,
+      "height": 2385
+    }
+  },
+  {
+    "id": "JC-18",
+    "title": "Retail Chair 18",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-18-470.webp",
+      "width": 470,
+      "height": 535
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-18-drawing-1600.webp",
+      "width": 1600,
+      "height": 1840
+    }
+  },
+  {
+    "id": "JC-19",
+    "title": "Retail Chair 19",
+    "category": "RETAIL_SEATING",
+    "image": {
+      "src": "/images/products/retail-seating/jc-19-637.webp",
+      "width": 637,
+      "height": 758
+    },
+    "drawing": {
+      "src": "/images/products/retail-seating/jc-19-drawing-1600.webp",
+      "width": 1600,
+      "height": 1898
+    }
+  },
+  {
+    "id": "PS-01",
+    "title": "Plant Stand 01",
+    "category": "PLANTER_STAND",
+    "style": "Boho",
+    "image": {
+      "src": "/images/products/planter-stands/ps-01-1013.webp",
+      "srcSet": "/images/products/planter-stands/ps-01-640.webp 640w, /images/products/planter-stands/ps-01-1013.webp 1013w",
+      "width": 1013,
+      "height": 1153
+    }
+  },
+  {
+    "id": "PS-02",
+    "title": "Plant Stand 02",
+    "category": "PLANTER_STAND",
+    "style": "Modern",
+    "image": {
+      "src": "/images/products/planter-stands/ps-02-736.webp",
+      "srcSet": "/images/products/planter-stands/ps-02-640.webp 640w, /images/products/planter-stands/ps-02-736.webp 736w",
+      "width": 736,
+      "height": 1308
+    }
+  },
+  {
+    "id": "PS-03",
+    "title": "Plant Stand 03",
+    "category": "PLANTER_STAND",
+    "style": "Minimalist",
+    "image": {
+      "src": "/images/products/planter-stands/ps-03-432.webp",
+      "width": 432,
+      "height": 852
+    }
+  },
+  {
+    "id": "PS-04",
+    "title": "Plant Stand 04",
+    "category": "PLANTER_STAND",
+    "style": "Industrial",
+    "image": {
+      "src": "/images/products/planter-stands/ps-04-600.webp",
+      "width": 600,
+      "height": 900
+    }
+  },
+  {
+    "id": "PS-05",
+    "title": "Plant Stand 05",
+    "category": "PLANTER_STAND",
+    "style": "Luxury",
+    "image": {
+      "src": "/images/products/planter-stands/ps-05-736.webp",
+      "srcSet": "/images/products/planter-stands/ps-05-640.webp 640w, /images/products/planter-stands/ps-05-736.webp 736w",
+      "width": 736,
+      "height": 736
+    }
+  },
+  {
+    "id": "PS-06",
+    "title": "Plant Stand 06",
+    "category": "PLANTER_STAND",
+    "image": {
+      "src": "/images/products/planter-stands/ps-06-960.webp",
+      "srcSet": "/images/products/planter-stands/ps-06-640.webp 640w, /images/products/planter-stands/ps-06-960.webp 960w",
+      "width": 960,
+      "height": 1440
+    }
+  },
+  {
+    "id": "PS-07",
+    "title": "Plant Stand 07",
+    "category": "PLANTER_STAND",
+    "image": {
+      "src": "/images/products/planter-stands/ps-07-683.webp",
+      "srcSet": "/images/products/planter-stands/ps-07-640.webp 640w, /images/products/planter-stands/ps-07-683.webp 683w",
+      "width": 683,
+      "height": 1024
+    }
+  },
+  {
+    "id": "PS-08",
+    "title": "Plant Stand 08",
+    "category": "PLANTER_STAND",
+    "image": {
+      "src": "/images/products/planter-stands/ps-08-1000.webp",
+      "srcSet": "/images/products/planter-stands/ps-08-640.webp 640w, /images/products/planter-stands/ps-08-1000.webp 1000w",
+      "width": 1000,
+      "height": 1250
+    }
+  },
+  {
+    "id": "PS-09",
+    "title": "Plant Stand 09",
+    "category": "PLANTER_STAND",
+    "image": {
+      "src": "/images/products/planter-stands/ps-09-700.webp",
+      "srcSet": "/images/products/planter-stands/ps-09-640.webp 640w, /images/products/planter-stands/ps-09-700.webp 700w",
+      "width": 700,
+      "height": 467
+    }
+  },
+  {
+    "id": "PS-11",
+    "title": "Plant Stand 11",
+    "category": "PLANTER_STAND",
+    "image": {
+      "src": "/images/products/planter-stands/ps-11-532.webp",
+      "width": 532,
+      "height": 802
+    }
+  },
+  {
+    "id": "PS-12",
+    "title": "Plant Stand 12",
+    "category": "PLANTER_STAND",
+    "image": {
+      "src": "/images/products/planter-stands/ps-12-450.webp",
+      "width": 450,
+      "height": 450
+    }
+  },
+  {
+    "id": "PS-13",
+    "title": "Plant Stand 13",
+    "category": "PLANTER_STAND",
+    "image": {
+      "src": "/images/products/planter-stands/ps-13-794.webp",
+      "srcSet": "/images/products/planter-stands/ps-13-640.webp 640w, /images/products/planter-stands/ps-13-794.webp 794w",
+      "width": 794,
+      "height": 747
+    }
+  },
+  {
+    "id": "PS-14",
+    "title": "Plant Stand 14",
+    "category": "PLANTER_STAND",
+    "image": {
+      "src": "/images/products/planter-stands/ps-14-768.webp",
+      "srcSet": "/images/products/planter-stands/ps-14-640.webp 640w, /images/products/planter-stands/ps-14-768.webp 768w",
+      "width": 768,
+      "height": 1344
+    }
+  }
+]

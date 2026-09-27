@@ -1,37 +1,59 @@
 # HANDOFF — Woodflex SEO/GEO Rebuild (Phase 1)
 
-_Last updated: 2026-09-27 · Session 1 (review & planning only)_
+_Last updated: 2026-09-27 · Session 2 (Phase 1 build)_
 
 ## 1. What was done
-- Read through the whole existing website code to understand how it works today.
-- Confirmed why Google and AI search can't see the site: every page is drawn in the visitor's browser, so search bots only see a blank page. There is no sitemap or robots file, every page has the same title, and there are no page descriptions.
-- Wrote a plan for rebuilding the six Phase 1 pages (Home, About, Products, Our Work, Materials, Contact) so each one is delivered as complete, readable HTML.
-- **Nothing has been built yet.** This session was planning only, as requested.
+- **Rebuilt the website on Next.js.** All six pages (Home, About, Products, Our Work, Materials, Contact) are now delivered as complete, readable pages. Google, Bing and AI assistants like ChatGPT now see the full text instead of a blank page. I checked this by loading each page with no JavaScript running.
+- **Each page now has its own title, description and main heading**, plus link previews for WhatsApp, LinkedIn and similar apps.
+- **Added structured data.** This is information in the page code that tells Google who you are: business name, workshop address, phone, email, Instagram, the product list, the project gallery, and breadcrumbs. Home also has a short FAQ that Google and AI tools can quote directly. It's built only from facts already on the site.
+- **Added `sitemap.xml`** (the six pages plus about 300 images) and **`robots.txt`**. robots.txt openly allows Google, Bing, ChatGPT, Claude and Perplexity.
+- **Images shrunk from 1.2 GB to 43 MB** by converting them to WebP. The pictures are the same; pages just load much faster. I spot-checked photos and technical drawings and they're still sharp.
+- **Your answers are all applied:**
+  - The Architect / House Owner / Café cards on Home now go to Contact, with the visitor's role already picked in the form.
+  - Old Phase 2 addresses (`/architect`, `/house-owner`, `/cafe-owner`, `/lead/...`) redirect to Home. The redirects are marked temporary, so those addresses can be reused when Phase 2 launches.
+  - `www.woodflexdesigns.com` redirects to `woodflexdesigns.com`.
+  - The workshop address is on the Contact page, in the footer and in the structured data.
+  - Products come from the code, not Supabase.
+  - The "enter your details" pop-up is gone. The WhatsApp contact form is kept.
+- **Kept:** the Google Analytics tag (G-3BDJ3FK4JK), the Google Search Console verification file, and the look, fonts and colours of the site.
+- **Small extras:**
+  - Each product's detail view has an "Enquire on WhatsApp" button that includes the product code.
+  - Materials now shows all woods and finishes at once instead of one at a time.
+  - Added a proper "page not found" page.
+  - The Contact form has a new "Café / Restaurant / Retail owner" role option.
 
 ## 2. What changed in the repo
-- Branch: `claude/keen-darwin-fn2i7c` (main is untouched)
-- Only file added: `HANDOFF.md` (this file)
-- Commit: the commit that adds this HANDOFF.md
+- **Branch:** `claude/keen-darwin-fn2i7c`. main is untouched and still has the old site, including all the Phase 2 code for later.
+- **Commit:** "Rebuild Phase 1 site on Next.js for SEO", pushed with this file.
+- **New:**
+  - `app/`: the six pages, sitemap, robots and the shared layout.
+  - `components/`: header, footer, product browser, gallery and contact form.
+  - `lib/site.ts`: all business details in one place.
+  - `lib/seo.ts`: titles and structured data.
+  - `lib/catalog.ts`: product categories and materials.
+  - `data/*.json`: the product and gallery lists.
+  - `public/images/`: the WebP images.
+  - `scripts/optimize-image.mjs`: for adding new product photos.
+  - `README.md`: rewritten with how to run the site and add products.
+- **Removed from this branch:**
+  - The old Vite app and its giant original images (`Public/`).
+  - `vercel.json`: it would have broken the new site.
+  - The Netlify guide and old fix/debug notes.
 
-## 3. Needs your decision before building
-1. **Phase 2 links on Home:** the "Who are you?" section links to Architect, House Owner and Café pages, which are not part of Phase 1. Should I remove those cards for now, or point them to Contact? (Plan: send the old Phase 2 addresses to Home so nobody lands on an error page.)
-2. **Main domain:** `woodflexdesigns.com` or `www.woodflexdesigns.com`?
-3. **Workshop address:** is there a full street address in Surat to show to Google? Right now I only have "Surat, India".
-4. **Images:** the product images take up 1.2 GB. Can I convert them to smaller WebP files (same pictures, much lighter)? This makes pages faster and avoids hosting size limits.
-5. **Product list source:** build from the product list stored in the code (recommended, simplest and fully static), or also pull from the Supabase database?
-6. **"Enter your details" pop-up:** OK to leave it out of Phase 1? The WhatsApp contact form stays.
+## 3. Needs your decision / known issues
+1. **Search Console www vs non-www:** I couldn't access Search Console or the live site from here. I used `woodflexdesigns.com`, as you asked. If Search Console turns out to use `www`, it's a one-line change in `lib/site.ts`, plus swapping the redirect in `next.config.ts`.
+2. **Address check:** you wrote "PlasticSurat". I used "Surat, Gujarat 394510" and left out "Plastic". Is "Plastic" part of the address (an area name) or a typo? Also, "SHOP NO" had no number before "2ND FLOOR", so I wrote it as "Shop No. 554–557, 2nd Floor, above Pradeep, RJD Integrated Textile Park". Please confirm.
+3. **Jhulas / swings left out:** the two Jhula products only had placeholder images, so I left them out. Send real photos and I'll add them back.
+4. **Product names are generic** ("Woodflex Designs Sofa 01", "WFC Dining 01"), and the side tables are titled "Center Table NN". Real names and a line about each piece would help search a lot. Some data also conflicts: S-01 lists a width of 2100 mm, but its drawing says 340 cm. I kept all data exactly as it was.
+5. **Material photos are small** (225–800 px wide), so some look soft on big screens. Higher-resolution photos of each wood and finish would fix this.
+6. **The "Testing One" section on Home was removed.** It only contained a placeholder ("[ Material Stress Test Visualization ]"). It can come back once there's a real video or photo.
+7. **Please review the new Home FAQ wording.** It uses only facts from your existing site copy.
+8. **No prices:** Google only shows rich product results (price, stock) if prices are listed. For now the products are marked up as a simple list, which is valid and error-free.
 
-Also worth knowing:
-- There's a Netlify guide in the repo. Please confirm the live site is moving to Vercel.
-- Product names are generic ("WFC Dining 01"). Better names would help search, but that's content for you to supply later and not a blocker.
+## 4. Exact next step
+**Deploy a preview on Vercel and check it:**
+1. In Vercel, import the `pasarivigyat-droid/woodflex` repo. It detects Next.js automatically, with no settings needed. Deploy the branch `claude/keen-darwin-fn2i7c` as a preview.
+2. Click through the preview. If you're happy, merge the branch into main and point `woodflexdesigns.com` and `www.woodflexdesigns.com` at Vercel under Project → Settings → Domains, with www redirecting to the main domain.
+3. After it's live, submit `https://woodflexdesigns.com/sitemap.xml` in Google Search Console and Bing Webmaster Tools, and run a couple of pages through Google's Rich Results Test.
 
-## 4. Planned build (after your go-ahead)
-1. Replace the current app with Next.js on this branch, keeping the same look and fonts.
-2. Build the six pages as ready-made HTML. Each gets its own title, description, one main heading and social-sharing tags.
-3. Add structured data: business details (Surat, phone, email, Instagram), breadcrumbs, the product list, the project gallery and the contact page.
-4. Add `sitemap.xml` and `robots.txt`. robots.txt allows Google, Bing and AI crawlers such as ChatGPT, Claude and Perplexity.
-5. Keep the Google Analytics tag and the Google Search Console verification file.
-6. Leave out Phase 2 (Architect Studio, House Owner Experience, Café/Retail Concepts).
-
-## 5. Exact next step
-Reply with answers to the six questions in section 3 (or "go with your recommendations"). The next session then starts step 1 of the planned build.
+Also reply to items 1–2 in section 3 (and send real photos or names for items 3–5 when you have them).

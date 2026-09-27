@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "c-00",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-00-1600.webp",
+      "srcSet": "/images/work/chairs/c-00-800.webp 800w, /images/work/chairs/c-00-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-01",
+    "type": "chair",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/chairs/c-01-1600.webp",
+      "srcSet": "/images/work/chairs/c-01-800.webp 800w, /images/work/chairs/c-01-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-02",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-02-1600.webp",
+      "srcSet": "/images/work/chairs/c-02-800.webp 800w, /images/work/chairs/c-02-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-03",
+    "type": "chair",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/chairs/c-03-1600.webp",
+      "srcSet": "/images/work/chairs/c-03-800.webp 800w, /images/work/chairs/c-03-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-04",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-04-1600.webp",
+      "srcSet": "/images/work/chairs/c-04-800.webp 800w, /images/work/chairs/c-04-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-05",
+    "type": "chair",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/chairs/c-05-1600.webp",
+      "srcSet": "/images/work/chairs/c-05-800.webp 800w, /images/work/chairs/c-05-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-06",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-06-1600.webp",
+      "srcSet": "/images/work/chairs/c-06-800.webp 800w, /images/work/chairs/c-06-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-07",
+    "type": "chair",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/chairs/c-07-1600.webp",
+      "srcSet": "/images/work/chairs/c-07-800.webp 800w, /images/work/chairs/c-07-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-08",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-08-1600.webp",
+      "srcSet": "/images/work/chairs/c-08-800.webp 800w, /images/work/chairs/c-08-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-09",
+    "type": "chair",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/chairs/c-09-1600.webp",
+      "srcSet": "/images/work/chairs/c-09-800.webp 800w, /images/work/chairs/c-09-1600.webp 1600w",
+      "width": 1600,
+      "height": 2133
+    }
+  },
+  {
+    "id": "c-10",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-10-577.webp",
+      "width": 577,
+      "height": 1280
+    }
+  },
+  {
+    "id": "c-11",
+    "type": "chair",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/chairs/c-11-1280.webp",
+      "srcSet": "/images/work/chairs/c-11-800.webp 800w, /images/work/chairs/c-11-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "c-12",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-12-584.webp",
+      "width": 584,
+      "height": 1024
+    }
+  },
+  {
+    "id": "c-13",
+    "type": "chair",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/chairs/c-13-582.webp",
+      "width": 582,
+      "height": 1024
+    }
+  },
+  {
+    "id": "c-14",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-14-1280.webp",
+      "srcSet": "/images/work/chairs/c-14-800.webp 800w, /images/work/chairs/c-14-1280.webp 1280w",
+      "width": 1280,
+      "height": 576
+    }
+  },
+  {
+    "id": "c-15",
+    "type": "chair",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/chairs/c-15-720.webp",
+      "width": 720,
+      "height": 1600
+    }
+  },
+  {
+    "id": "c-16",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-16-1280.webp",
+      "srcSet": "/images/work/chairs/c-16-800.webp 800w, /images/work/chairs/c-16-1280.webp 1280w",
+      "width": 1280,
+      "height": 576
+    }
+  },
+  {
+    "id": "c-17",
+    "type": "chair",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/chairs/c-17-1280.webp",
+      "srcSet": "/images/work/chairs/c-17-800.webp 800w, /images/work/chairs/c-17-1280.webp 1280w",
+      "width": 1280,
+      "height": 576
+    }
+  },
+  {
+    "id": "c-18",
+    "type": "chair",
+    "context": "home",
+    "image": {
+      "src": "/images/work/chairs/c-18-1280.webp",
+      "srcSet": "/images/work/chairs/c-18-800.webp 800w, /images/work/chairs/c-18-1280.webp 1280w",
+      "width": 1280,
+      "height": 576
+    }
+  },
+  {
+    "id": "s-00",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-00-1040.webp",
+      "srcSet": "/images/work/sofas/s-00-800.webp 800w, /images/work/sofas/s-00-1040.webp 1040w",
+      "width": 1040,
+      "height": 780
+    }
+  },
+  {
+    "id": "s-01",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-01-1040.webp",
+      "srcSet": "/images/work/sofas/s-01-800.webp 800w, /images/work/sofas/s-01-1040.webp 1040w",
+      "width": 1040,
+      "height": 780
+    }
+  },
+  {
+    "id": "s-02",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-02-1040.webp",
+      "srcSet": "/images/work/sofas/s-02-800.webp 800w, /images/work/sofas/s-02-1040.webp 1040w",
+      "width": 1040,
+      "height": 780
+    }
+  },
+  {
+    "id": "s-03",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-03-1280.webp",
+      "srcSet": "/images/work/sofas/s-03-800.webp 800w, /images/work/sofas/s-03-1280.webp 1280w",
+      "width": 1280,
+      "height": 577
+    }
+  },
+  {
+    "id": "s-04",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-04-1280.webp",
+      "srcSet": "/images/work/sofas/s-04-800.webp 800w, /images/work/sofas/s-04-1280.webp 1280w",
+      "width": 1280,
+      "height": 577
+    }
+  },
+  {
+    "id": "s-05",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-05-1040.webp",
+      "srcSet": "/images/work/sofas/s-05-800.webp 800w, /images/work/sofas/s-05-1040.webp 1040w",
+      "width": 1040,
+      "height": 780
+    }
+  },
+  {
+    "id": "s-06",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-06-1600.webp",
+      "srcSet": "/images/work/sofas/s-06-800.webp 800w, /images/work/sofas/s-06-1600.webp 1600w",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  {
+    "id": "s-07",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-07-1280.webp",
+      "srcSet": "/images/work/sofas/s-07-800.webp 800w, /images/work/sofas/s-07-1280.webp 1280w",
+      "width": 1280,
+      "height": 577
+    }
+  },
+  {
+    "id": "s-08",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-08-1600.webp",
+      "srcSet": "/images/work/sofas/s-08-800.webp 800w, /images/work/sofas/s-08-1600.webp 1600w",
+      "width": 1600,
+      "height": 721
+    }
+  },
+  {
+    "id": "s-09",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-09-1040.webp",
+      "srcSet": "/images/work/sofas/s-09-800.webp 800w, /images/work/sofas/s-09-1040.webp 1040w",
+      "width": 1040,
+      "height": 780
+    }
+  },
+  {
+    "id": "s-10",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-10-1600.webp",
+      "srcSet": "/images/work/sofas/s-10-800.webp 800w, /images/work/sofas/s-10-1600.webp 1600w",
+      "width": 1600,
+      "height": 721
+    }
+  },
+  {
+    "id": "s-11",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-11-1600.webp",
+      "srcSet": "/images/work/sofas/s-11-800.webp 800w, /images/work/sofas/s-11-1600.webp 1600w",
+      "width": 1600,
+      "height": 721
+    }
+  },
+  {
+    "id": "s-12",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-12-721.webp",
+      "width": 721,
+      "height": 1600
+    }
+  },
+  {
+    "id": "s-13",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-13-1280.webp",
+      "srcSet": "/images/work/sofas/s-13-800.webp 800w, /images/work/sofas/s-13-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "s-14",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-14-1280.webp",
+      "srcSet": "/images/work/sofas/s-14-800.webp 800w, /images/work/sofas/s-14-1280.webp 1280w",
+      "width": 1280,
+      "height": 577
+    }
+  },
+  {
+    "id": "s-15",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-15-1600.webp",
+      "srcSet": "/images/work/sofas/s-15-800.webp 800w, /images/work/sofas/s-15-1600.webp 1600w",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  {
+    "id": "s-16",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-16-1280.webp",
+      "srcSet": "/images/work/sofas/s-16-800.webp 800w, /images/work/sofas/s-16-1280.webp 1280w",
+      "width": 1280,
+      "height": 577
+    }
+  },
+  {
+    "id": "s-17",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-17-1280.webp",
+      "srcSet": "/images/work/sofas/s-17-800.webp 800w, /images/work/sofas/s-17-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "s-18",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-18-1280.webp",
+      "srcSet": "/images/work/sofas/s-18-800.webp 800w, /images/work/sofas/s-18-1280.webp 1280w",
+      "width": 1280,
+      "height": 577
+    }
+  },
+  {
+    "id": "s-19",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-19-1040.webp",
+      "srcSet": "/images/work/sofas/s-19-800.webp 800w, /images/work/sofas/s-19-1040.webp 1040w",
+      "width": 1040,
+      "height": 480
+    }
+  },
+  {
+    "id": "s-20",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-20-1280.webp",
+      "srcSet": "/images/work/sofas/s-20-800.webp 800w, /images/work/sofas/s-20-1280.webp 1280w",
+      "width": 1280,
+      "height": 577
+    }
+  },
+  {
+    "id": "s-21",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-21-1280.webp",
+      "srcSet": "/images/work/sofas/s-21-800.webp 800w, /images/work/sofas/s-21-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "s-22",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-22-1600.webp",
+      "srcSet": "/images/work/sofas/s-22-800.webp 800w, /images/work/sofas/s-22-1600.webp 1600w",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  {
+    "id": "s-23",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-23-1040.webp",
+      "srcSet": "/images/work/sofas/s-23-800.webp 800w, /images/work/sofas/s-23-1040.webp 1040w",
+      "width": 1040,
+      "height": 468
+    }
+  },
+  {
+    "id": "s-24",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-24-1600.webp",
+      "srcSet": "/images/work/sofas/s-24-800.webp 800w, /images/work/sofas/s-24-1600.webp 1600w",
+      "width": 1600,
+      "height": 721
+    }
+  },
+  {
+    "id": "s-25",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-25-1600.webp",
+      "srcSet": "/images/work/sofas/s-25-800.webp 800w, /images/work/sofas/s-25-1600.webp 1600w",
+      "width": 1600,
+      "height": 721
+    }
+  },
+  {
+    "id": "s-26",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-26-1280.webp",
+      "srcSet": "/images/work/sofas/s-26-800.webp 800w, /images/work/sofas/s-26-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "s-27",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-27-1600.webp",
+      "srcSet": "/images/work/sofas/s-27-800.webp 800w, /images/work/sofas/s-27-1600.webp 1600w",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  {
+    "id": "s-28",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-28-1595.webp",
+      "srcSet": "/images/work/sofas/s-28-800.webp 800w, /images/work/sofas/s-28-1595.webp 1595w",
+      "width": 1595,
+      "height": 1600
+    }
+  },
+  {
+    "id": "s-29",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-29-1600.webp",
+      "srcSet": "/images/work/sofas/s-29-800.webp 800w, /images/work/sofas/s-29-1600.webp 1600w",
+      "width": 1600,
+      "height": 721
+    }
+  },
+  {
+    "id": "s-30",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-30-1600.webp",
+      "srcSet": "/images/work/sofas/s-30-800.webp 800w, /images/work/sofas/s-30-1600.webp 1600w",
+      "width": 1600,
+      "height": 721
+    }
+  },
+  {
+    "id": "s-31",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-31-1280.webp",
+      "srcSet": "/images/work/sofas/s-31-800.webp 800w, /images/work/sofas/s-31-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "s-32",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-32-1280.webp",
+      "srcSet": "/images/work/sofas/s-32-800.webp 800w, /images/work/sofas/s-32-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "s-33",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-33-1280.webp",
+      "srcSet": "/images/work/sofas/s-33-800.webp 800w, /images/work/sofas/s-33-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "s-34",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-34-1280.webp",
+      "srcSet": "/images/work/sofas/s-34-800.webp 800w, /images/work/sofas/s-34-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "s-35",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-35-1090.webp",
+      "srcSet": "/images/work/sofas/s-35-800.webp 800w, /images/work/sofas/s-35-1090.webp 1090w",
+      "width": 1090,
+      "height": 1200
+    }
+  },
+  {
+    "id": "s-36",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-36-960.webp",
+      "srcSet": "/images/work/sofas/s-36-800.webp 800w, /images/work/sofas/s-36-960.webp 960w",
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "s-37",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-37-1280.webp",
+      "srcSet": "/images/work/sofas/s-37-800.webp 800w, /images/work/sofas/s-37-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "s-38",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-38-960.webp",
+      "srcSet": "/images/work/sofas/s-38-800.webp 800w, /images/work/sofas/s-38-960.webp 960w",
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "s-39",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-39-1280.webp",
+      "srcSet": "/images/work/sofas/s-39-800.webp 800w, /images/work/sofas/s-39-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "s-40",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-40-960.webp",
+      "srcSet": "/images/work/sofas/s-40-800.webp 800w, /images/work/sofas/s-40-960.webp 960w",
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "s-41",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-41-736.webp",
+      "width": 736,
+      "height": 711
+    }
+  },
+  {
+    "id": "s-42",
+    "type": "sofa",
+    "context": "home",
+    "image": {
+      "src": "/images/work/sofas/s-42-1280.webp",
+      "srcSet": "/images/work/sofas/s-42-800.webp 800w, /images/work/sofas/s-42-1280.webp 1280w",
+      "width": 1280,
+      "height": 956
+    }
+  },
+  {
+    "id": "s-43",
+    "type": "sofa",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/sofas/s-43-766.webp",
+      "width": 766,
+      "height": 1024
+    }
+  },
+  {
+    "id": "b-00",
+    "type": "bed",
+    "context": "home",
+    "image": {
+      "src": "/images/work/bed-frames/b-00-960.webp",
+      "srcSet": "/images/work/bed-frames/b-00-800.webp 800w, /images/work/bed-frames/b-00-960.webp 960w",
+      "width": 960,
+      "height": 1280
+    }
+  },
+  {
+    "id": "b-01",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-01-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-01-800.webp 800w, /images/work/bed-frames/b-01-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-02",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-02-1040.webp",
+      "srcSet": "/images/work/bed-frames/b-02-800.webp 800w, /images/work/bed-frames/b-02-1040.webp 1040w",
+      "width": 1040,
+      "height": 480
+    }
+  },
+  {
+    "id": "b-03",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-03-763.webp",
+      "width": 763,
+      "height": 1280
+    }
+  },
+  {
+    "id": "b-04",
+    "type": "bed",
+    "context": "home",
+    "image": {
+      "src": "/images/work/bed-frames/b-04-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-04-800.webp 800w, /images/work/bed-frames/b-04-1280.webp 1280w",
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "id": "b-05",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-05-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-05-800.webp 800w, /images/work/bed-frames/b-05-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-06",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-06-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-06-800.webp 800w, /images/work/bed-frames/b-06-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-07",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-07-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-07-800.webp 800w, /images/work/bed-frames/b-07-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-08",
+    "type": "bed",
+    "context": "home",
+    "image": {
+      "src": "/images/work/bed-frames/b-08-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-08-800.webp 800w, /images/work/bed-frames/b-08-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-09",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-09-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-09-800.webp 800w, /images/work/bed-frames/b-09-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-10",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-10-590.webp",
+      "width": 590,
+      "height": 1280
+    }
+  },
+  {
+    "id": "b-11",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-11-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-11-800.webp 800w, /images/work/bed-frames/b-11-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-12",
+    "type": "bed",
+    "context": "home",
+    "image": {
+      "src": "/images/work/bed-frames/b-12-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-12-800.webp 800w, /images/work/bed-frames/b-12-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-13",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-13-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-13-800.webp 800w, /images/work/bed-frames/b-13-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-14",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-14-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-14-800.webp 800w, /images/work/bed-frames/b-14-1280.webp 1280w",
+      "width": 1280,
+      "height": 558
+    }
+  },
+  {
+    "id": "b-15",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-15-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-15-800.webp 800w, /images/work/bed-frames/b-15-1280.webp 1280w",
+      "width": 1280,
+      "height": 558
+    }
+  },
+  {
+    "id": "b-16",
+    "type": "bed",
+    "context": "home",
+    "image": {
+      "src": "/images/work/bed-frames/b-16-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-16-800.webp 800w, /images/work/bed-frames/b-16-1280.webp 1280w",
+      "width": 1280,
+      "height": 558
+    }
+  },
+  {
+    "id": "b-17",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-17-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-17-800.webp 800w, /images/work/bed-frames/b-17-1280.webp 1280w",
+      "width": 1280,
+      "height": 558
+    }
+  },
+  {
+    "id": "b-18",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-18-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-18-800.webp 800w, /images/work/bed-frames/b-18-1280.webp 1280w",
+      "width": 1280,
+      "height": 558
+    }
+  },
+  {
+    "id": "b-19",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-19-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-19-800.webp 800w, /images/work/bed-frames/b-19-1280.webp 1280w",
+      "width": 1280,
+      "height": 558
+    }
+  },
+  {
+    "id": "b-20",
+    "type": "bed",
+    "context": "home",
+    "image": {
+      "src": "/images/work/bed-frames/b-20-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-20-800.webp 800w, /images/work/bed-frames/b-20-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-21",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-21-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-21-800.webp 800w, /images/work/bed-frames/b-21-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-22",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-22-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-22-800.webp 800w, /images/work/bed-frames/b-22-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-23",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-23-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-23-800.webp 800w, /images/work/bed-frames/b-23-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-24",
+    "type": "bed",
+    "context": "home",
+    "image": {
+      "src": "/images/work/bed-frames/b-24-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-24-800.webp 800w, /images/work/bed-frames/b-24-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-25",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-25-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-25-800.webp 800w, /images/work/bed-frames/b-25-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-26",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-26-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-26-800.webp 800w, /images/work/bed-frames/b-26-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-27",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-27-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-27-800.webp 800w, /images/work/bed-frames/b-27-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-28",
+    "type": "bed",
+    "context": "home",
+    "image": {
+      "src": "/images/work/bed-frames/b-28-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-28-800.webp 800w, /images/work/bed-frames/b-28-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-29",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-29-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-29-800.webp 800w, /images/work/bed-frames/b-29-1280.webp 1280w",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "id": "b-30",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-30-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-30-800.webp 800w, /images/work/bed-frames/b-30-1280.webp 1280w",
+      "width": 1280,
+      "height": 719
+    }
+  },
+  {
+    "id": "b-31",
+    "type": "bed",
+    "context": "studio",
+    "image": {
+      "src": "/images/work/bed-frames/b-31-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-31-800.webp 800w, /images/work/bed-frames/b-31-1280.webp 1280w",
+      "width": 1280,
+      "height": 719
+    }
+  },
+  {
+    "id": "b-32",
+    "type": "bed",
+    "context": "home",
+    "image": {
+      "src": "/images/work/bed-frames/b-32-1280.webp",
+      "srcSet": "/images/work/bed-frames/b-32-800.webp 800w, /images/work/bed-frames/b-32-1280.webp 1280w",
+      "width": 1280,
+      "height": 719
+    }
+  }
+]

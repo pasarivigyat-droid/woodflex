@@ -1,0 +1,53 @@
+{
+  "teak": {
+    "src": "/images/materials/teak-813.webp",
+    "width": 813,
+    "height": 257
+  },
+  "sheesham": {
+    "src": "/images/materials/sheesham-400.webp",
+    "width": 400,
+    "height": 400
+  },
+  "mango": {
+    "src": "/images/materials/mango-225.webp",
+    "width": 225,
+    "height": 225
+  },
+  "acacia": {
+    "src": "/images/materials/acacia-612.webp",
+    "width": 612,
+    "height": 431
+  },
+  "white-ash": {
+    "src": "/images/materials/white-ash-225.webp",
+    "width": 225,
+    "height": 225
+  },
+  "dark-brown": {
+    "src": "/images/materials/dark-brown-250.webp",
+    "width": 250,
+    "height": 186
+  },
+  "light-brown": {
+    "src": "/images/materials/light-brown-250.webp",
+    "width": 250,
+    "height": 200
+  },
+  "matte-black": {
+    "src": "/images/materials/matte-black-250.webp",
+    "width": 250,
+    "height": 200
+  },
+  "wire-brushed": {
+    "src": "/images/materials/wire-brushed-259.webp",
+    "width": 259,
+    "height": 194
+  },
+  "hero": {
+    "src": "/images/work/our-work-hero-2000.webp",
+    "srcSet": "/images/work/our-work-hero-1200.webp 1200w, /images/work/our-work-hero-2000.webp 2000w",
+    "width": 2000,
+    "height": 1116
+  }
+}
