@@ -1,7 +1,7 @@
 // Single source of truth for site-wide facts used in pages, metadata and structured data.
 
-// Canonical origin. If Search Console turns out to use www, change it here
-// and swap the www redirect in next.config.ts.
+// Canonical origin — matches the Google Search Console property (non-www).
+// www.woodflexdesigns.com redirects here (see next.config.ts).
 export const SITE_URL = 'https://woodflexdesigns.com';
 
 export const BUSINESS = {
@@ -18,7 +18,7 @@ export const BUSINESS = {
   instagram: 'https://www.instagram.com/woodflex.design/',
   instagramHandle: '@woodflex.design',
   address: {
-    streetAddress: 'Shop No. 554–557, 2nd Floor, above Pradeep, RJD Integrated Textile Park',
+    streetAddress: 'Shop No. 554–557, 2nd Floor, above Pradeep Plastic, RJD Integrated Textile Park',
     addressLocality: 'Surat',
     addressRegion: 'Gujarat',
     postalCode: '394510',
@@ -27,7 +27,7 @@ export const BUSINESS = {
 } as const;
 
 export const ADDRESS_LINES = [
-  'Shop No. 554–557, 2nd Floor, above Pradeep',
+  'Shop No. 554–557, 2nd Floor, above Pradeep Plastic',
   'RJD Integrated Textile Park',
   'Surat, Gujarat 394510, India',
 ];
