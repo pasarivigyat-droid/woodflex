@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
-import { Inter, Playfair_Display } from 'next/font/google';
+import localFont from 'next/font/local';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { JsonLd } from '@/components/JsonLd';
@@ -8,13 +8,22 @@ import { BUSINESS, GA_MEASUREMENT_ID, SITE_URL } from '@/lib/site';
 import { businessJsonLd } from '@/lib/seo';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'], weight: ['300', '400', '500', '600'], variable: '--font-sans', display: 'swap' });
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  style: ['normal', 'italic'],
+// Self-hosted variable fonts (latin subset, from Fontsource; OFL licences in app/fonts/).
+// Weight ranges match what the site used before: Inter 300–600, Playfair Display 400–600.
+const inter = localFont({
+  src: [{ path: './fonts/inter-latin-wght-normal.woff2', weight: '300 600', style: 'normal' }],
+  variable: '--font-sans',
+  display: 'swap',
+  fallback: ['system-ui', 'Arial', 'sans-serif'],
+});
+const playfair = localFont({
+  src: [
+    { path: './fonts/playfair-display-latin-wght-normal.woff2', weight: '400 600', style: 'normal' },
+    { path: './fonts/playfair-display-latin-wght-italic.woff2', weight: '400 600', style: 'italic' },
+  ],
   variable: '--font-serif',
   display: 'swap',
+  fallback: ['Georgia', 'Times New Roman', 'serif'],
 });
 
 export const metadata: Metadata = {

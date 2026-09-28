@@ -26,6 +26,7 @@ Requires Node.js 20.9 or newer.
 | Our Work gallery | `data/showcase.json` |
 | Woods & finishes text | `lib/catalog.ts` |
 | Images (WebP) | `public/images/…` |
+| Fonts (self-hosted Inter + Playfair Display, no Google Fonts download at build) | `app/fonts/`, loaded in `app/layout.tsx` |
 | sitemap.xml / robots.txt | `app/sitemap.ts`, `app/robots.ts` |
 | Redirects (www → apex, old Phase 2 URLs → Home) | `next.config.ts` |
 
