@@ -1,9 +1,9 @@
-import { Mail, MapPin, MessageCircle } from 'lucide-react';
+import { Mail, MapPin, MessageCircle, Truck } from 'lucide-react';
 import { ContactForm } from '@/components/ContactForm';
 import { InstagramIcon } from '@/components/InstagramIcon';
 import { JsonLd } from '@/components/JsonLd';
 import { BUSINESS_ID, pageMetadata, webPageJsonLd } from '@/lib/seo';
-import { ADDRESS_LINES, BUSINESS, whatsappLink } from '@/lib/site';
+import { ADDRESS_LINES, BUSINESS, DELIVERY_LINE, deliveryAreaNames, listInWords, whatsappLink } from '@/lib/site';
 
 const TITLE = 'Contact Us — Custom Furniture Quotes';
 const DESCRIPTION =
@@ -55,6 +55,14 @@ export default function ContactPage() {
                   <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="text-sm underline underline-offset-4 hover:text-ink">
                     Open in Google Maps
                   </a>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <Truck size={20} className="mt-1 shrink-0" aria-hidden="true" />
+                <div>
+                  <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-1">Delivery</h3>
+                  <p>{DELIVERY_LINE}</p>
+                  <p className="text-sm text-ink/60">We deliver to {listInWords(deliveryAreaNames)}.</p>
                 </div>
               </div>
               <div className="flex gap-4">

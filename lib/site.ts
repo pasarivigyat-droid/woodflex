@@ -32,6 +32,30 @@ export const ADDRESS_LINES = [
   'Surat, Gujarat 394510, India',
 ];
 
+// Woodflex Designs was set up in 2024; the experience figure belongs to the team behind it,
+// never to the company itself.
+export const EXPERIENCE_LINE = '50 years of furniture-making experience behind us.';
+
+// Where we deliver. Used on Home, About, Contact, the FAQ and in structured data (areaServed).
+export const DELIVERY_AREAS = [
+  { name: 'Surat', type: 'City' },
+  { name: 'Pune', type: 'City' },
+  { name: 'Mumbai', type: 'City' },
+  { name: 'Hyderabad', type: 'City' },
+  { name: 'Bengaluru', type: 'City' },
+  { name: 'Chennai', type: 'City' },
+  { name: 'Nagpur', type: 'City' },
+  { name: 'Rajasthan', type: 'State' },
+] as const;
+
+export const DELIVERY_LINE = 'Made in Surat, delivered across India.';
+
+/** "A, B and C" */
+export const listInWords = (items: readonly string[]) =>
+  items.length <= 1 ? items.join('') : `${items.slice(0, -1).join(', ')} and ${items[items.length - 1]}`;
+
+export const deliveryAreaNames = DELIVERY_AREAS.map((a) => a.name);
+
 export const whatsappLink = (text?: string) =>
   `https://wa.me/${BUSINESS.whatsappNumber}${text ? `?text=${encodeURIComponent(text)}` : ''}`;
 
@@ -42,5 +66,7 @@ export const NAV_LINKS = [
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ] as const;
+
+export const FOOTER_LINKS = [...NAV_LINKS, { label: 'FAQ', href: '/faq' }] as const;
 
 export const GA_MEASUREMENT_ID = 'G-3BDJ3FK4JK';

@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       images: [...WOOD_TYPES, ...WOOD_FINISHES].map((m) => absoluteUrl(m.image.src)),
     },
     { url: absoluteUrl('/about'), lastModified, changeFrequency: 'yearly', priority: 0.6 },
+    { url: absoluteUrl('/faq'), lastModified, changeFrequency: 'monthly', priority: 0.6 },
     { url: absoluteUrl('/contact'), lastModified, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }

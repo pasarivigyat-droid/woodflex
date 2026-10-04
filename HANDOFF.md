@@ -1,72 +1,64 @@
-# HANDOFF — Woodflex Phase 2 (interactive tools)
+# HANDOFF — Woodflex content update (Phase 1 pages)
 
-_Last updated: 2026-09-28 · Session 6 (Phase 2 review & plan only — nothing built yet)_
+_Last updated: 2026-10-04 · Session 7 (content update — awaiting your preview review, NOT merged)_
 
 ## 1. What was done
-- Started Phase 2 on a fresh branch taken from `main`. main, the live site, is untouched.
-- Reviewed the old code for the three tools, taken from git history at commit `ed2551b`. Findings:
-  - **Architect Studio** (about 750 lines) is the most complete tool. It lets you browse the catalogue by category with a search box, and open a product's technical drawing and download it. You add products to a "Project Spec List", then send it on WhatsApp or print it as a PDF. Printing was locked behind the old "enter your details" pop-up. It uses no AI and doesn't need the database, apart from optional activity tracking.
-  - **House Owner Experience** (about 600 lines) lets the visitor pick Living or Dining, then swipe like/skip on products one category at a time. That builds a shortlist, which they send on WhatsApp, download as a text file or print. **It saves the visitor's name, phone, city and shortlist into the Supabase `leads` table straight from the browser.** It uses no AI.
-  - **Café / Retail Concepts** (about 115 lines) was a **"Coming Soon" placeholder**. Its style filters ("Luxury / Rustic / Minimalist") look for product names that no longer exist, so two of the three filters show nothing. There's no real tool to bring back, so it has to be designed properly.
-  - **AI (Gemini):** none of the three tools uses AI. The only Gemini code was an unused "Design Lab" screen (upload a room photo, get an AI edit) that was never on any page. It put the API key into browser code, the exact problem you want to avoid. Because it was never shown on a page, there's no sign the key reached visitors' browsers. If a Gemini key was ever set in the old Netlify/Vercel settings, replacing it with a new one is cheap insurance.
-- **Security check on `leads` and `interactions`: not yet confirmed.** This work session's network settings block the Supabase address, so I couldn't test it. See section 3.
-  - **Warning sign in the old code:** the old lead-review page (`/lead/123`) read full lead records (names, phone numbers, shortlists) and their activity **straight from the browser, using the public key**. That only works if those tables allow public reading. If that page ever worked, **anyone who knows the public key (it's in every visitor's browser) could read every lead.** Treat this as likely until checked.
+- **Experience line.** "50 years of furniture-making experience behind us." now sits next to "Est. 2024" on Home and in the About introduction.
+  - "Est. 2024" and the 2024 founding date Google reads are unchanged.
+  - Nowhere does the site say Woodflex Designs itself is 50 years old. I checked every page automatically.
+- **Delivery area.**
+  - The list (Surat, Pune, Mumbai, Hyderabad, Bengaluru, Chennai, Nagpur, Rajasthan) and the line "Made in Surat, delivered across India." now appear on Home, About and Contact.
+  - The same list is in the business details Google reads ("areaServed"), with "India" as a whole kept as well.
+- **New FAQ page at `/faq`.**
+  - It has all 13 questions: your 8 new ones, word for word, plus the 5 existing ones you asked to keep.
+  - Each question is a heading, and each answer is plain visible text.
+  - It has its own title, description and FAQ data for Google, and it's added to the sitemap and the footer.
+- **Home FAQ.** It now shows six questions and a "See all questions" button that goes to `/faq`. Google's FAQ data was removed from Home, so it now lives only on `/faq`.
+- **About page.** New "How we build" section with four points: kiln-dried wood, mortise-and-tenon joinery (99% adhesive-based), foam and lining (Sleepzee Century foam), and the 3-year warranty.
+- **Materials page.** New "What's inside" section. It says all our wood is kiln-dried, names Sleepzee Century foam with its layers, and gives the lining spec.
+- **One source for every fact.** The FAQ, About and Materials all pull these facts from one shared file, so the wording and numbers can't drift apart.
+- **Checks run:**
+  - The site builds, and every page, including the new `/faq`, is still delivered as ready-made (static) HTML.
+  - An automatic check compared each FAQ answer character by character with the text you sent: all match.
+  - robots.txt is unchanged.
+  - The sitemap now lists 7 pages (the 6 before plus `/faq`).
+  - No page has sideways scrolling or script errors on desktop or mobile.
+  - The design is unchanged apart from the new sections, which use the existing styles.
+- **Phase 2 not touched.** None of the Phase 2 tools are in this update.
 
 ## 2. What changed in the repo
-- Branch: `claude/keen-darwin-fn2i7c`, restarted from `main` (this work session can only push to this branch name). Nothing from Phase 1 is changed.
-- Only file changed: `HANDOFF.md` (this file). No code yet.
+**Branch:** `claude/keen-darwin-fn2i7c`, built on top of `main`. Before this update it differed from main only by the Phase 2 plan in this file.
+- **Not merged.** main, the live site, is untouched. The commit is "Content update: experience line, delivery area, FAQ page, build details".
 
-## 3. Needs your decision
-1. **Supabase security check.** Pick one:
-   - **(a)** Allow `zuzeuuzdyzybfdsahqxn.supabase.co` in this work session's network settings, and I'll test it myself. I'll only count rows, never read them.
-   - **(b)** In Supabase → SQL Editor, run these two read-only queries and paste me the results:
-     ```sql
-     select relname, relrowsecurity from pg_class
-     where relnamespace = 'public'::regnamespace and relname in ('leads','interactions','products');
+**Files changed:**
+| File | Change |
+| --- | --- |
+| `lib/site.ts` | Added the experience line, the delivery list, the "Made in Surat, delivered across India." line, and footer links (adds FAQ) |
+| `lib/faq.ts` (**new**) | All 13 FAQ questions and answers, the six chosen for Home, and the shared build facts (wood, joinery, foam, warranty) |
+| `app/faq/page.tsx` (**new**) | The new `/faq` page, with Google's FAQ data |
+| `app/page.tsx` | Home: experience line, delivery line and list, six FAQs plus a "See all questions" link; Google's FAQ data removed |
+| `app/about/page.tsx` | Experience line and delivery in the intro; new "How we build" section |
+| `app/contact/page.tsx` | New "Delivery" block next to the address |
+| `app/materials/page.tsx` | New "What's inside" section |
+| `lib/seo.ts` | areaServed now lists the delivery cities and state, plus India |
+| `app/sitemap.ts` | Added `/faq` |
+| `components/Footer.tsx` | Footer now links to FAQ |
+| `HANDOFF.md` | This file |
 
-     select tablename, policyname, cmd, roles, qual, with_check from pg_policies
-     where schemaname = 'public' and tablename in ('leads','interactions');
-     ```
-     "Safe" means `relrowsecurity = true` on both tables, and no `SELECT` policy that allows the `anon` or `public` role.
-2. **Planned fix for lead storage (I recommend it either way):**
-   - Visitors' browsers stop talking to `leads` and `interactions` directly.
-   - A small server route on the site (`/api/leads`) saves them instead, using a secret Supabase key stored only in Vercel Environment Variables.
-   - Row Level Security on both tables is set to allow **no** public reading or writing.
-   - The old `/lead/123` review page stays off. You view leads in the Supabase dashboard (or a password-protected admin page later).
-3. **Which tool first?** I recommend **Architect Studio** (see section 4).
-4. **Architect Studio's print/PDF lock:** should it ask for contact details before printing? Recommendation: no lock at first. Architects can print freely, and the WhatsApp button is the enquiry path. That means Architect Studio needs **no lead form and no database** to launch. We can add the lock after the lead storage is secured.
-5. **Design Lab (AI room edit):** leave it out for now (recommended), or rebuild it later with a server-side route and the key kept only in Vercel?
-6. **Café / Retail:** OK to design it as a new tool later (for example curated café seating sets from the Retail Seating range, with a WhatsApp quote), instead of restoring the placeholder?
+## 3. Anything broken, blocked, or needing your decision
+Nothing is broken. A few things to look at in the preview:
+1. **Warranty wording on About.** The FAQ answer is "Yes. Our furniture carries a 3-year warranty." On About I used the same sentence without "Yes.", since there's no question there to answer. Everything else on About matches the FAQ word for word.
+2. **The Home FAQ shows these six:** where we're based and deliver, how long we've been making furniture, what wood we use, warranty, samples, and how to get a quote. Tell me if you'd like a different six.
+3. **Order of the foam layers.** You gave the materials but not the order they're stacked in. The Materials page lists them as a spec (foam, latex, Recron, full-size sheets, lining) without claiming which layer sits on top.
+4. **"India" in areaServed.** I kept "India" alongside your list, because the site says "delivered across India". Say if you want only the eight listed places.
+5. **Phase 2 is still waiting.** The Phase 2 plan from the last session is waiting on your answers. It's in this file's previous version (commit `f306761`).
 
-## 4. Plan (one tool at a time, each on its own review cycle)
-**Recommended order: Architect Studio → House Owner Experience → Café / Retail.**
-- **Why Architect Studio first:**
-  - It's the most complete and valuable tool (architects bring repeat, multi-piece orders).
-  - It reuses the product data and technical drawings already on the live site.
-  - It needs no AI, no API keys and no database writes, so it can ship safely before the Supabase question is settled.
-- **Why House Owner second:** it depends on saving leads, so it should wait until the database is locked down and the server route exists.
-- **Why Café last:** there's nothing real to restore yet. It needs a short content and design decision from you first.
+## 4. Exact next step
+**Review the Vercel preview of branch `claude/keen-darwin-fn2i7c`.** Vercel builds it automatically from this push. Check in particular:
+- Home: the hero (the right-hand column under "Est. 2024") and the FAQ section
+- `/faq`
+- About: "How we build"
+- Materials: "What's inside"
+- Contact: "Delivery"
 
-**Tool 1: Architect Studio at `/architect`**
-1. Rebuild it as a Next.js page using the Phase 1 product data, images and drawings (the old version fetched products from Supabase at runtime).
-2. Keep category browsing, search, the product detail view with drawing download, the Spec List, WhatsApp export and print.
-3. Keep the look close to the old version, but work on mobile and desktop from one layout.
-4. Remove the temporary redirect from `/architect` to Home, add the page to the sitemap, and point the Home "Architects" card to it. All other Phase 1 pages, the sitemap and robots.txt stay exactly as they are.
-5. Check: a clean build, the Phase 1 pages unchanged, desktop and mobile screenshots. Then you review the Vercel preview before any merge.
-
-**Tool 2: House Owner Experience at `/house-owner`**
-- Build it only after the security check.
-- It includes the `/api/leads` server route.
-
-**Tool 3: Café / Retail at `/cafe-owner`**
-- Build it after your content decision.
-
-**Any AI features:** only through a server route, with the key in Vercel Environment Variables.
-
-## 5. Exact next step
-Reply with:
-- your go-ahead on the order (Architect Studio first);
-- your choice for question 1 (a or b);
-- answers to questions 4–6.
-
-Then I'll build Architect Studio on this branch and push it for a Vercel preview. Nothing goes to main without your approval.
+When you're happy, tell me to merge it into main. Nothing goes live until you approve.

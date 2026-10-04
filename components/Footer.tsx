@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ADDRESS_LINES, BUSINESS, NAV_LINKS, whatsappLink } from '@/lib/site';
+import { ADDRESS_LINES, BUSINESS, FOOTER_LINKS, whatsappLink } from '@/lib/site';
 import { InstagramIcon } from './InstagramIcon';
 
 export function Footer() {
@@ -16,7 +16,7 @@ export function Footer() {
 
           <nav aria-label="Footer" className="flex flex-col items-start space-y-2 text-wood-600 font-light">
             <p className="font-medium text-wood-900 uppercase text-xs tracking-widest mb-1">Explore</p>
-            {NAV_LINKS.map((l) => (
+            {FOOTER_LINKS.map((l) => (
               <Link key={l.href} href={l.href} className="hover:text-wood-900 transition-colors">
                 {l.label}
               </Link>

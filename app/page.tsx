@@ -3,8 +3,9 @@ import { ArrowUpRight } from 'lucide-react';
 import { JsonLd } from '@/components/JsonLd';
 import { Img } from '@/components/Img';
 import { PRODUCT_CATEGORIES, productAlt, productsIn } from '@/lib/catalog';
-import { pageMetadata, webPageJsonLd, absoluteUrl } from '@/lib/seo';
-import { BUSINESS } from '@/lib/site';
+import { HOME_FAQS } from '@/lib/faq';
+import { pageMetadata, webPageJsonLd } from '@/lib/seo';
+import { BUSINESS, DELIVERY_LINE, EXPERIENCE_LINE, deliveryAreaNames } from '@/lib/site';
 
 const TITLE = 'Woodflex Designs — Custom Furniture Manufacturer in Surat';
 const DESCRIPTION =
@@ -40,33 +41,6 @@ const steps = [
   { title: '04. Delivery', text: 'Installation and final touches in your space.' },
 ];
 
-const faqs = [
-  {
-    q: 'Where is Woodflex Designs based?',
-    a: `Our workshop is in Surat, Gujarat, India. We build every piece there and ship it to your site ready for installation.`,
-  },
-  {
-    q: 'What furniture do you make?',
-    a: 'Sofas, dining tables, dining chairs, lounge chairs, centre and side tables, planter stands, and café and retail seating — all made to order in solid wood.',
-  },
-  {
-    q: 'Can you build furniture from my own drawing or reference photo?',
-    a: 'Yes. We are manufacturers, not a design studio. We work from DWG files, PDFs, moodboards, reference photos or even rough sketches with sizes, and turn them into finished furniture.',
-  },
-  {
-    q: 'Do you make single pieces or only bulk orders?',
-    a: 'Both. Whether you need one prototype or 30 pieces for a project, our workshop is set up for it.',
-  },
-  {
-    q: 'Which woods and finishes can I choose from?',
-    a: 'Teak, sheesham (Indian rosewood), mango, acacia and white ash, in finishes including dark brown polish, natural light brown polish, matte black and wire-brushed.',
-  },
-  {
-    q: 'How do I get a quote?',
-    a: `Send us your drawings, photos or sizes on WhatsApp at ${BUSINESS.phoneDisplay} or through our contact page. We reply with feasibility, rough costing and timelines.`,
-  },
-];
-
 export default function HomePage() {
   const categories = PRODUCT_CATEGORIES.map((c) => ({ ...c, items: productsIn(c) })).filter((c) => c.items.length > 0);
 
@@ -79,18 +53,6 @@ export default function HomePage() {
           description: DESCRIPTION,
           breadcrumb: [{ name: 'Home', path: '/' }],
         })}
-      />
-      <JsonLd
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          '@id': `${absoluteUrl('/')}#faq`,
-          mainEntity: faqs.map((f) => ({
-            '@type': 'Question',
-            name: f.q,
-            acceptedAnswer: { '@type': 'Answer', text: f.a },
-          })),
-        }}
       />
 
       {/* HERO */}
@@ -123,9 +85,11 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <div className="mt-8 md:mt-0">
+          <div className="mt-8 md:mt-0 md:text-right max-w-md md:ml-8">
             <span className="block text-sm uppercase tracking-widest mb-2">Est. {BUSINESS.foundingYear}</span>
-            <span className="block text-sm uppercase tracking-widest">Surat, India</span>
+            <span className="block text-sm text-ink/70 mb-4">{EXPERIENCE_LINE}</span>
+            <span className="block text-sm uppercase tracking-widest">{DELIVERY_LINE}</span>
+            <span className="block text-xs text-ink/60 mt-2 leading-relaxed">{deliveryAreaNames.join(' · ')}</span>
           </div>
         </div>
       </section>
@@ -275,7 +239,7 @@ export default function HomePage() {
             Frequently asked questions
           </h2>
           <div className="divide-y divide-ink/10 border-y border-ink/10">
-            {faqs.map((f) => (
+            {HOME_FAQS.map((f) => (
               <details key={f.q} className="group py-6">
                 <summary className="flex justify-between items-center cursor-pointer list-none font-serif text-xl md:text-2xl">
                   <h3>{f.q}</h3>
@@ -287,6 +251,12 @@ export default function HomePage() {
               </details>
             ))}
           </div>
+          <Link
+            href="/faq"
+            className="inline-flex mt-10 px-6 py-3 border border-ink/30 text-xs uppercase tracking-widest rounded-full hover:bg-ink hover:text-white transition-colors"
+          >
+            See all questions
+          </Link>
         </div>
       </section>
     </>

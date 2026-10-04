@@ -1,11 +1,21 @@
 import Link from 'next/link';
-import { Droplets, TreePine } from 'lucide-react';
+import { Droplets, Layers, TreePine } from 'lucide-react';
 import { JsonLd } from '@/components/JsonLd';
 import { Img } from '@/components/Img';
 import { WOOD_FINISHES, WOOD_TYPES, type Material } from '@/lib/catalog';
+import { BUILD_FACTS } from '@/lib/faq';
 import { absoluteUrl, pageMetadata, webPageJsonLd } from '@/lib/seo';
 
 const TITLE = 'Wood Types & Furniture Finishes';
+
+// Upholstery spec. Same figures as BUILD_FACTS.foam.
+const INSIDE_SPEC = [
+  { name: 'Foam', detail: 'Sleepzee Century foam, 40–50 density' },
+  { name: 'Latex', detail: '2-inch' },
+  { name: 'Fibre', detail: 'Recron' },
+  { name: 'Foam sheets', detail: 'Full-size, never offcuts' },
+  { name: 'Lining', detail: '500–600 GSM Majarpat, under the upholstery' },
+];
 const DESCRIPTION =
   'Compare the woods and finishes we build with: teak, sheesham, mango, acacia and white ash, plus dark brown, natural, matte black and wire-brushed finishes.';
 
@@ -99,6 +109,30 @@ export default function MaterialsPage() {
             <Droplets size={16} aria-hidden="true" /> Finishes
           </h2>
           <MaterialGrid items={WOOD_FINISHES} kind="Finish" />
+        </section>
+
+        <section aria-labelledby="inside-heading" className="mb-24">
+          <h2 id="inside-heading" className="flex items-center gap-3 text-sm uppercase tracking-widest text-gold mb-10">
+            <Layers size={16} aria-hidden="true" /> What&rsquo;s inside
+          </h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+            <article className="bg-white/[0.03] border border-white/10 rounded-sm p-8">
+              <h3 className="font-serif text-3xl mb-4 text-gold leading-tight">All our wood is kiln-dried</h3>
+              <p className="text-white/70 leading-relaxed font-light">{BUILD_FACTS.wood}</p>
+            </article>
+            <article className="bg-white/[0.03] border border-white/10 rounded-sm p-8">
+              <h3 className="font-serif text-3xl mb-4 text-gold leading-tight">Foam layers &amp; lining</h3>
+              <p className="text-white/70 leading-relaxed font-light mb-6">{BUILD_FACTS.foam}</p>
+              <ul className="divide-y divide-white/10 border-y border-white/10" aria-label="Sofa and chair upholstery specification">
+                {INSIDE_SPEC.map((l) => (
+                  <li key={l.name} className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
+                    <span className="text-white/50 text-sm uppercase tracking-widest">{l.name}</span>
+                    <span>{l.detail}</span>
+                  </li>
+                ))}
+              </ul>
+            </article>
+          </div>
         </section>
 
         <section className="border-t border-white/10 pt-16 flex flex-col md:flex-row md:items-center justify-between gap-8">

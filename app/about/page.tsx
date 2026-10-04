@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { JsonLd } from '@/components/JsonLd';
+import { BUILD_FACTS } from '@/lib/faq';
 import { pageMetadata, webPageJsonLd, BUSINESS_ID } from '@/lib/seo';
+import { DELIVERY_LINE, EXPERIENCE_LINE, deliveryAreaNames, listInWords } from '@/lib/site';
 
 const TITLE = 'About Our Surat Furniture Workshop';
 const DESCRIPTION =
@@ -20,6 +22,13 @@ const forHomeowners = [
   'You can start with a reference photo and basic measurements.',
   'We help you choose wood and finishes that will actually age well.',
   'Once a piece is delivered, we stay available for touch-ups and repeats.',
+];
+
+const buildPoints = [
+  { title: 'Kiln-dried wood', text: BUILD_FACTS.wood },
+  { title: 'Mortise-and-tenon joinery', text: BUILD_FACTS.joinery },
+  { title: 'Foam and lining', text: BUILD_FACTS.foam },
+  { title: '3-year warranty', text: BUILD_FACTS.warranty },
 ];
 
 const reasons = [
@@ -75,6 +84,9 @@ export default function AboutPage() {
               them into finished furniture with the right wood, polish and joinery. Every piece is built in small batches,
               inspected by hand, and delivered with the mindset that it should survive moves, kids and real life.
             </p>
+            <p className="mt-8 text-xl md:text-2xl leading-relaxed font-light text-ink/80 max-w-3xl">{EXPERIENCE_LINE}</p>
+            <p className="mt-8 text-sm uppercase tracking-widest text-ink">{DELIVERY_LINE}</p>
+            <p className="mt-2 text-ink/60">We deliver to {listInWords(deliveryAreaNames)}.</p>
           </div>
         </div>
       </section>
@@ -95,6 +107,26 @@ export default function AboutPage() {
               <BulletList items={forHomeowners} />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* HOW WE BUILD */}
+      <section aria-labelledby="build-heading" className="px-6 md:px-12 py-24 border-t border-ink/10">
+        <div className="max-w-7xl mx-auto">
+          <h2 id="build-heading" className="font-serif text-4xl md:text-5xl mb-16">
+            How we build
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-12">
+            {buildPoints.map((point) => (
+              <div key={point.title} className="border-t border-ink/10 pt-8">
+                <h3 className="font-serif text-2xl mb-3">{point.title}</h3>
+                <p className="text-lg text-ink/70 leading-relaxed">{point.text}</p>
+              </div>
+            ))}
+          </div>
+          <Link href="/faq" className="inline-block mt-12 text-sm underline underline-offset-4 hover:text-ink">
+            More questions? See our FAQ
+          </Link>
         </div>
       </section>
 
