@@ -10,14 +10,14 @@ const TITLE = 'Wood Types & Furniture Finishes';
 
 // Upholstery spec. Same figures as BUILD_FACTS.foam.
 const INSIDE_SPEC = [
-  { name: 'Foam', detail: 'Sleepzee Century foam, 40–50 density' },
-  { name: 'Latex', detail: '2-inch' },
-  { name: 'Fibre', detail: 'Recron' },
+  { name: 'Foam', detail: 'Sleepeeze or Century, minimum 2 inches, minimum 40 density' },
+  { name: 'Fibre', detail: 'Recron, in every seat' },
+  { name: 'Latex', detail: 'Optional, depending on budget' },
   { name: 'Foam sheets', detail: 'Full-size, never offcuts' },
   { name: 'Lining', detail: '500–600 GSM Majarpat, under the upholstery' },
 ];
 const DESCRIPTION =
-  'Compare the woods and finishes we build with: teak, sheesham, mango, acacia and white ash, plus dark brown, natural, matte black and wire-brushed finishes.';
+  'Compare the woods and finishes we build with: Ghana, Valsad and Burma Border teak, walnut, acacia and white ash, plus four polish and texture finishes.';
 
 export const metadata = pageMetadata({ title: TITLE, description: DESCRIPTION, path: '/materials' });
 
@@ -27,30 +27,41 @@ function MaterialGrid({ items, kind }: { items: Material[]; kind: string }) {
       {items.map((m, i) => (
         <li key={m.id} id={m.id} className="scroll-mt-32">
           <article className="h-full bg-white/[0.03] border border-white/10 rounded-sm overflow-hidden">
-            <div className="aspect-[16/9] bg-[#121212] overflow-hidden">
-              <Img
-                image={m.image}
-                alt={`${m.name} — ${kind.toLowerCase()} sample`}
-                sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            {m.image && (
+              <div className="aspect-[16/9] bg-[#121212] overflow-hidden">
+                <Img
+                  image={m.image}
+                  alt={`${m.name} — ${kind.toLowerCase()} sample`}
+                  sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            )}
             <div className="p-8">
               <p className="text-white/40 text-xs font-mono mb-3 tracking-widest uppercase">
                 {kind} {String(i + 1).padStart(2, '0')} / {String(items.length).padStart(2, '0')}
               </p>
               <h3 className="font-serif text-3xl mb-4 text-gold leading-tight">{m.name}</h3>
-              <p className="text-white/70 leading-relaxed mb-6 font-light">{m.description}</p>
-              <ul className="flex flex-wrap gap-2" aria-label={`${m.name} properties`}>
-                {m.tags.map((tag) => (
-                  <li
-                    key={tag}
-                    className="px-3 py-1 rounded-full text-[10px] uppercase tracking-widest font-bold bg-white/5 border border-white/10 text-white/80"
-                  >
-                    {tag}
-                  </li>
-                ))}
-              </ul>
+              {m.varieties && (
+                <ul className="mb-4 space-y-1 text-white/90" aria-label={`${m.name} types`}>
+                  {m.varieties.map((v) => (
+                    <li key={v}>{v}</li>
+                  ))}
+                </ul>
+              )}
+              {m.description && <p className="text-white/70 leading-relaxed mb-6 font-light">{m.description}</p>}
+              {m.tags.length > 0 && (
+                <ul className="flex flex-wrap gap-2" aria-label={`${m.name} properties`}>
+                  {m.tags.map((tag) => (
+                    <li
+                      key={tag}
+                      className="px-3 py-1 rounded-full text-[10px] uppercase tracking-widest font-bold bg-white/5 border border-white/10 text-white/80"
+                    >
+                      {tag}
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
           </article>
         </li>
@@ -77,9 +88,9 @@ export default function MaterialsPage() {
             itemListElement: [...WOOD_TYPES, ...WOOD_FINISHES].map((m, i) => ({
               '@type': 'ListItem',
               position: i + 1,
-              name: m.name,
-              description: m.description,
-              image: absoluteUrl(m.image.src),
+              name: m.varieties ? `${m.name} (${m.varieties.join(', ')})` : m.name,
+              ...(m.description ? { description: m.description } : {}),
+              ...(m.image ? { image: absoluteUrl(m.image.src) } : {}),
               url: absoluteUrl(`/materials#${m.id}`),
             })),
           },
@@ -121,7 +132,7 @@ export default function MaterialsPage() {
               <p className="text-white/70 leading-relaxed font-light">{BUILD_FACTS.wood}</p>
             </article>
             <article className="bg-white/[0.03] border border-white/10 rounded-sm p-8">
-              <h3 className="font-serif text-3xl mb-4 text-gold leading-tight">Foam layers &amp; lining</h3>
+              <h3 className="font-serif text-3xl mb-4 text-gold leading-tight">Foam &amp; lining</h3>
               <p className="text-white/70 leading-relaxed font-light mb-6">{BUILD_FACTS.foam}</p>
               <ul className="divide-y divide-white/10 border-y border-white/10" aria-label="Sofa and chair upholstery specification">
                 {INSIDE_SPEC.map((l) => (

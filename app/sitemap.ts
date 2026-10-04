@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.7,
-      images: [...WOOD_TYPES, ...WOOD_FINISHES].map((m) => absoluteUrl(m.image.src)),
+      images: [...WOOD_TYPES, ...WOOD_FINISHES].flatMap((m) => (m.image ? [absoluteUrl(m.image.src)] : [])),
     },
     { url: absoluteUrl('/about'), lastModified, changeFrequency: 'yearly', priority: 0.6 },
     { url: absoluteUrl('/faq'), lastModified, changeFrequency: 'monthly', priority: 0.6 },

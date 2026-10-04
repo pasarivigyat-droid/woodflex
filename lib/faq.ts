@@ -3,10 +3,10 @@ import { BUSINESS, deliveryAreaNames, listInWords } from './site';
 // Construction facts. The FAQ, the About page ("How we build") and the Materials page
 // ("What's inside") all read these, so the wording and numbers stay identical everywhere.
 export const BUILD_FACTS = {
-  wood: 'We build in kiln-dried (KD) solid wood: teak, sheesham, mango, acacia and white ash. Kiln drying removes moisture before the wood is cut, which reduces warping and cracking later.',
+  wood: 'We build in kiln-dried (KD) solid wood, including Ghana teak, Valsad teak, Burma Border teak, walnut, acacia and white ash. Kiln drying removes moisture before the wood is cut, which reduces warping and cracking later.',
   joinery:
     'We use mortise-and-tenon joinery, and 99% of our joinery is adhesive-based rather than held by nails and screws.',
-  foam: 'Sleepzee Century foam at 40–50 density, layered with 2-inch latex and Recron. We use full-size foam sheets, never offcuts, and a 500–600 GSM Majarpat lining under the upholstery.',
+  foam: 'We use foam from Sleepeeze and Century, chosen to suit the design. Every seat gets at least 2 inches of foam at a minimum of 40 density, with Recron in every seat. A latex layer can be added depending on your budget. We use full-size foam sheets, never offcuts, and a 500–600 GSM Majarpat lining under the upholstery.',
   warranty: 'Our furniture carries a 3-year warranty.',
 } as const;
 
@@ -40,7 +40,7 @@ export const FAQS: Faq[] = [
   {
     id: 'finishes',
     q: 'Which woods and finishes can I choose from?',
-    a: 'Teak, sheesham (Indian rosewood), mango, acacia and white ash, in finishes including dark brown polish, natural light brown polish, matte black and wire-brushed.',
+    a: 'We work in a wide range of solid woods, including Ghana teak, Valsad teak, Burma Border teak, walnut, acacia and white ash. Finishes include dark brown polish, natural light brown polish, matte black and wire-brushed.',
   },
   { id: 'warranty', q: 'Do you offer a warranty?', a: `Yes. ${BUILD_FACTS.warranty}` },
   {

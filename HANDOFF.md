@@ -1,64 +1,60 @@
 # HANDOFF — Woodflex content update (Phase 1 pages)
 
-_Last updated: 2026-10-04 · Session 7 (content update — awaiting your preview review, NOT merged)_
+_Last updated: 2026-10-04 · Session 8 (corrections to the content update — awaiting your preview review, NOT merged)_
 
 ## 1. What was done
-- **Experience line.** "50 years of furniture-making experience behind us." now sits next to "Est. 2024" on Home and in the About introduction.
-  - "Est. 2024" and the 2024 founding date Google reads are unchanged.
-  - Nowhere does the site say Woodflex Designs itself is 50 years old. I checked every page automatically.
-- **Delivery area.**
-  - The list (Surat, Pune, Mumbai, Hyderabad, Bengaluru, Chennai, Nagpur, Rajasthan) and the line "Made in Surat, delivered across India." now appear on Home, About and Contact.
-  - The same list is in the business details Google reads ("areaServed"), with "India" as a whole kept as well.
-- **New FAQ page at `/faq`.**
-  - It has all 13 questions: your 8 new ones, word for word, plus the 5 existing ones you asked to keep.
-  - Each question is a heading, and each answer is plain visible text.
-  - It has its own title, description and FAQ data for Google, and it's added to the sitemap and the footer.
-- **Home FAQ.** It now shows six questions and a "See all questions" button that goes to `/faq`. Google's FAQ data was removed from Home, so it now lives only on `/faq`.
-- **About page.** New "How we build" section with four points: kiln-dried wood, mortise-and-tenon joinery (99% adhesive-based), foam and lining (Sleepzee Century foam), and the 3-year warranty.
-- **Materials page.** New "What's inside" section. It says all our wood is kiln-dried, names Sleepzee Century foam with its layers, and gives the lining spec.
-- **One source for every fact.** The FAQ, About and Materials all pull these facts from one shared file, so the wording and numbers can't drift apart.
+**This session (corrections):**
+- **Foam: two brands, not one.**
+  - The foam answer is now exactly your new text: Sleepeeze and Century, at least 2 inches of foam at a minimum of 40 density, Recron in every seat, latex optional depending on budget, full-size sheets and the 500–600 GSM Majarpat lining.
+  - It appears identically in the FAQ, About ("How we build") and Materials ("What's inside").
+  - The Materials spec list now matches your five lines.
+  - "Sleepzee Century", "40–50 density" and "2-inch latex" no longer appear anywhere on the site.
+- **Woods: no sheesham or mango.**
+  - The two FAQ answers ("What wood do you use?" and "Which woods and finishes can I choose from?") are now exactly your text.
+  - "Sheesham", "rosewood" and "mango" are removed everywhere: page text, page descriptions, the business description, and the details Google reads.
+  - In those details, "Sheesham wood" became "Walnut wood".
+- **Materials page wood cards:**
+  - The sheesham and mango cards and their photos are removed.
+  - There's now one **Teak** card using the existing teak photo, naming Ghana teak, Valsad teak and Burma Border teak, and keeping the existing teak description.
+  - **Walnut** is listed by **name only**, with no photo and no description, as you asked, so nothing is invented.
+  - Acacia and white ash are unchanged.
 - **Checks run:**
-  - The site builds, and every page, including the new `/faq`, is still delivered as ready-made (static) HTML.
-  - An automatic check compared each FAQ answer character by character with the text you sent: all match.
-  - robots.txt is unchanged.
-  - The sitemap now lists 7 pages (the 6 before plus `/faq`).
-  - No page has sideways scrolling or script errors on desktop or mobile.
-  - The design is unchanged apart from the new sections, which use the existing styles.
-- **Phase 2 not touched.** None of the Phase 2 tools are in this update.
+  - The site builds, and every page is still static HTML.
+  - An automatic check confirmed the three new answers and the five spec lines match your text exactly.
+  - None of the removed terms appear in any page, the hidden structured data or the sitemap.
+  - No sideways scrolling or script errors on desktop or mobile.
+  - robots.txt and the sitemap are unchanged (still 7 pages).
+
+**Earlier in this update (still in place):** the experience line, the delivery area, the new `/faq` page, About "How we build" and Materials "What's inside".
 
 ## 2. What changed in the repo
-**Branch:** `claude/keen-darwin-fn2i7c`, built on top of `main`. Before this update it differed from main only by the Phase 2 plan in this file.
-- **Not merged.** main, the live site, is untouched. The commit is "Content update: experience line, delivery area, FAQ page, build details".
+**Branch:** `claude/keen-darwin-fn2i7c`.
+- **Not merged.** main, the live site, is untouched. This session's commit is "Content corrections: two foam brands, updated wood list".
 
-**Files changed:**
+**Files changed this session:**
 | File | Change |
 | --- | --- |
-| `lib/site.ts` | Added the experience line, the delivery list, the "Made in Surat, delivered across India." line, and footer links (adds FAQ) |
-| `lib/faq.ts` (**new**) | All 13 FAQ questions and answers, the six chosen for Home, and the shared build facts (wood, joinery, foam, warranty) |
-| `app/faq/page.tsx` (**new**) | The new `/faq` page, with Google's FAQ data |
-| `app/page.tsx` | Home: experience line, delivery line and list, six FAQs plus a "See all questions" link; Google's FAQ data removed |
-| `app/about/page.tsx` | Experience line and delivery in the intro; new "How we build" section |
-| `app/contact/page.tsx` | New "Delivery" block next to the address |
-| `app/materials/page.tsx` | New "What's inside" section |
-| `lib/seo.ts` | areaServed now lists the delivery cities and state, plus India |
-| `app/sitemap.ts` | Added `/faq` |
-| `components/Footer.tsx` | Footer now links to FAQ |
+| `lib/faq.ts` | New foam answer; new "What wood do you use?" and "Which woods and finishes" answers |
+| `lib/catalog.ts` | Wood cards: Teak (with three types) and Walnut (name only); sheesham and mango removed; photo and description now optional on a card |
+| `app/materials/page.tsx` | New spec list; "Foam & lining" heading; wood-card display for the types and name-only cards; new page description |
+| `app/page.tsx` | Home "Material clarity": "(solid mango/acacia)" became "(solid acacia)" |
+| `lib/site.ts` | Business description: "teak, walnut, acacia and white ash" |
+| `lib/seo.ts` | knowsAbout: "Sheesham wood" became "Walnut wood" |
+| `app/sitemap.ts` | Only lists material photos that exist (walnut has none) |
+| `data/material-images.json` | Removed the sheesham and mango photo entries |
+| `public/images/materials/sheesham-400.webp`, `mango-225.webp` | Deleted |
 | `HANDOFF.md` | This file |
 
 ## 3. Anything broken, blocked, or needing your decision
-Nothing is broken. A few things to look at in the preview:
-1. **Warranty wording on About.** The FAQ answer is "Yes. Our furniture carries a 3-year warranty." On About I used the same sentence without "Yes.", since there's no question there to answer. Everything else on About matches the FAQ word for word.
-2. **The Home FAQ shows these six:** where we're based and deliver, how long we've been making furniture, what wood we use, warranty, samples, and how to get a quote. Tell me if you'd like a different six.
-3. **Order of the foam layers.** You gave the materials but not the order they're stacked in. The Materials page lists them as a spec (foam, latex, Recron, full-size sheets, lining) without claiming which layer sits on top.
-4. **"India" in areaServed.** I kept "India" alongside your list, because the site says "delivered across India". Say if you want only the eight listed places.
-5. **Phase 2 is still waiting.** The Phase 2 plan from the last session is waiting on your answers. It's in this file's previous version (commit `f306761`).
+1. **Your message was cut off** after "list walnut". I listed walnut by name only, with no photo or description. If there were more instructions after that (for example about walnut, or further numbered items), please resend them.
+2. **Home "Material clarity" section.** It used to say "Essentials (solid mango/acacia)". I removed mango, so it now reads "Essentials (solid acacia)". The same section also says "Plus (teak/oak)". **Oak isn't on your wood list.** Should oak be removed or replaced (for example "Plus (teak/walnut)")? I haven't changed it without your say.
+3. **Walnut card.** With no photo or text, it shows as a tall, mostly empty card next to the others. If you send a walnut photo and a one-line description, I'll fill it in.
+4. **The teak card keeps its existing description** ("Dense, durable hardwood with warm honey tones…"). It's general teak text that was already on the site, not specific to the three types.
 
 ## 4. Exact next step
-**Review the Vercel preview of branch `claude/keen-darwin-fn2i7c`.** Vercel builds it automatically from this push. Check in particular:
-- Home: the hero (the right-hand column under "Est. 2024") and the FAQ section
+**Review the updated Vercel preview of branch `claude/keen-darwin-fn2i7c`**, especially:
+- `/materials` (wood cards and "What's inside")
 - `/faq`
 - About: "How we build"
-- Materials: "What's inside"
-- Contact: "Delivery"
 
-When you're happy, tell me to merge it into main. Nothing goes live until you approve.
+Reply with the rest of your cut-off message (if any) and the oak decision (item 2). When you're happy, tell me to merge. Nothing goes live until you approve.

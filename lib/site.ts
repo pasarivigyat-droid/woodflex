@@ -9,7 +9,7 @@ export const BUSINESS = {
   legalName: 'Woodflex Designs',
   tagline: 'Custom solid wood furniture, made in Surat',
   description:
-    'Woodflex Designs is a custom furniture manufacturer in Surat, Gujarat. We build sofas, dining tables, chairs, lounge chairs, centre tables and café seating to your drawings, references and sizes — in teak, sheesham, mango, acacia and ash.',
+    'Woodflex Designs is a custom furniture manufacturer in Surat, Gujarat. We build sofas, dining tables, chairs, lounge chairs, centre tables and café seating to your drawings, references and sizes — in teak, walnut, acacia and white ash.',
   foundingYear: '2024',
   phoneDisplay: '+91 94290 04803',
   phoneE164: '+919429004803',

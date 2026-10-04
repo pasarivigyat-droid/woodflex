@@ -79,7 +79,7 @@ export function businessJsonLd() {
           'Lounge chairs',
           'Café and restaurant seating',
           'Teak wood',
-          'Sheesham wood',
+          'Walnut wood',
           'Wood finishes and polishing',
         ],
       },
