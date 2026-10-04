@@ -148,12 +148,14 @@ export interface Material {
   name: string;
   /** Named types shown on the card, e.g. the teak varieties. */
   varieties?: string[];
+  /** Keep the entry but leave it off the page (e.g. waiting for a photo and description). */
+  hidden?: boolean;
   description?: string;
   tags: string[];
   image?: ImageAsset;
 }
 
-export const WOOD_TYPES: Material[] = [
+const ALL_WOOD_TYPES: Material[] = [
   {
     id: 'teak',
     name: 'Teak',
@@ -163,11 +165,13 @@ export const WOOD_TYPES: Material[] = [
     tags: ['High durability', 'Warm tone', 'Moisture resistant'],
     image: images.teak,
   },
-  // No photo or description yet — listed by name only until we have real ones.
+  // Hidden until we have a real photo and description. Walnut stays in every text list
+  // (FAQ, page descriptions, business description); only this card is hidden.
   {
     id: 'walnut',
     name: 'Walnut',
     tags: [],
+    hidden: true,
   },
   {
     id: 'acacia',
@@ -185,6 +189,9 @@ export const WOOD_TYPES: Material[] = [
     image: images['white-ash'],
   },
 ];
+
+// Wood cards shown on the Materials page (and in its structured data and the sitemap).
+export const WOOD_TYPES = ALL_WOOD_TYPES.filter((m) => !m.hidden);
 
 export const WOOD_FINISHES: Material[] = [
   {

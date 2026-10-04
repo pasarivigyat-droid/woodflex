@@ -1,60 +1,46 @@
 # HANDOFF — Woodflex content update (Phase 1 pages)
 
-_Last updated: 2026-10-04 · Session 8 (corrections to the content update — awaiting your preview review, NOT merged)_
+_Last updated: 2026-10-04 · Session 9 (two more corrections — awaiting your preview review, NOT merged)_
 
 ## 1. What was done
-**This session (corrections):**
-- **Foam: two brands, not one.**
-  - The foam answer is now exactly your new text: Sleepeeze and Century, at least 2 inches of foam at a minimum of 40 density, Recron in every seat, latex optional depending on budget, full-size sheets and the 500–600 GSM Majarpat lining.
-  - It appears identically in the FAQ, About ("How we build") and Materials ("What's inside").
-  - The Materials spec list now matches your five lines.
-  - "Sleepzee Century", "40–50 density" and "2-inch latex" no longer appear anywhere on the site.
-- **Woods: no sheesham or mango.**
-  - The two FAQ answers ("What wood do you use?" and "Which woods and finishes can I choose from?") are now exactly your text.
-  - "Sheesham", "rosewood" and "mango" are removed everywhere: page text, page descriptions, the business description, and the details Google reads.
-  - In those details, "Sheesham wood" became "Walnut wood".
-- **Materials page wood cards:**
-  - The sheesham and mango cards and their photos are removed.
-  - There's now one **Teak** card using the existing teak photo, naming Ghana teak, Valsad teak and Burma Border teak, and keeping the existing teak description.
-  - **Walnut** is listed by **name only**, with no photo and no description, as you asked, so nothing is invented.
-  - Acacia and white ash are unchanged.
+**This session:**
+- **Materials page: the Walnut card is hidden** until you send a photo and description.
+  - The wood cards now read 01/03 to 03/03: Teak, Acacia, White Ash.
+  - **"Walnut" stays in every text list:** both FAQ answers, the "What's inside" wood paragraph, the About page, the Materials page description, and the business description Google reads.
+  - Only the card, and its entry in the page's card list for Google, are hidden.
+- **Home "Material clarity"** now reads exactly: _"No mystery materials. Before we build, we tell you exactly which wood, foam and lining go into your piece."_ The Essentials / Plus / Signature bands, "oak" and "fabrics" are gone.
 - **Checks run:**
   - The site builds, and every page is still static HTML.
-  - An automatic check confirmed the three new answers and the five spec lines match your text exactly.
-  - None of the removed terms appear in any page, the hidden structured data or the sitemap.
-  - No sideways scrolling or script errors on desktop or mobile.
-  - robots.txt and the sitemap are unchanged (still 7 pages).
+  - An automatic search of every page, including the 404 page, the hidden structured data and the sitemap, found **no "oak" and no "fabrics"**.
+  - All checks from the earlier rounds (FAQ wording, foam and wood text, delivery area, experience line) still pass.
+  - No script errors and no sideways scrolling on mobile.
 
-**Earlier in this update (still in place):** the experience line, the delivery area, the new `/faq` page, About "How we build" and Materials "What's inside".
+**Earlier in this update (still in place):**
+- The experience line and the delivery area
+- The `/faq` page
+- About "How we build" and Materials "What's inside"
+- Two foam brands (Sleepeeze and Century)
+- The updated wood list (Ghana, Valsad and Burma Border teak, walnut, acacia and white ash)
 
 ## 2. What changed in the repo
 **Branch:** `claude/keen-darwin-fn2i7c`.
-- **Not merged.** main, the live site, is untouched. This session's commit is "Content corrections: two foam brands, updated wood list".
+- **Not merged.** main, the live site, is untouched. This session's commit is "Hide walnut card; simplify Material clarity text".
 
 **Files changed this session:**
 | File | Change |
 | --- | --- |
-| `lib/faq.ts` | New foam answer; new "What wood do you use?" and "Which woods and finishes" answers |
-| `lib/catalog.ts` | Wood cards: Teak (with three types) and Walnut (name only); sheesham and mango removed; photo and description now optional on a card |
-| `app/materials/page.tsx` | New spec list; "Foam & lining" heading; wood-card display for the types and name-only cards; new page description |
-| `app/page.tsx` | Home "Material clarity": "(solid mango/acacia)" became "(solid acacia)" |
-| `lib/site.ts` | Business description: "teak, walnut, acacia and white ash" |
-| `lib/seo.ts` | knowsAbout: "Sheesham wood" became "Walnut wood" |
-| `app/sitemap.ts` | Only lists material photos that exist (walnut has none) |
-| `data/material-images.json` | Removed the sheesham and mango photo entries |
-| `public/images/materials/sheesham-400.webp`, `mango-225.webp` | Deleted |
+| `lib/catalog.ts` | Walnut card marked `hidden`; the Materials page shows only visible wood cards. To bring walnut back, add its photo and description and remove `hidden: true`. |
+| `app/page.tsx` | Home "Material clarity" paragraph replaced with the new sentence |
 | `HANDOFF.md` | This file |
 
 ## 3. Anything broken, blocked, or needing your decision
-1. **Your message was cut off** after "list walnut". I listed walnut by name only, with no photo or description. If there were more instructions after that (for example about walnut, or further numbered items), please resend them.
-2. **Home "Material clarity" section.** It used to say "Essentials (solid mango/acacia)". I removed mango, so it now reads "Essentials (solid acacia)". The same section also says "Plus (teak/oak)". **Oak isn't on your wood list.** Should oak be removed or replaced (for example "Plus (teak/walnut)")? I haven't changed it without your say.
-3. **Walnut card.** With no photo or text, it shows as a tall, mostly empty card next to the others. If you send a walnut photo and a one-line description, I'll fill it in.
-4. **The teak card keeps its existing description** ("Dense, durable hardwood with warm honey tones…"). It's general teak text that was already on the site, not specific to the three types.
+Nothing is broken. Two small notes:
+1. **The singular "fabric" is still used once**, in the Sofas description on the Products page: "…upholstered in the fabric or leather you choose." You asked about "fabrics", so I left it. Say if it should go too.
+2. **"Jhulas" is still mentioned on Home** ("We adjust dimensions of our sofas, dining tables, and jhulas…"), but the two Jhula products are hidden from the catalogue because they have no real photos yet. Keep the word or remove it?
 
 ## 4. Exact next step
 **Review the updated Vercel preview of branch `claude/keen-darwin-fn2i7c`**, especially:
-- `/materials` (wood cards and "What's inside")
-- `/faq`
-- About: "How we build"
+- `/materials` (three wood cards, 01/03 to 03/03)
+- Home: the "Why teams trust a small workshop" section
 
-Reply with the rest of your cut-off message (if any) and the oak decision (item 2). When you're happy, tell me to merge. Nothing goes live until you approve.
+When you're happy, tell me to merge into main. Nothing goes live until you approve.

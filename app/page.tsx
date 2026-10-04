@@ -215,10 +215,7 @@ export default function HomePage() {
             <div>
               <h3 className="font-serif text-xl text-wood-900 mb-4 pb-3 border-b border-wood-200">Material clarity</h3>
               <p className="text-wood-600 font-light leading-relaxed">
-                No mystery materials. Order any major product in three simple bands:{' '}
-                <strong className="font-medium text-wood-800">Essentials</strong> (solid acacia),{' '}
-                <strong className="font-medium text-wood-800">Plus</strong> (teak/oak), or{' '}
-                <strong className="font-medium text-wood-800">Signature</strong> (premium imported grains and fabrics).
+                No mystery materials. Before we build, we tell you exactly which wood, foam and lining go into your piece.
               </p>
             </div>
             <div>
