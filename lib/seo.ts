@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { BUSINESS, SITE_URL } from './site';
+import { BUSINESS, DELIVERY_AREAS, PHONES, SITE_URL } from './site';
 
 export const BUSINESS_ID = `${SITE_URL}/#business`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
@@ -58,15 +58,18 @@ export function businessJsonLd() {
         telephone: BUSINESS.phoneE164,
         email: BUSINESS.email,
         address: { '@type': 'PostalAddress', ...BUSINESS.address },
-        areaServed: { '@type': 'Country', name: 'India' },
+        areaServed: [
+          ...DELIVERY_AREAS.map((a) => ({ '@type': a.type, name: a.name })),
+          { '@type': 'Country', name: 'India' },
+        ],
         sameAs: [BUSINESS.instagram],
-        contactPoint: {
+        contactPoint: PHONES.map((p) => ({
           '@type': 'ContactPoint',
           contactType: 'sales',
-          telephone: BUSINESS.phoneE164,
+          telephone: p.e164,
           email: BUSINESS.email,
           areaServed: 'IN',
-        },
+        })),
         knowsAbout: [
           'Custom furniture manufacturing',
           'Solid wood furniture',
@@ -76,7 +79,7 @@ export function businessJsonLd() {
           'Lounge chairs',
           'Café and restaurant seating',
           'Teak wood',
-          'Sheesham wood',
+          'Walnut wood',
           'Wood finishes and polishing',
         ],
       },

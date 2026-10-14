@@ -146,35 +146,32 @@ export const heroImage = images.hero;
 export interface Material {
   id: string;
   name: string;
-  description: string;
+  /** Named types shown on the card, e.g. the teak varieties. */
+  varieties?: string[];
+  /** Keep the entry but leave it off the page (e.g. waiting for a photo and description). */
+  hidden?: boolean;
+  description?: string;
   tags: string[];
-  image: ImageAsset;
+  image?: ImageAsset;
 }
 
-export const WOOD_TYPES: Material[] = [
+const ALL_WOOD_TYPES: Material[] = [
   {
     id: 'teak',
-    name: 'Teak Wood',
+    name: 'Teak',
+    varieties: ['Ghana teak', 'Valsad teak', 'Burma Border teak'],
     description:
       'Dense, durable hardwood with warm honey tones. Ideal for heavy-use furniture and outdoor pieces.',
     tags: ['High durability', 'Warm tone', 'Moisture resistant'],
     image: images.teak,
   },
+  // Hidden until we have a real photo and description. Walnut stays in every text list
+  // (FAQ, page descriptions, business description); only this card is hidden.
   {
-    id: 'sheesham',
-    name: 'Sheesham (Indian Rosewood)',
-    description:
-      'Rich grain patterns and deep browns. Works well for statement dining tables and consoles.',
-    tags: ['Bold grain', 'Indian hardwood', 'Premium look'],
-    image: images.sheesham,
-  },
-  {
-    id: 'mango',
-    name: 'Mango Wood',
-    description:
-      'Sustainable hardwood with a soft, varied grain. Great for modern, budget-friendly furniture.',
-    tags: ['Sustainable', 'Modern look', 'Light–medium tone'],
-    image: images.mango,
+    id: 'walnut',
+    name: 'Walnut',
+    tags: [],
+    hidden: true,
   },
   {
     id: 'acacia',
@@ -192,6 +189,9 @@ export const WOOD_TYPES: Material[] = [
     image: images['white-ash'],
   },
 ];
+
+// Wood cards shown on the Materials page (and in its structured data and the sitemap).
+export const WOOD_TYPES = ALL_WOOD_TYPES.filter((m) => !m.hidden);
 
 export const WOOD_FINISHES: Material[] = [
   {

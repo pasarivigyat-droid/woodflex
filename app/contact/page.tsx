@@ -1,13 +1,12 @@
-import { Mail, MapPin, MessageCircle } from 'lucide-react';
-import { ContactForm } from '@/components/ContactForm';
+import { Mail, MapPin, Phone, Truck } from 'lucide-react';
 import { InstagramIcon } from '@/components/InstagramIcon';
 import { JsonLd } from '@/components/JsonLd';
 import { BUSINESS_ID, pageMetadata, webPageJsonLd } from '@/lib/seo';
-import { ADDRESS_LINES, BUSINESS, whatsappLink } from '@/lib/site';
+import { ADDRESS_LINES, BUSINESS, DELIVERY_LINE, PHONES, deliveryAreaNames, listInWords } from '@/lib/site';
 
 const TITLE = 'Contact Us — Custom Furniture Quotes';
 const DESCRIPTION =
-  'Tell us what you’re planning and we’ll reply with feasibility, rough costing and timelines. WhatsApp +91 94290 04803 or visit our workshop in Surat, Gujarat.';
+  'Call +91 94290 04803 or email woodflexdesigns@gmail.com for feasibility, rough costing and timelines, or visit our workshop in Surat, Gujarat.';
 
 export const metadata = pageMetadata({ title: TITLE, description: DESCRIPTION, path: '/contact' });
 
@@ -40,39 +39,18 @@ export default function ContactPage() {
               Tell us what you&rsquo;re planning. We&rsquo;ll tell you if we can build it.
             </h2>
             <p className="text-xl leading-relaxed font-light text-ink/70 max-w-lg mb-12">
-              Share a few details about your project and we&rsquo;ll get back with feasibility, rough costing and
-              timelines. Architects can attach drawings; homeowners can mention reference links or screenshots.
+              Call us or email us with a few details about your project and we&rsquo;ll get back with feasibility,
+              rough costing and timelines. Architects can email drawings; homeowners can share reference links or
+              screenshots.
             </p>
 
-            <address className="not-italic space-y-6 text-ink/80">
+            <div className="space-y-6 text-ink/80">
               <div className="flex gap-4">
-                <MapPin size={20} className="mt-1 shrink-0" aria-hidden="true" />
+                <Truck size={20} className="mt-1 shrink-0" aria-hidden="true" />
                 <div>
-                  <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-1">Workshop</h3>
-                  {ADDRESS_LINES.map((l) => (
-                    <p key={l}>{l}</p>
-                  ))}
-                  <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="text-sm underline underline-offset-4 hover:text-ink">
-                    Open in Google Maps
-                  </a>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <MessageCircle size={20} className="mt-1 shrink-0" aria-hidden="true" />
-                <div>
-                  <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-1">Phone / WhatsApp</h3>
-                  <a href={whatsappLink()} className="hover:text-ink">
-                    {BUSINESS.phoneDisplay}
-                  </a>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <Mail size={20} className="mt-1 shrink-0" aria-hidden="true" />
-                <div>
-                  <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-1">Email</h3>
-                  <a href={`mailto:${BUSINESS.email}`} className="hover:text-ink">
-                    {BUSINESS.email}
-                  </a>
+                  <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-1">Delivery</h3>
+                  <p>{DELIVERY_LINE}</p>
+                  <p className="text-sm text-ink/60">We deliver to {listInWords(deliveryAreaNames)}.</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -84,12 +62,52 @@ export default function ContactPage() {
                   </a>
                 </div>
               </div>
-            </address>
+            </div>
           </div>
 
-          <div className="bg-white p-8 md:p-12 shadow-sm border border-ink/5 rounded-sm self-start">
-            <ContactForm />
-          </div>
+          <address className="not-italic bg-white p-8 md:p-12 shadow-sm border border-ink/5 rounded-sm self-start space-y-10">
+            <div className="flex gap-4">
+              <Phone size={22} className="mt-1 shrink-0" aria-hidden="true" />
+              <div>
+                <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-3">Call us</h3>
+                <ul className="space-y-2">
+                  {PHONES.map((p) => (
+                    <li key={p.e164}>
+                      <a href={`tel:${p.e164}`} className="font-serif text-2xl md:text-3xl text-ink hover:underline underline-offset-4">
+                        {p.display}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <Mail size={22} className="mt-1 shrink-0" aria-hidden="true" />
+              <div>
+                <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-3">Email</h3>
+                <a href={`mailto:${BUSINESS.email}`} className="text-lg text-ink break-all hover:underline underline-offset-4">
+                  {BUSINESS.email}
+                </a>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <MapPin size={22} className="mt-1 shrink-0" aria-hidden="true" />
+              <div className="text-ink/80">
+                <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-3">Workshop</h3>
+                {ADDRESS_LINES.map((l) => (
+                  <p key={l}>{l}</p>
+                ))}
+                <a
+                  href={mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-3 text-sm underline underline-offset-4 hover:text-ink"
+                >
+                  Open in Google Maps
+                </a>
+              </div>
+            </div>
+          </address>
         </div>
       </div>
     </div>

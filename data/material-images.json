@@ -4,16 +4,6 @@
     "width": 813,
     "height": 257
   },
-  "sheesham": {
-    "src": "/images/materials/sheesham-400.webp",
-    "width": 400,
-    "height": 400
-  },
-  "mango": {
-    "src": "/images/materials/mango-225.webp",
-    "width": 225,
-    "height": 225
-  },
   "acacia": {
     "src": "/images/materials/acacia-612.webp",
     "width": 612,
