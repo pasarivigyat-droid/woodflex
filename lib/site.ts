@@ -13,7 +13,6 @@ export const BUSINESS = {
   foundingYear: '2024',
   phoneDisplay: '+91 94290 04803',
   phoneE164: '+919429004803',
-  whatsappNumber: '919429004803',
   email: 'woodflexdesigns@gmail.com',
   instagram: 'https://www.instagram.com/woodflex.design/',
   instagramHandle: '@woodflex.design',
@@ -26,7 +25,7 @@ export const BUSINESS = {
   },
 } as const;
 
-// Contact numbers, primary first. WhatsApp links and the contact form use the primary number.
+// Contact numbers, primary first. Visitors choose which one to call.
 export const PHONES = [
   { display: BUSINESS.phoneDisplay, e164: BUSINESS.phoneE164 },
   { display: '+91 97254 08989', e164: '+919725408989' },
@@ -63,8 +62,6 @@ export const listInWords = (items: readonly string[]) =>
 
 export const deliveryAreaNames = DELIVERY_AREAS.map((a) => a.name);
 
-export const whatsappLink = (text?: string) =>
-  `https://wa.me/${BUSINESS.whatsappNumber}${text ? `?text=${encodeURIComponent(text)}` : ''}`;
 
 export const NAV_LINKS = [
   { label: 'Our Work', href: '/work' },

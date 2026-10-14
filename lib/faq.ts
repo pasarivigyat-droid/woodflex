@@ -1,4 +1,4 @@
-import { BUSINESS, deliveryAreaNames, listInWords } from './site';
+import { BUSINESS, PHONES, deliveryAreaNames, listInWords } from './site';
 
 // Construction facts. The FAQ, the About page ("How we build") and the Materials page
 // ("What's inside") all read these, so the wording and numbers stay identical everywhere.
@@ -66,7 +66,7 @@ export const FAQS: Faq[] = [
   {
     id: 'quote',
     q: 'How do I get a quote?',
-    a: `Send us your drawings, photos or sizes on WhatsApp at ${BUSINESS.phoneDisplay} or through our contact page. We reply with feasibility, rough costing and timelines.`,
+    a: `Call us on ${listInWords(PHONES.map((p) => p.display)).replace(' and ', ' or ')}, or email your drawings, photos or sizes to ${BUSINESS.email}. We reply with feasibility, rough costing and timelines.`,
   },
 ];
 

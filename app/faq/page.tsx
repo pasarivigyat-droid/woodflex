@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { JsonLd } from '@/components/JsonLd';
 import { FAQS } from '@/lib/faq';
 import { absoluteUrl, pageMetadata, webPageJsonLd } from '@/lib/seo';
-import { whatsappLink } from '@/lib/site';
 
 const TITLE = 'FAQ — Wood, Joinery, Warranty & Delivery';
 const DESCRIPTION =
@@ -69,19 +68,11 @@ export default function FaqPage() {
         <div className="mt-16 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <p className="font-serif text-2xl max-w-xl">Have a question we haven&rsquo;t answered?</p>
           <div className="flex flex-wrap gap-4">
-            <a
-              href={whatsappLink()}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-ink text-white text-xs uppercase tracking-widest rounded-full hover:bg-black transition-colors"
-            >
-              Ask us on WhatsApp
-            </a>
             <Link
               href="/contact"
-              className="px-6 py-3 border border-ink/30 text-xs uppercase tracking-widest rounded-full hover:bg-ink hover:text-white transition-colors"
+              className="px-6 py-3 bg-ink text-white text-xs uppercase tracking-widest rounded-full hover:bg-black transition-colors"
             >
-              Contact page
+              Contact us
             </Link>
           </div>
         </div>

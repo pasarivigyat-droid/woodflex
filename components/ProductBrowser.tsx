@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, X } from 'lucide-react';
 import { Img } from './Img';
 import type { Product, ProductCategory } from '@/lib/catalog';
-import { whatsappLink } from '@/lib/site';
+import { PHONES } from '@/lib/site';
 
 interface Section {
   category: ProductCategory;
@@ -176,14 +176,23 @@ export function ProductBrowser({ sections }: { sections: Section[] }) {
               <p className="text-sm text-wood-900/60">
                 Every design can be resized and made in the wood and finish of your choice.
               </p>
-              <a
-                href={whatsappLink(`Hi, I'm interested in ${active.product.title} (${active.product.id}). Can you share details?`)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex justify-center py-4 bg-ink text-white text-xs uppercase tracking-[0.3em] font-bold hover:bg-wood-900 transition-colors rounded-sm"
-              >
-                Enquire on WhatsApp
-              </a>
+              <div className="border-t border-wood-900/10 pt-6">
+                <h3 className="text-[10px] uppercase tracking-widest text-wood-900/50 mb-3">
+                  Call us about this design · quote code {active.product.id}
+                </h3>
+                <ul className="flex flex-col sm:flex-row sm:flex-wrap gap-2">
+                  {PHONES.map((p) => (
+                    <li key={p.e164}>
+                      <a
+                        href={`tel:${p.e164}`}
+                        className="inline-flex px-4 py-3 border border-wood-900/20 rounded-sm text-sm hover:bg-ink hover:text-white transition-colors"
+                      >
+                        {p.display}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
 
             <button

@@ -104,7 +104,7 @@ export default function HomePage() {
             {personas.map((persona, i) => (
               <Link
                 key={persona.id}
-                href={`/contact?role=${persona.id}`}
+                href="/contact"
                 className="group relative h-[60vh] md:h-[70vh] w-full overflow-hidden rounded-xl bg-gray-100 block transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
