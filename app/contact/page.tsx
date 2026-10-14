@@ -1,9 +1,9 @@
-import { Mail, MapPin, MessageCircle, Truck } from 'lucide-react';
+import { Mail, MapPin, Phone, Truck } from 'lucide-react';
 import { ContactForm } from '@/components/ContactForm';
 import { InstagramIcon } from '@/components/InstagramIcon';
 import { JsonLd } from '@/components/JsonLd';
 import { BUSINESS_ID, pageMetadata, webPageJsonLd } from '@/lib/seo';
-import { ADDRESS_LINES, BUSINESS, DELIVERY_LINE, deliveryAreaNames, listInWords, whatsappLink } from '@/lib/site';
+import { ADDRESS_LINES, BUSINESS, DELIVERY_LINE, PHONES, deliveryAreaNames, listInWords } from '@/lib/site';
 
 const TITLE = 'Contact Us — Custom Furniture Quotes';
 const DESCRIPTION =
@@ -66,12 +66,18 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <MessageCircle size={20} className="mt-1 shrink-0" aria-hidden="true" />
+                <Phone size={20} className="mt-1 shrink-0" aria-hidden="true" />
                 <div>
-                  <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-1">Phone / WhatsApp</h3>
-                  <a href={whatsappLink()} className="hover:text-ink">
-                    {BUSINESS.phoneDisplay}
-                  </a>
+                  <h3 className="text-[10px] uppercase tracking-widest font-bold text-ink/50 mb-1">Phone</h3>
+                  <ul>
+                    {PHONES.map((p) => (
+                      <li key={p.e164}>
+                        <a href={`tel:${p.e164}`} className="hover:text-ink">
+                          {p.display}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
               <div className="flex gap-4">

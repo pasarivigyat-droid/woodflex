@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { BUSINESS, DELIVERY_AREAS, SITE_URL } from './site';
+import { BUSINESS, DELIVERY_AREAS, PHONES, SITE_URL } from './site';
 
 export const BUSINESS_ID = `${SITE_URL}/#business`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
@@ -63,13 +63,13 @@ export function businessJsonLd() {
           { '@type': 'Country', name: 'India' },
         ],
         sameAs: [BUSINESS.instagram],
-        contactPoint: {
+        contactPoint: PHONES.map((p) => ({
           '@type': 'ContactPoint',
           contactType: 'sales',
-          telephone: BUSINESS.phoneE164,
+          telephone: p.e164,
           email: BUSINESS.email,
           areaServed: 'IN',
-        },
+        })),
         knowsAbout: [
           'Custom furniture manufacturing',
           'Solid wood furniture',

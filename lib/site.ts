@@ -14,7 +14,7 @@ export const BUSINESS = {
   phoneDisplay: '+91 94290 04803',
   phoneE164: '+919429004803',
   whatsappNumber: '919429004803',
-  email: 'woodflex.vigyat@gmail.com',
+  email: 'woodflexdesigns@gmail.com',
   instagram: 'https://www.instagram.com/woodflex.design/',
   instagramHandle: '@woodflex.design',
   address: {
@@ -25,6 +25,13 @@ export const BUSINESS = {
     addressCountry: 'IN',
   },
 } as const;
+
+// Contact numbers, primary first. WhatsApp links and the contact form use the primary number.
+export const PHONES = [
+  { display: BUSINESS.phoneDisplay, e164: BUSINESS.phoneE164 },
+  { display: '+91 97254 08989', e164: '+919725408989' },
+  { display: '+91 94281 50511', e164: '+919428150511' },
+] as const;
 
 export const ADDRESS_LINES = [
   'Shop No. 554–557, 2nd Floor, above Pradeep Plastic',

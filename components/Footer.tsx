@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ADDRESS_LINES, BUSINESS, FOOTER_LINKS, whatsappLink } from '@/lib/site';
+import { ADDRESS_LINES, BUSINESS, FOOTER_LINKS, PHONES } from '@/lib/site';
 import { InstagramIcon } from './InstagramIcon';
 
 export function Footer() {
@@ -28,9 +28,11 @@ export function Footer() {
             {ADDRESS_LINES.map((line) => (
               <span key={line}>{line}</span>
             ))}
-            <a href={whatsappLink()} className="hover:text-wood-900 transition-colors pt-2">
-              WhatsApp: {BUSINESS.phoneDisplay}
-            </a>
+            {PHONES.map((p, i) => (
+              <a key={p.e164} href={`tel:${p.e164}`} className={`hover:text-wood-900 transition-colors${i === 0 ? ' pt-2' : ''}`}>
+                {p.display}
+              </a>
+            ))}
             <a href={`mailto:${BUSINESS.email}`} className="hover:text-wood-900 transition-colors">
               {BUSINESS.email}
             </a>
