@@ -513,6 +513,65 @@
     }
   },
   {
+    "id": "LC-34",
+    "title": "WFC Dining 34",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-34-1400.webp",
+      "srcSet": "/images/products/dining-chairs/lc-34-640.webp 640w, /images/products/dining-chairs/lc-34-1400.webp 1400w",
+      "width": 1400,
+      "height": 647
+    }
+  },
+  {
+    "id": "LC-35",
+    "title": "WFC Dining 35",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-35-1199.webp",
+      "srcSet": "/images/products/dining-chairs/lc-35-640.webp 640w, /images/products/dining-chairs/lc-35-1199.webp 1199w",
+      "width": 1199,
+      "height": 1600
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-35-drawing-1600.webp",
+      "width": 1600,
+      "height": 2143
+    }
+  },
+  {
+    "id": "LC-36",
+    "title": "WFC Dining 36",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-36-720.webp",
+      "srcSet": "/images/products/dining-chairs/lc-36-640.webp 640w, /images/products/dining-chairs/lc-36-720.webp 720w",
+      "width": 720,
+      "height": 1600
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-36-drawing-1600.webp",
+      "width": 1600,
+      "height": 2143
+    }
+  },
+  {
+    "id": "LC-38",
+    "title": "WFC Dining 38",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-38-1024.webp",
+      "srcSet": "/images/products/dining-chairs/lc-38-640.webp 640w, /images/products/dining-chairs/lc-38-1024.webp 1024w",
+      "width": 1024,
+      "height": 1024
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-38-drawing-1600.webp",
+      "width": 1600,
+      "height": 2143
+    }
+  },
+  {
     "id": "DT-01",
     "title": "Dining Table 01",
     "category": "DINING_TABLE",
