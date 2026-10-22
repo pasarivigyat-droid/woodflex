@@ -521,6 +521,11 @@
       "srcSet": "/images/products/dining-chairs/lc-34-640.webp 640w, /images/products/dining-chairs/lc-34-1400.webp 1400w",
       "width": 1400,
       "height": 647
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-34-drawing-1600.webp",
+      "width": 1600,
+      "height": 2143
     }
   },
   {
@@ -551,6 +556,22 @@
     },
     "drawing": {
       "src": "/images/products/dining-chairs/lc-36-drawing-1600.webp",
+      "width": 1600,
+      "height": 2143
+    }
+  },
+  {
+    "id": "LC-37",
+    "title": "WFC Dining 37",
+    "category": "DINING_CHAIR",
+    "image": {
+      "src": "/images/products/dining-chairs/lc-37-681.webp",
+      "srcSet": "/images/products/dining-chairs/lc-37-640.webp 640w, /images/products/dining-chairs/lc-37-681.webp 681w",
+      "width": 681,
+      "height": 1022
+    },
+    "drawing": {
+      "src": "/images/products/dining-chairs/lc-37-drawing-1600.webp",
       "width": 1600,
       "height": 2143
     }

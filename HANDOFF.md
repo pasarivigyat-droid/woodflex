@@ -1,46 +1,37 @@
-# HANDOFF — Woodflex: new products from Cloudflare
+# HANDOFF — Woodflex: new dining chairs
 
-_Last updated: 2026-10-21 · Session 13 (new dining chairs — awaiting your preview review, NOT merged)_
+_Last updated: 2026-10-22 · Session 15 (LC-34 drawing + LC-37 — awaiting your preview review, NOT merged)_
 
 ## 1. What was done
-- **Cloudflare is now reachable** from this work session. A public Cloudflare bucket can't be browsed, so I checked file names one by one. The bucket uses the old site's folder layout (e.g. `Chairs/WFC-34.jpg`).
-- **Found:**
-  - Six new photos and drawings uploaded on 20–21 Oct, all **dining chairs**.
-  - **No existing product images were replaced.** The newest dates on existing files are from 7–16 Sep, before the current site was built, so the live site already has those versions.
-- **Added 4 new dining chairs.** Each photo and drawing was downloaded from Cloudflare, converted to WebP with the project's `optimize-image` script, and saved under `public/images/products/dining-chairs/`.
+**Earlier today (already live):** LC-34, LC-35, LC-36 and LC-38 went live when you merged pull request #1 (main at `da6d092`).
 
-**New codes:**
-| Code | Title | Photo (Cloudflare) | Drawing | Dimensions |
-| --- | --- | --- | --- | --- |
-| **LC-34** | WFC Dining 34 | `Chairs/WFC-34.jpg` | none uploaded, left out | not given, left out |
-| **LC-35** | WFC Dining 35 | `Chairs/WFC-35.jpeg` | `Chairs Drawing/WFCD-35.png` | not given, left out |
-| **LC-36** | WFC Dining 36 | `Chairs/WFC-36.jpeg` | `Chairs Drawing/WFCD-36.png` | not given, left out |
-| **LC-38** | WFC Dining 38 | `Chairs/WFC-38.jpeg` | `Chairs Drawing/WFCD-38.png` | not given, left out |
-
-- **Codes match the Cloudflare file numbers** (LC-34 ↔ WFC-34, and so on), the same way every existing dining chair does (LC-33 ↔ WFC-33).
-- **Not added: LC-37.** Its drawing (`Chairs Drawing/WFCD-37.png`) is in Cloudflare, but there's **no WFC-37 photo**. I checked .png, .jpg, .jpeg, .webp, upper case and other spellings. No placeholder was used.
+**This session, fixing the two problems you spotted:**
+- **Why they were missing:** both files have a **space after the dash** in their Cloudflare names: `Chairs Drawing/WFCD- 34.png` and `Chairs/WFC- 37.jpeg`. I had searched for `WFCD-34` and `WFC-37` without the space, so I didn't find them. Your screenshots showed the exact names.
+- **LC-34 now has its technical drawing** (`WFCD- 34.png`).
+- **LC-37 "WFC Dining 37" is added,** with photo (`WFC- 37.jpeg`) and drawing (`WFCD-37.png`). It sits between LC-36 and LC-38.
 - **Checks run:**
   - The site builds, and every page is still static HTML.
-  - `/products` shows all four new chairs: Dining Chairs now shows 36 (32 + 4), and the total is 203 products.
-  - The sitemap lists all the new images.
-  - All new WebP files load, with no broken images or script errors.
-  - **Only the WebP versions are in the project.** The large originals stayed in my temporary folder and weren't committed.
+  - Dining Chairs now shows **37**, with LC-33 through LC-38 in order; there are **204** products in total.
+  - The LC-34 and LC-37 pop-ups show both their photo and drawing.
+  - The new images are in the sitemap.
+  - No script errors.
+  - Only the WebP versions are in the project; the originals weren't committed.
 
 ## 2. What changed in the repo
-**Branch:** `claude/keen-darwin-fn2i7c`, started fresh from `main`.
-- **Not merged.** main, the live site, is untouched.
-- **Commit:** "Add dining chairs LC-34, LC-35, LC-36, LC-38".
+**Branch:** `claude/keen-darwin-fn2i7c`, built on main.
+- **Not merged.** The live site still shows the version from pull request #1.
+- **Commit:** "Add LC-34 drawing and LC-37 dining chair".
 - **Files:**
-  - `data/products.json`: four new entries after LC-33
-  - `public/images/products/dining-chairs/`: 11 new WebP files (`lc-34-*`, `lc-35-*`, `lc-36-*`, `lc-38-*`, plus the drawings for 35, 36 and 38)
+  - `data/products.json`: drawing added to LC-34; new LC-37 entry
+  - `public/images/products/dining-chairs/`: `lc-34-drawing-1600.webp`, `lc-37-640.webp`, `lc-37-681.webp`, `lc-37-drawing-1600.webp`
   - `HANDOFF.md`: this file
 
 ## 3. Anything broken, blocked, or needing your decision
-1. **LC-37 has no photo.** Upload `Chairs/WFC-37` (any format) to Cloudflare and I'll add it.
-2. **LC-34 has no drawing,** and its photo is a **wide workshop shot of a whole dining set** (bench, table and several chairs, with someone in the background), not a single chair like the others. It works on the page, but check it in the preview. You can keep it, swap in a single-chair photo, or drop it.
-3. **No dimensions were given** for any of the four, so none are shown. The drawings for 35, 36 and 38 include sizes on the image itself.
-4. **Small originals:** WFC-35, 36 and 38 are smaller photos (720–1200 px wide). They're used at their own size, not enlarged, so they may look slightly soft in the large pop-up. Larger originals would fix that.
-5. **Phase 2:** still waiting on your answers (see the plan in commit `f306761`).
+1. **File names with spaces:** consider renaming `WFC- 37.jpeg` → `WFC-37.jpeg` and `WFCD- 34.png` → `WFCD-34.png` in Cloudflare. It isn't required (the site uses its own copies), but it keeps names consistent for next time.
+2. **The WFC-37 photo is small** (681 px wide), so it may look slightly soft in the large pop-up. A bigger original would fix that.
+3. **No dimensions were given**, so none are shown as text. The sizes are on each drawing.
+4. **LC-34's photo** is still the wide workshop shot of the whole dining set. Keep it or replace it?
+5. **Phase 2:** still waiting on your answers (plan in commit `f306761`).
 
 ## 4. Exact next step
-**Review the Vercel preview of branch `claude/keen-darwin-fn2i7c`:** go to `/products` → Dining Chairs, and scroll to the end of the section. Decide on LC-34 (item 2) and send the WFC-37 photo if you have it. When you're happy, tell me to merge into main.
+**Check the Vercel preview** of branch `claude/keen-darwin-fn2i7c` at `/products#dining-chairs`: open LC-34 (drawing now shows) and LC-37 (new). To make it live, either tell me "merge it", or on GitHub go to Pull requests → New pull request → base `main`, compare `claude/keen-darwin-fn2i7c` → Create → Merge.
