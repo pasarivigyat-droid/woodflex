@@ -1,6 +1,8 @@
 # HANDOFF — Woodflex: new products from Cloudflare
 
-_Last updated: 2026-10-21 · Session 13 (new dining chairs — awaiting your preview review, NOT merged)_
+_Last updated: 2026-10-22 · Session 14 (new dining chairs — MERGED and LIVE)_
+
+**Update:** You merged pull request #1 into `main` on GitHub (main is now at `da6d092`). Vercel's **Production** deploy finished successfully, so LC-34, LC-35, LC-36 and LC-38 are live on woodflexdesigns.com/products#dining-chairs.
 
 ## 1. What was done
 - **Cloudflare is now reachable** from this work session. A public Cloudflare bucket can't be browsed, so I checked file names one by one. The bucket uses the old site's folder layout (e.g. `Chairs/WFC-34.jpg`).
@@ -28,7 +30,7 @@ _Last updated: 2026-10-21 · Session 13 (new dining chairs — awaiting your pre
 
 ## 2. What changed in the repo
 **Branch:** `claude/keen-darwin-fn2i7c`, started fresh from `main`.
-- **Not merged.** main, the live site, is untouched.
+- **Merged into main** via pull request #1 (merge commit `da6d092`) and deployed to production.
 - **Commit:** "Add dining chairs LC-34, LC-35, LC-36, LC-38".
 - **Files:**
   - `data/products.json`: four new entries after LC-33
@@ -43,4 +45,6 @@ _Last updated: 2026-10-21 · Session 13 (new dining chairs — awaiting your pre
 5. **Phase 2:** still waiting on your answers (see the plan in commit `f306761`).
 
 ## 4. Exact next step
-**Review the Vercel preview of branch `claude/keen-darwin-fn2i7c`:** go to `/products` → Dining Chairs, and scroll to the end of the section. Decide on LC-34 (item 2) and send the WFC-37 photo if you have it. When you're happy, tell me to merge into main.
+1. Open woodflexdesigns.com/products#dining-chairs, hard refresh (Ctrl/Cmd+Shift+R), and check that WFC Dining 34, 35, 36 and 38 appear and the bar says Dining Chairs (36).
+2. Upload the WFC-37 photo to Cloudflare (`Chairs/WFC-37.jpg`) and tell me, so I can add LC-37.
+3. Decide whether to keep the LC-34 workshop photo or replace it with a single-chair photo.
