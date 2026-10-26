@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ADDRESS_LINES, BUSINESS, FOOTER_LINKS, PHONES } from '@/lib/site';
+import { ADDRESS_LINES, BUSINESS, FOOTER_CONTACTS, FOOTER_LINKS } from '@/lib/site';
 import { InstagramIcon } from './InstagramIcon';
 
 export function Footer() {
@@ -11,6 +11,9 @@ export function Footer() {
             <p className="font-serif text-2xl tracking-tight font-semibold text-wood-900 mb-4">Woodflex Designs</p>
             <p className="text-wood-600 font-light leading-relaxed max-w-xs">
               Custom furniture manufacturers in Surat, Gujarat. Built to your drawings, sizes and references.
+            </p>
+            <p className="mt-6 text-wood-900 font-serif text-lg leading-snug max-w-xs">
+              &ldquo;Send us your floor plan or photos and we&rsquo;ll suggest options for free.&rdquo;
             </p>
           </div>
 
@@ -28,12 +31,7 @@ export function Footer() {
             {ADDRESS_LINES.map((line) => (
               <span key={line}>{line}</span>
             ))}
-            {PHONES.map((p, i) => (
-              <a key={p.e164} href={`tel:${p.e164}`} className={`hover:text-wood-900 transition-colors${i === 0 ? ' pt-2' : ''}`}>
-                {p.display}
-              </a>
-            ))}
-            <a href={`mailto:${BUSINESS.email}`} className="hover:text-wood-900 transition-colors">
+            <a href={`mailto:${BUSINESS.email}`} className="hover:text-wood-900 transition-colors pt-2">
               {BUSINESS.email}
             </a>
             <a
@@ -47,10 +45,21 @@ export function Footer() {
             </a>
           </address>
 
-          <div className="flex flex-col items-start md:items-end md:text-right">
-            <p className="text-wood-900 font-serif text-xl leading-snug max-w-xs">
-              &ldquo;Send us your floor plan or photos and we&rsquo;ll suggest options for free.&rdquo;
-            </p>
+          <div className="flex flex-col items-start">
+            <p className="font-medium text-wood-900 uppercase text-xs tracking-widest mb-3">Talk to us</p>
+            <ul className="space-y-5">
+              {FOOTER_CONTACTS.map((person) => (
+                <li key={person.phone.e164}>
+                  <p className="font-medium text-wood-900">{person.contactFor}</p>
+                  <p className="text-wood-600 font-light">
+                    {person.name} · {person.role}
+                  </p>
+                  <a href={`tel:${person.phone.e164}`} className="text-wood-600 font-light hover:text-wood-900 transition-colors">
+                    {person.phone.display}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 

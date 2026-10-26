@@ -32,6 +32,41 @@ export const PHONES = [
   { display: '+91 94281 50511', e164: '+919428150511' },
 ] as const;
 
+const phoneFor = (e164: string) => {
+  const phone = PHONES.find((p) => p.e164 === e164);
+  if (!phone) throw new Error(`Unknown phone ${e164}`);
+  return phone;
+};
+
+// The team. Footer "Talk to us" shows who to call for what; the About page shows
+// the same people in order of seniority (without phone numbers).
+export const TEAM = {
+  amit: {
+    name: 'Amit Bhayani',
+    role: 'Founder & Managing Director',
+    bio: 'Oversees finance and the day-to-day running of Woodflex.',
+    contactFor: 'Accounts & partnerships',
+    phone: phoneFor('+919725408989'),
+  },
+  ronit: {
+    name: 'Ronit Bhayani',
+    role: 'Co-Founder, Production & Brand',
+    bio: 'Runs production on the workshop floor and leads our brand and social media.',
+    contactFor: 'Production & delivery updates',
+    phone: phoneFor('+919428150511'),
+  },
+  vigyat: {
+    name: 'Vigyat Pansari',
+    role: 'Head of Sales & Operations',
+    bio: 'Leads sales, pricing and costing, and internal operations, including raw-material management on an in-house system he built. Works directly with architects and designers on new projects.',
+    contactFor: 'Quotes & new projects',
+    phone: phoneFor('+919429004803'),
+  },
+} as const;
+
+export const FOOTER_CONTACTS = [TEAM.vigyat, TEAM.ronit, TEAM.amit];
+export const ABOUT_TEAM = [TEAM.amit, TEAM.ronit, TEAM.vigyat];
+
 export const ADDRESS_LINES = [
   'Shop No. 554–557, 2nd Floor, above Pradeep Plastic',
   'RJD Integrated Textile Park',
