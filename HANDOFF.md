@@ -1,6 +1,6 @@
 # HANDOFF — Woodflex: team in footer and About page
 
-_Last updated: 2026-10-26 · Session 16 (team details — awaiting your preview review, NOT merged)_
+_Last updated: 2026-10-27 · Session 17 (team details — approved, MERGED and LIVE)_
 
 ## 1. What was done
 **Since last time:** you merged pull request #2, so the LC-34 drawing and the new LC-37 chair are live (main at `2a6b235`).
@@ -25,7 +25,7 @@ _Last updated: 2026-10-26 · Session 16 (team details — awaiting your preview 
 
 ## 2. What changed in the repo
 **Branch:** `claude/keen-darwin-fn2i7c`, updated from main.
-- **Not merged.** The live site is unchanged.
+- **Merged into main and live.** You approved the preview, so it was merged into `main` (merge commit "Merge team details into main") and Vercel deployed it to production.
 - **Commit:** "Add team to footer and About page".
 - **Files:**
   - `lib/site.ts`: team names, roles, descriptions, "contact for" labels; footer order and About order
@@ -39,4 +39,5 @@ _Last updated: 2026-10-26 · Session 16 (team details — awaiting your preview 
 3. **Phase 2:** still waiting on your answers (plan in commit `f306761`).
 
 ## 4. Exact next step
-**Check the Vercel preview** of branch `claude/keen-darwin-fn2i7c`: look at the footer on any page, and at `/about` (scroll past "How we build"). To make it live, either tell me "merge it", or on GitHub go to Pull requests → New pull request → base `main`, compare `claude/keen-darwin-fn2i7c` → Create → Merge.
+1. Open woodflexdesigns.com, hard refresh (Cmd+Shift+R), and check the footer's "Talk to us" column and the "The people behind Woodflex" section on /about.
+2. Decide on the two optional extras in section 3 (who-to-call labels on the Contact page; team in Google's business details).
