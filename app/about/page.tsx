@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { JsonLd } from '@/components/JsonLd';
 import { BUILD_FACTS } from '@/lib/faq';
 import { pageMetadata, webPageJsonLd, BUSINESS_ID } from '@/lib/seo';
-import { DELIVERY_LINE, EXPERIENCE_LINE, deliveryAreaNames, listInWords } from '@/lib/site';
+import { ABOUT_TEAM, DELIVERY_LINE, EXPERIENCE_LINE, deliveryAreaNames, listInWords } from '@/lib/site';
 
 const TITLE = 'About Our Surat Furniture Workshop';
 const DESCRIPTION =
@@ -127,6 +127,27 @@ export default function AboutPage() {
           <Link href="/faq" className="inline-block mt-12 text-sm underline underline-offset-4 hover:text-ink">
             More questions? See our FAQ
           </Link>
+        </div>
+      </section>
+
+      {/* THE PEOPLE BEHIND WOODFLEX */}
+      <section aria-labelledby="team-heading" className="px-6 md:px-12 py-24 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 id="team-heading" className="text-sm uppercase tracking-[0.2em] font-bold text-ink/50 mb-6">
+            The people behind Woodflex
+          </h2>
+          <p className="font-serif text-3xl md:text-4xl leading-snug max-w-3xl mb-16">
+            A small team that runs the workshop, the numbers and your project from first drawing to delivery.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
+            {ABOUT_TEAM.map((person) => (
+              <article key={person.name} className="border-t border-ink/10 pt-8">
+                <h3 className="font-serif text-2xl">{person.name}</h3>
+                <p className="mt-1 text-xs uppercase tracking-widest font-bold text-ink/50">{person.role}</p>
+                <p className="mt-4 text-ink/70 leading-relaxed">{person.bio}</p>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 
